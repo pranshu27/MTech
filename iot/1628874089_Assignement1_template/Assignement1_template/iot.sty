@@ -1,0 +1,38 @@
+% =============================================================================
+% USE DIFFERENT PACKAGES:
+% =============================================================================
+
+\usepackage{fullpage}					% to use full page:
+\usepackage{amsmath,amsthm,amssymb}		% to use mathematical styles:
+\usepackage{stmaryrd}					% to use extra symbols:
+\usepackage{algorithmic}				% to use algorithm styles:
+\usepackage{graphicx}					% to use graphics:			
+\usepackage{titlesec}					% to modify default title:
+\usepackage{hyperref}					% to use hyper references:
+\usepackage{xspace}						% to use auto spacing by xspace:
+\usepackage[round,authoryear]{natbib}	% to use the bibliography:
+\usepackage{framed}						% to use colored frames:
+\usepackage{float}						% to use floating figures:
+
+% use modified section style:
+\def\sectionfont{\sffamily\Large\bfseries\boldmath}
+
+% use modified subsection style:
+\def\subsectionfont{\sffamily\large\bfseries\boldmath}
+
+% use modified paragraph style:
+\def\paragraphfont{\sffamily\normalsize\bfseries\boldmath}
+
+\titleformat*{\section}{\sectionfont}
+\titleformat*{\subsection}{\subsectionfont}
+\titleformat*{\subsubsection}{\paragraphfont}
+\titleformat*{\paragraph}{\paragraphfont}
+\titleformat*{\subparagraph}{\paragraphfont}
+
+% The series number
+\newcounter{iotseries}
+\newcounter{iotalgorithm}
+
+% =============================================================================
+% END OF FILE:
+% =============================================================================

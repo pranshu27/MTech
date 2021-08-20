@@ -1,0 +1,65 @@
+%% iotsubmit.sty
+
+%% Draws upon style elements from 
+%% the style file for the course CS773 by Purushottam Kar
+%% the style file for the course CS289 by Alexander Sherstov
+%% the class file for the publication NOW FnT(R)-ML by Neal Parikh
+%% the style file for the proceedings of the NIPS 2015 conference
+
+% Use iot package:
+\usepackage{iot}
+
+% new counter for answers:
+\newcounter{iotanswer}
+
+% =============================================================================
+% defining answer template:
+% =============================================================================
+
+\newenvironment{iotsolution}					% Create a new environment:
+{\refstepcounter{iotanswer}\makeheader}			% Setting a auto-counter:
+{\clearpage}									% Clear page:
+
+\newcommand{\initiotsubmision}[4]{
+	\setcounter{iotseries}{#1}
+	\newcommand{\studentname}{#2}
+	\newcommand{\studentmail}{#3}
+	\newcommand{\studentroll}{#4}
+}
+
+
+% =============================================================================
+% HEADER STYLE:
+% =============================================================================
+
+\newcommand{\makeheader}{
+	\noindent
+	\parbox{0.75\textwidth}{
+		{\sffamily\bfseries Introduction to IoT and Its Industrial Applications (CS698T)}	\\
+		{\sffamily\bfseries Indian Institute of Technology Kanpur}							\\
+		{\sffamily\bfseries Assignment {\theiotseries}}										\\
+		\rule{0mm}{6mm}																		\\
+		{\it Member Names:} {\studentname}													\\
+		{\it Member Emails:} {\studentmail}													\\
+		{\it Member Roll Numbers:}   {\studentroll}											\\
+		{\it Date:} {\today}																\\
+	}
+\hfill
+\begin{tabular}{c@{}}
+{\sffamily\bfseries\Large QUESTION}															\\
+\rule{0mm}{20mm}\scalebox{6.6}{\sffamily\theiotanswer}
+\end{tabular}
+
+\def\toptitlebar{\hrule height1pt\vskip .25in\vskip-\parskip}
+\def\bottomtitlebar{\vskip .1in\vskip-\parskip\hrule height1pt\vskip.09in}
+
+\vbox{
+	\hsize\textwidth\linewidth\hsize
+	\phantom{\hspace{\textwidth}}
+	\bottomtitlebar
+}
+}
+
+% =============================================================================
+% END OF FILE:
+% =============================================================================

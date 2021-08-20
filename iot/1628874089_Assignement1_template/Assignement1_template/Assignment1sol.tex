@@ -1,0 +1,170 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{iotsubmit}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{enumerate}
+\usepackage{longtable}
+
+\begin{document}
+
+\initiotsubmision{1}                    % assignment number
+{Pranshu Sahijwani, Gajender Sharma}                    % group member names
+{pranshus21@iitk.ac.in, gajenders@cse.iitk.ac.in}      % email addresses for all members
+{21111048, 21111028}          % roll numbers for all members (according to names)
+
+
+\begin{iotsolution}
+
+
+\begin{center}
+\caption{\textbf{Comparative Study of IOT Boards}} \label{tab:title}
+\begin{longtable}{|p{2.2cm}|p{1.5cm}|p{1.5cm}|p{2.2cm}|p{2cm}|p{2cm}|p{2cm}|}
+
+ \hline
+ \textbf{Parameters} & Particle IO (ARGON)& Espressif ESP8266 & Beaglebone Black  & Arduino UNO& Raspberry Pi B+ & Discovery STMP-32MP157C \\ [0.5ex]
+ \hline\hline
+ \textbf{Processor} &
+ARM Cortex-M4F 32-bit processor @ 64MHz & 32-bit RISC & ARMv7-A Cortex-A8
+64-bit Processor & ATMega 328P & Quad-core ARM Cortex A53 & ARM® Cortex®-A7, Cortex®-M4 \\
+ \hline
+  \textbf{Operating Voltage} & 3.6VDC to 5.5VDC & 3.0 to 3.6V & 3.7V & 5V & 5V & 5V/3A \\
+ \hline
+  \textbf{Clock Speed} & 120MHz & 26-52MHz & 8MHz & 16 MHz & 1.2GHz & 533 MHz\\
+ \hline
+  \textbf{RAM} & 256KB & <45kB & 512MB & 24KB & 1GB & 4-Gbit DDR3L\\
+ \hline
+   \textbf{Flash Memory (Storage)} & 4MB & 512KB-128MB & Off-chip  & 196KB & 8GB-32GB & NA\\
+ \hline
+\textbf{Cost in Dollars} & 27 & 6 & 83.48 & 22.95 & 35 & 148.23\\
+ \hline
+
+\textbf{Communi-cation Supported} & IEEE 802.11 b/g/n support & IEEE 802.11 b/g/n &Bluetooth 4.1, BLE + IEEE 802.11 b/g/n + Ethernet& IEEE 802.11 b/g/n + IEEE
+802.15.4 433RF + BLE 4.0 via
+Shield & IEEE 802.11 b/g/n + IEEE 802.15.4
+433RF + BLE 4.0 Ethernet Serial & Wi-Fi® 802.11-b/g/n + Bluetooth® Low Energy 4.1\\
+ \hline
+
+\textbf{I/O Connectivity} & 20 mixed signal GPIO (6xAnalog, 8 x PWM) UART, 12C, SPI & SDIO 2.0, (H) SPI, UART, 12C, 12S, IRDA, PWM & 2x46 GPIO pin headers &SPI I2C UART GPIO SERIAL PWM& SPI DSI UART SDIOCSI GPIO & Ethernet RJ454 × USB Host Type-AUSB Type-CTM DRPMIPI DSISM-HDMI® Stereo headset jack including analog microphone inputmicroSDTM card\\
+ \hline
+
+   \textbf{Operating System} & Device OS & Mon-goose OS & Linux  & Not Supported & Raspbian, OSMC, OpenELEC, Windows IoT Core, RISC & NA\\
+ \hline
+\textbf{Limitations} & 27 & 6 & 83.48 & 22.95 & 35 & 148.23\\
+ \hline
+
+\end{longtable}
+
+\end{center}
+
+
+\vspace{20}
+\paragraph{\large{Summary}} It is evident from the above table that A Raspberry Pi is a clear winner in most of the situations. However, other boards offer a strong competition in different areas as specified below:
+
+\subparagraph{Raspberry Pi versus Arduino}
+These two are the most popular boards among the researchers. The  detailed
+analysis  show  that  higher  end  development  boards  such  as
+Raspberry Pi-4 B+ have higher performance in comparison with
+other  boards  like  Arduino in  terms  of  its
+storage and computing speeds but at the cost of higher price. The places where we need to perform a task repeatedly, we can use Arduino where we use Raspberry Pi where we need to perform multiple tasks together. Also Arduino is used for simple tasks as compared to Pi which is used for highly complex work. Pi in general can be thought of as a mini computer in itself.
+
+\subparagraph{Espressif ESP8266}The ESP8266 has
+exceptionally basic equipment foundational layout and is
+most superb utilized in customer applications, for example,
+information logging and control of actuators from online
+worker applications. Being  a  low  cost  device, it  is  a  first  choice  for  implementing
+sensor networks in an IoT scenario. However, due to limited storage and computing capabilities, and inability to support popular OS like Linux, it is used in a fewer areas as compared to other boards.
+
+\subparagraph{Particle IO - Argon}The Particle Argon is a significant IoT prototyping stage thinking about eliminated programming, straightforward code migration, and speedy progression of ventures. However, just like ESP8266, inability to support any other operating system is still a matter of concern here.
+
+\subparagraph{Beaglebone Black}  It is apparent that Beaglebone is simply more versatile and compatible with makers and developers’ use. It is pretty well documented which allows users to have enough support and tutorials for projects and learning. One of the major drawbacks is, it is costlier than Pi, which a offers somewhat more features and is more commonly used.  If you’re looking for affordable, casual use and versatility, Raspberry Pi would be more suitable for you. But if you’re more into IoT applications and stability for industrial usage, this is the one.
+
+\subparagraph{Discovery STMP32MP157C}These highly secure boards are specifically designed to accelerate 3D graphics in applications such as graphical user interfaces (GUI), menu displays or animations.There is a dedicated 3D graphics processing unit (GPU) and MIPI-DSI display interface and a CAN FD interface. The only drawback is its 148 whopping dollars price, which might not be justified over a much cheaper Raspberry Pi available in the market.
+
+
+
+\end{iotsolution}
+
+\begin{iotsolution}
+
+%My solution to problem 2
+\textbf{\underline{Simulators}}: Simulators are devices or systems which enables the experimenter to reproduce the similar conditions which Iot devices will experience in real life but without any fatal risk or uncertain danger from the actual Iot device.\\\\
+\textbf{Followings are the few Popular IOT simulators that has been used widely for simulation of Iot devices and application}
+\begin{enumerate}[1]
+\item{\textbf{CupCarbon Simulator}}\\
+\begin{enumerate}
+\item CupCarbon is a multi-agent and discrete event wireless sensor network simulator which is based on geolocation.It helps to simulate and models the actual working of wireless sensors network in real life on graphical interface of \emph{OpenstreetMap}.
+\item CupCarbon is composed
+of three main components: a multi-agent simulation environment,
+mobile simulation, and the WSN simulator
+(WiSen).
+\begin{itemize}
+    \item \textbf{Multi-agent simulation enviroment} \\
+    CupCarbon provides an environment for multi-agent to design the mobility, scenarios, regeneration of events such as fire, gas and other mobile devices like vehicle, flying objects.
+    \item\textbf{Mobility}\\It offers the possibility to create paths, free or related
+to real roads, and assign them agents to make them
+mobile. Each path is defined by a set of referencing points on
+the OSM map, and each point is associated to a date corresponding
+to the exact arrival date of the object to it.
+\item\textbf{WiSen}\\
+It is \emph{Kernel} of CupCarbon for simulating events related to sensors. It supports and manages the
+evolution of the state of each object in the system . Its implementation in a multi-agent environment
+allows for each agent to be executed independently
+and in parallel.
+\end{itemize}
+\item \textbf{Architecture :} CupCarbon is written in java.There is four components of CupCarbon \emph{i.e Agents ,OpenStreetMap,WiSen Simulator and Solver.} First two deals with modules that are used to build simulation and rest two are concerned with simulation itself.
+\item \textbf{Protocols :} It also supports Physical layer Protocols such as Zigbee,WiFi and LoRaWAN.
+\end{enumerate}
+\vspace{15cm}
+\item{\textbf{IOTSim}}\\
+IOTSim, it is a cloud-based IoT simulator and developed on top of the CloudSim. It is produced to assist the checking out of Big-Data processing and address with the MapReduce method. By genetically helping signific- ant information policies, it simplifies the recognition & analysis of results and execution of IoT-based purposes through researchers and profitable business industries.
+
+\item{\textbf{QualNet}}
+
+The QualNet simulator with the aid of flexible networks. This simulator can maintain large accuracy simulations, including various network elements. IoT based simula- tion can be performed by takes the other smart sensor network development for QualNet, which provides the guidelines for the "IEEE 802.15.4 community series". It is a commercial, profitable version of Glomosim with a GUI feature.
+\item{\textbf{MobIoTSim}}\\
+MobIoTSim is a mobile-based simulator for IoT devices. It’s developed in the android platform, designed to assist researchers in determining IoT devices having smart sensors and demonstrate IoT applications utilizing more than one device.
+
+\item{\textbf{OMNeT++}}\\
+OMNeT++ is a non-commercial simulation and discrete- event simulator model. It is fundamentally based on a C++ simulation framework and library, notably for building network simulators. It is based on the Eclipse platform. OMNeT++ can be used for free in educational institutions. OMNeT++ assembled into larger compon- ents and techniques using a High-Level Language (HLL). It is an "object-oriented" and "discrete event" network simulation model, which is a generic architecture used in different apps.
+
+
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\textbf{Simulator} & Scope         & Type                                                                & Programming Language  & Architecture Layers & Scale of Operation & Built-In Standards & API Integration & Cyber Resilience Simulation & Service Domain & Security measures \\ \hline
+\textbf{CupCarbon}          & Network       & \begin{tabular}[c]{@{}l@{}}Agent-based\\ discreteevent\end{tabular} & Java
+Custom
+scripting & Perceptual
+Network  & Small
+scale        & 802.15.4
+LoRaWAN   & UDX             & NO                          & Smart CIty     & High              \\ \hline
+\textbf{IOTSim}             & Data
+analysis & MapReduce
+model                                                     & Java                  & Application         & Large scale        & NO                 & REST            & NO                          & Generic        & Medium            \\ \hline
+                   & e             &                                                                     &                       &                     &                    &                    &                 &                             &                &                   \\ \hline
+\end{tabular}%
+}
+\end{table}
+\end{enumerate}
+
+\end{iotsolution}
+
+\begin{iotsolution}
+
+My solution to problem 3
+
+\end{iotsolution}
+
+\bibliographystyle{abbrvnat}
+\bibliography{references.bib}
+
+\end{document}
