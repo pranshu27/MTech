@@ -5,6 +5,16 @@
 \usepackage{adjustbox}
 \usepackage{enumerate}
 \usepackage{longtable}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
 
 \begin{document}
 
@@ -22,7 +32,7 @@
 \begin{longtable}{|p{2.2cm}|p{1.5cm}|p{1.5cm}|p{2.2cm}|p{2cm}|p{2cm}|p{2cm}|} 
 
  \hline
- \textbf{Parameters} & Particle IO (ARGON)& Espressif ESP8266 & Beaglebone Black  & Arduino UNO& Raspberry Pi B+ & Discovery STMP-32MP157C \\ [0.5ex] 
+ \textbf{Parameters} & Particle IO \cite{compstudy} (ARGON)& Espressif ESP8266 \cite{compstudy, are} & Beaglebone Black  \cite{bb, bb1} & Arduino UNO \cite{are, compstudy} & Raspberry Pi B+ \cite{are, compstudy}  & Discovery STMP-32MP157C \cite{stmp, top21}\\ [0.5ex] 
  \hline\hline
  \textbf{Processor} & 
 ARM Cortex-M4F 32-bit processor @ 64MHz & 32-bit RISC & ARMv7-A Cortex-A8 
@@ -50,7 +60,7 @@ Shield & IEEE 802.11 b/g/n + IEEE 802.15.4
 
    \textbf{Operating System} & Device OS & Mon-goose OS & Linux  & Not Supported & Raspbian, OSMC, OpenELEC, Windows IoT Core, RISC & NA\\
  \hline
-\textbf{Limitations} & 27 & 6 & 83.48 & 22.95 & 35 & 148.23\\
+\textbf{Limitations} & - & - & - & - & - & -\\
  \hline
  
 \end{longtable}
@@ -59,28 +69,67 @@ Shield & IEEE 802.11 b/g/n + IEEE 802.15.4
 
 
 \vspace{20}
-\paragraph{\large{Summary}} It is evident from the above table that A Raspberry Pi is a clear winner in most of the situations. However, other boards offer a strong competition in different areas as specified below:
+\paragraph{\large{Summary}} We've mentioned a few development boards here, but there are plenty of more possibilities that will best suit your product development needs.
+IoT development has a very bright future. It contributes to the solution of everyday difficulties by developing a variety of goods. It is evident from the above table that a Raspberry Pi is a clear winner in most of the situations. However, other boards offer a strong competition in different areas as specified below:
 
-\subparagraph{Raspberry Pi versus Arduino} 
+\subparagraph{Raspberry Pi versus Arduino}\cite{ar, bb}
 These two are the most popular boards among the researchers. The  detailed  
 analysis  show  that  higher  end  development  boards  such  as  
 Raspberry Pi-4 B+ have higher performance in comparison with 
 other  boards  like  Arduino in  terms  of  its  
-storage and computing speeds but at the cost of higher price. The places where we need to perform a task repeatedly, we can use Arduino where we use Raspberry Pi where we need to perform multiple tasks together. Also Arduino is used for simple tasks as compared to Pi which is used for highly complex work. Pi in general can be thought of as a mini computer in itself.
+storage and computing speeds but at the cost of higher price. The places where we need to perform a task repeatedly, we can use Arduino where we use Raspberry Pi where we need to perform multiple tasks together. Also Arduino is used for simple tasks as compared to Pi which is used for highly complex work. Pi in general can be thought of as a mini computer in itself. The key distinction between the two is that Arduino tends to have a strong I/O capability which drives external hardware directly. Whereas Raspberry Pi has a weak I/O which requires transistors to drive the hardware.
 
-\subparagraph{Espressif ESP8266}The ESP8266 has
+\subparagraph{Espressif ESP8266}\cite{are} The ESP8266 has
 exceptionally basic equipment foundational layout and is
 most superb utilized in customer applications, for example,
 information logging and control of actuators from online
 worker applications. Being  a  low  cost  device, it  is  a  first  choice  for  implementing 
 sensor networks in an IoT scenario. However, due to limited storage and computing capabilities, and inability to support popular OS like Linux, it is used in a fewer areas as compared to other boards. 
 
-\subparagraph{Particle IO - Argon}The Particle Argon is a significant IoT prototyping stage thinking about eliminated programming, straightforward code migration, and speedy progression of ventures. However, just like ESP8266, inability to support any other operating system is still a matter of concern here.
+\subparagraph{Particle IO - Argon}\cite{compstudy} The Particle Argon is a significant IoT prototyping stage thinking about eliminated programming, straightforward code migration, and speedy progression of ventures. However, just like ESP8266, inability to support any other operating system is still a matter of concern here.
 
-\subparagraph{Beaglebone Black}  It is apparent that Beaglebone is simply more versatile and compatible with makers and developers’ use. It is pretty well documented which allows users to have enough support and tutorials for projects and learning. One of the major drawbacks is, it is costlier than Pi, which a offers somewhat more features and is more commonly used.  If you’re looking for affordable, casual use and versatility, Raspberry Pi would be more suitable for you. But if you’re more into IoT applications and stability for industrial usage, this is the one. 
+\subparagraph{Beaglebone Black} \cite{bbvr} It is apparent that Beaglebone is simply more versatile and compatible with makers and developers’ use. It is pretty well documented which allows users to have enough support and tutorials for projects and learning. One of the major drawbacks is, it is costlier than Pi, which a offers somewhat more features and is more commonly used.  If you’re looking for affordable, casual use and versatility, Raspberry Pi would be more suitable for you. But if you’re more into IoT applications and stability for industrial usage, this is the one. 
 
-\subparagraph{Discovery STMP32MP157C}These highly secure boards are specifically designed to accelerate 3D graphics in applications such as graphical user interfaces (GUI), menu displays or animations.There is a dedicated 3D graphics processing unit (GPU) and MIPI-DSI display interface and a CAN FD interface. The only drawback is its 148 whopping dollars price, which might not be justified over a much cheaper Raspberry Pi available in the market.
+\subparagraph{Discovery STMP32MP157C} \cite{stmp, top21} These highly secure boards are specifically designed to accelerate 3D graphics in applications such as graphical user interfaces (GUI), menu displays or animations.There is a dedicated 3D graphics processing unit (GPU) and MIPI-DSI display interface and a CAN FD interface. The only drawback is its 148 whopping dollars price, which might not be justified over a much cheaper Raspberry Pi available in the market.
 
+\begin{thebibliography}{9}
+\bibitem{compstudy} 
+Dr. Naveen Tewari, Dr. Nitin Deepak, Dr. Mukesh Joshi and Mr. Jai Shankar Bhatt,
+\textit{Comparative Study of IoT Development Boards in
+2021: Choosing right Hardware for IoT Projects}. 
+978-1-6654-1450-0/20/\$31.00 2021 IEEE | DOI: 10.1109/ICIEM51511.2021.9445290
+
+\bibitem{bb} 
+Ravi Payal and Amit Prakash Singh, 
+\textit{A Study on Different Hardware and Cloud Based IOT Platforms}.
+1916 (2021) 012055 doi: 10.1088/1742-6596/1916/1/012055
+
+\bibitem{are} 
+Dinkar R Patnaik Patnaikuni,
+\textit{A Comparative Study of Arduino, Raspberry Pi and ESP8266 as IoT Development
+Board}.
+ISSN No. 0976-5697
+
+\bibitem{bb1} 
+Mr. Stephen A. Strom and Prof. David R. Loker
+\textit{BeagleBone Black for Embedded Measurement and Control Applications}.
+
+\bibitem{stmp} 
+\textit{STM32MP157 MPU with Arm Dual Cortex-A7 650 MHz, Arm Cortex-M4 real-time coprocessor, 3D GPU, TFT/MIPI DSI displays, FD-CAN, Secure boot and Cryptography }
+\url{https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-arm-cortex-mpus/stm32mp1-series/stm32mp157/stm32mp157c.html#overview&secondary=st_all-features_sec-nav-tab}
+
+\bibitem{ar} 
+\textit{Difference between Arduino and Raspberry Pi}
+\url{https://www.geeksforgeeks.org/difference-between-arduino-and-raspberry-pi/}
+
+\bibitem{top21} 
+\textit{Top IoT Boards to Kickstart Project Development in 2021}
+\url{https://siliconithub.com/top-iot-boards-to-kickstart-project-development/}
+
+\bibitem{bbvr} 
+\textit{Beaglebone vs Raspberry Pi: Which SBC is better?}
+\url{https://www.seeedstudio.com/blog/2021/01/20/beaglebone-vs-raspberry-pi-which-sbc-is-better/}
+\end{thebibliography}
 
 
 \end{iotsolution}
@@ -157,11 +206,8 @@ mobile simulation, and the WSN simulator
 
 
 \item{\textbf{IoTIFY}}\\
-IoTIFY is a test system that uses device virtualisation and intelligent device simulator.It lets you quickly create virtual devices on cloud. It can create adaptable traffic from a large number of virtual endpoints and test your foundation for
-scale, security and quality so as to recognise and fix issues before actual implementation.It can let you establish your own Io
-T lab for building analytical modeling,
-embedded prototypes, load testing solution, and a community
-simulation for analytical scaling. Simulations speed can be fast or slow depends on how superficial and deeply you want to analyse the system.
+IoTIFY is a test system that uses device virtualisation and intelligent device simulator.It lets you quickly create virtual devices on cloud. It can create traffic from a large number of virtual endpoints and test your foundation for
+scale, security and quality so as to recognise and fix issues before actual implementation. Simulations speed can be fast or slow depends on how superficial and deeply you want to analyse the system. Protocols supported are MQTT, HTTP, CoAP, LWM2M , UDP and TCP.
 
 \item{\textbf{TOSSIM}}
 
@@ -193,6 +239,8 @@ International ICST Conference on Simulation Tools and
 Techniques, Lisbon, Portugal, 2014}, 2014, pp. 126–131.
     \item T. Pflanzner, A. Kertesz, B. Spinnewyn and S. Latré, "MobIoTSim: Towards a Mobile IoT Device Simulator," 2016 IEEE 4th International Conference on Future Internet of Things and Cloud Workshops (FiCloudW), 2016, pp. 21-27, doi: 10.1109/W-FiCloud.2016.21.
     \item https://www.bevywise.com/blog/
+    \item https://networksimulationtools.com/tossim-simulator/
+    \item https://docs.iotify.io
 \end{enumerate}
 
 \end{iotsolution}
