@@ -1,0 +1,200 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Aug 28 17:43:06 2021
+
+@author: joker
+"""
+import pandas as pd
+import numpy as np
+from numpy import linalg as lin
+from matplotlib import pyplot as plt
+import time as t
+
+class Node:
+    # A node stores its own depth (root = depth 0), its decision stump, its parent and child information
+    # Leaf nodes also store a constant label that is assigned to every data point that reaches that leaf
+    def __init__( self, depth = 0, stump = (0,0), parent = None ):
+        self.depth = depth
+        self.stump = stump
+        self.parent = parent
+        self.left = None
+        self.right = None
+        self.isLeaf = True
+        self.label = 0
+        
+    def predict( self, data ):
+        # If I am a leaf I can predict rightaway
+        # May change this constant leaf action to something more interesting and powerful
+        if self.isLeaf:
+            return self.label
+        # Else I have to ask one of my children to do the job
+        else:
+            if data[self.stump[0]] > self.stump[1]:
+                return self.right.predict( data )
+            else:
+                return self.left.predict( data )
+            
+    # Get the Gini coefficient of a node with nPos positive points and nNeg negative points
+    def getGini( self, nPos, nNeg ):
+        nTot = nPos + nNeg
+        # Find the proportion of the positives and negatives in that node
+        pPos = nPos/nTot
+        pNeg = nNeg/nTot
+        # The gini index is always a real number between 0 and 0.5
+        # A perfectly pure node has gini index = 0
+        # The smaller the gini index the purer the node
+        gini = 1 - (pPos**2 + pNeg**2)
+        return gini
+            
+    def getStump( self, X, y ):
+        # How many data points do I have at this node?
+        n = y.size
+        bestObjective = float('inf')
+        
+        # For each of the features in the data
+        for i in range( X.shape[1] ):
+            # Do not use the same feature as used by the parent node
+            if self.parent is not None and i == self.parent.stump[0]:
+                continue
+            # Find out all values at which we can threshold that feature
+            candidateThresholds = np.sort( X[:, i] )
+            idx = np.argsort( X[:, i] )
+            # The cumulative sum trick used here will work only if labels are binary 
+            ySorted = y[idx]
+            yCum = np.cumsum( ySorted )
+            yCumRev = np.cumsum( ySorted[::-1] )[::-1]
+            # For each possible threshold (except the ones at the extreme)
+            for j in range( 1, candidateThresholds.size-1 ):
+                # Give 0.5 weight to balance and 1 weight to purity of the two nodes
+                candidateObjective = 0.0 * 0.0 \
+                                    + 1.0 * self.getGini( (yCum[j] + j+1)/2, (j+1 - yCum[j])/2 ) \
+                                    + 1.0 * self.getGini( (yCumRev[j+1] + n-j-1)/2, (n-j-1 - yCumRev[j+1])/2 )
+                if candidateObjective < bestObjective:
+                    bestObjective = candidateObjective
+                    bestFeat = i
+                    bestThresh = candidateThresholds[j]
+        
+        # Can try LwP decision stump as well
+        bestThresh = (np.mean(X[y > 0, bestFeat]) + np.mean(X[y < 0, bestFeat]))/2
+        return (bestFeat, bestThresh)
+            
+    def train( self, X, y, maxLeafSize, maxDepth ):
+        # If too few data points are present, or else if this node is too deep in the tree, make this a leaf
+        if y.size < maxLeafSize or self.depth >= maxDepth:
+            self.isLeaf = True
+            self.label = np.mean( y )
+        else:
+            # This node will be split and hence it is not a leaf
+            self.isLeaf = False
+            # Get the best possible decision stump
+            self.stump = self.getStump( X, y )
+            self.left = Node( depth = self.depth + 1, parent = self )
+            self.right = Node( depth = self.depth + 1, parent = self )
+            # Find which points go to my left child and which go to my right child
+            discriminant = X[:, self.stump[0]] - self.stump[1]
+            # Train my two children recursively
+            self.left.train( X[discriminant <= 0, :], y[discriminant <= 0], maxLeafSize, maxDepth )
+            self.right.train( X[discriminant > 0, :], y[discriminant > 0], maxLeafSize, maxDepth )
+
+class Tree:
+    def __init__( self, maxLeafSize = 10, maxDepth = 5 ):
+        self.root = Node()
+        self.maxLeafSize = maxLeafSize
+        self.maxDepth = maxDepth 
+        
+    def predict( self, xt, yt ):
+        return self.root.predict( np.array( [xt, yt] ) )
+    
+    def train( self, X, y ):
+        self.root.train( X, y, self.maxLeafSize, self.maxDepth )
+
+
+DT = Tree( maxLeafSize = 5, maxDepth = 4 )
+#DT.train( X, y )
+
+column_names=['age','workclass','fnlwgt','education','education-num','marital-status','occupation','relationship','race','sex','capital-gain','capital-loss','hours-per-week','native-country', 'income']
+
+df = pd.read_csv(r"/home/joker/Downloads/Video/SEM1-Downloads/CS771A/assignments/ass1_graded/adult.data", index_col=False, names = column_names,   header = None)
+
+for col in column_names:
+    
+df['income'] = df['income'].apply(lambda x: 0 if str(x) == " <=50K" else 1)
+df['income'].value_counts()
+
+df['fnlwgt'].drop(["fnlwgt", "capital-gain", "capital-loss]")
+
+def entropy(y):
+
+    a = y.value_counts()/y.shape[0]
+    entropy = np.sum(-a*np.log2(a+1e-9))
+    return(entropy)
+
+
+#entropy(df['workclass'])
+df['age'].var()
+
+def information_gain(df, mask, func=entropy):
+  a = sum(mask)
+  b = mask.shape[0] - a
+  
+  if(a == 0 or b ==0): 
+    ig = 0
+  
+  else:
+    if df.dtypes != 'O':
+      ig = df.var() - (a/(a+b)* df[mask].var - (b/(a+b)*df[-mask].var()))
+    else:
+      ig = func(y)-a/(a+b)*func(y[mask])-b/(a+b)*func(y[-mask])
+  
+  return ig
+
+
+
+information_gain(df['income'], df['sex']==" Male")
+
+
+if __name__ == "__main__":
+    
+    
+    for i in range(len(df)):
+        if(str(df.iloc[i, 2]).find("?")!=-1):
+            print("hi")
+            
+    mode = df['workclass'].mode()
+    df.replace(" ?", np.nan, inplace = True)
+    
+    df.isna().sum()
+    
+    df.fillna(df.mode().loc[0], inplace = True)
+    
+    df.isna().sum()
+    
+    a = list(df.columns.values)
+    
+    tmp = df["fnlwgt"]
+    df.drop("fnlwgt", axis=1, inplace=True)
+    df['fnlwgt'] = tmp
+    
+    #df['capital-gain'].unique()
+
+    def accuracy(y_true, y_pred):
+        accuracy = np.sum(y_true == y_pred) / len(y_true)
+        return accuracy
+
+    data = datasets.load_breast_cancer()
+    X, y = data.data, data.target
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=1234
+    )
+
+    clf = DecisionTree(max_depth=10)
+    clf.fit(X_train, y_train)
+
+    y_pred = clf.predict(X_test)
+    acc = accuracy(y_test, y_pred)
+
+    print("Accuracy:", acc)
+    
+    
