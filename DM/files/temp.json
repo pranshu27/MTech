@@ -1,0 +1,718 @@
+{"district":"anantapur","neighbours":"y.s.r. kadapa,ballari,tumakuru,kurnool,chikkaballapura,chittoor,chitradurga","district_code":"AP_Anantapur"}
+{"district":"chittoor","neighbours":"y.s.r. kadapa,krishnagiri,kolar,s.p.s. nellore,vellore,chikkaballapura,anantapur,thiruvallur","district_code":"AP_Chittoor"}
+{"district":"east godavari","neighbours":"west godavari,malkangiri,bhadradri kothagudem,visakhapatnam,sukma","district_code":"AP_East Godavari"}
+{"district":"guntur","neighbours":"prakasam,krishna,suryapet,nalgonda,nagarkurnool","district_code":"AP_Guntur"}
+{"district":"krishna","neighbours":"suryapet,khammam,west godavari,guntur","district_code":"AP_Krishna"}
+{"district":"kurnool","neighbours":"y.s.r. kadapa,wanaparthy,raichur,ballari,prakasam,jogulamba gadwal,nagarkurnool,anantapur","district_code":"AP_Kurnool"}
+{"district":"prakasam","neighbours":"y.s.r. kadapa,s.p.s. nellore,guntur,kurnool,nagarkurnool","district_code":"AP_Prakasam"}
+{"district":"s.p.s. nellore","neighbours":"prakasam,y.s.r. kadapa,thiruvallur,chittoor","district_code":"AP_S.P.S. Nellore"}
+{"district":"srikakulam","neighbours":"ganjam,gajapati,rayagada,vizianagaram","district_code":"AP_Srikakulam"}
+{"district":"visakhapatnam","neighbours":"koraput,malkangiri,east godavari,vizianagaram","district_code":"AP_Visakhapatnam"}
+{"district":"vizianagaram","neighbours":"koraput,rayagada,visakhapatnam,srikakulam","district_code":"AP_Vizianagaram"}
+{"district":"west godavari","neighbours":"bhadradri kothagudem,krishna,khammam,east godavari","district_code":"AP_West Godavari"}
+{"district":"y.s.r. kadapa","neighbours":"s.p.s. nellore,prakasam,chittoor,kurnool,anantapur","district_code":"AP_Y.S.R. Kadapa"}
+{"district":"anjaw","neighbours":"lohit,changlang","district_code":"AR_Anjaw"}
+{"district":"changlang","neighbours":"tirap,anjaw,namsai,lohit,tinsukia","district_code":"AR_Changlang"}
+{"district":"east kameng","neighbours":"tawang,papum pare,kurung kumey,pakke kessang,west kameng","district_code":"AR_East Kameng"}
+{"district":"east siang","neighbours":"lower siang,dhemaji,lower dibang valley,upper siang,siang,tinsukia","district_code":"AR_East Siang"}
+{"district":"kamle","neighbours":"lower siang,kra daadi,dhemaji,papum pare,lower subansiri,lakhimpur,upper subansiri","district_code":"AR_Kamle"}
+{"district":"kra daadi","neighbours":"kamle,papum pare,kurung kumey,lower subansiri,upper subansiri","district_code":"AR_Kra Daadi"}
+{"district":"kurung kumey","neighbours":"kra daadi,upper subansiri,papum pare,east kameng","district_code":"AR_Kurung Kumey"}
+{"district":"lepa rada","neighbours":"upper subansiri,lower siang,west siang","district_code":"AR_Lepa Rada"}
+{"district":"lohit","neighbours":"anjaw,namsai,lower dibang valley,changlang,tinsukia","district_code":"AR_Lohit"}
+{"district":"longding","neighbours":"charaideo,mon,dibrugarh,tirap","district_code":"AR_Longding"}
+{"district":"lower dibang valley","neighbours":"dhemaji,upper dibang valley,upper siang,lohit,east siang,tinsukia","district_code":"AR_Lower Dibang Valley"}
+{"district":"lower siang","neighbours":"kamle,west siang,dhemaji,lepa rada,siang,upper subansiri,east siang","district_code":"AR_Lower Siang"}
+{"district":"lower subansiri","neighbours":"papum pare,kra daadi,kamle","district_code":"AR_Lower Subansiri"}
+{"district":"namsai","neighbours":"lohit,changlang,tinsukia","district_code":"AR_Namsai"}
+{"district":"pakke kessang","neighbours":"east kameng,papum pare,west kameng,biswanath,sonitpur","district_code":"AR_Pakke Kessang"}
+{"district":"papum pare","neighbours":"kamle,east kameng,kra daadi,kurung kumey,lower subansiri,lakhimpur,pakke kessang,biswanath","district_code":"AR_Papum Pare"}
+{"district":"shi yomi","neighbours":"upper subansiri,upper siang,siang,west siang","district_code":"AR_Shi Yomi"}
+{"district":"siang","neighbours":"lower siang,upper siang,shi yomi,west siang,east siang","district_code":"AR_Siang"}
+{"district":"tawang","neighbours":"west kameng,east kameng","district_code":"AR_Tawang"}
+{"district":"tirap","neighbours":"longding,dibrugarh,changlang,tinsukia","district_code":"AR_Tirap"}
+{"district":"upper dibang valley","neighbours":"upper siang,lower dibang valley","district_code":"AR_Upper Dibang Valley"}
+{"district":"upper siang","neighbours":"upper dibang valley,lower dibang valley,shi yomi,siang,east siang","district_code":"AR_Upper Siang"}
+{"district":"upper subansiri","neighbours":"lower siang,kamle,kra daadi,kurung kumey,lepa rada,shi yomi,west siang","district_code":"AR_Upper Subansiri"}
+{"district":"west kameng","neighbours":"tawang,east kameng,pakke kessang,udalguri,sonitpur","district_code":"AR_West Kameng"}
+{"district":"west siang","neighbours":"lower siang,lepa rada,shi yomi,siang,upper subansiri","district_code":"AR_West Siang"}
+{"district":"baksa","neighbours":"nalbari,darrang,barpeta,udalguri,kamrup,chirang","district_code":"AS_Baksa"}
+{"district":"barpeta","neighbours":"baksa,nalbari,goalpara,bongaigaon,kamrup,chirang","district_code":"AS_Barpeta"}
+{"district":"biswanath","neighbours":"papum pare,lakhimpur,golaghat,pakke kessang,sonitpur,nagaon","district_code":"AS_Biswanath"}
+{"district":"bongaigaon","neighbours":"dhubri,barpeta,goalpara,kokrajhar,chirang","district_code":"AS_Bongaigaon"}
+{"district":"cachar","neighbours":"east jaintia hills,kolasib,pherzawl,karimganj,tamenglong,dima hasao,jiribam,aizawl,hailakandi","district_code":"AS_Cachar"}
+{"district":"charaideo","neighbours":"mon,dibrugarh,longding,sivasagar","district_code":"AS_Charaideo"}
+{"district":"chirang","neighbours":"bongaigaon,baksa,barpeta,kokrajhar","district_code":"AS_Chirang"}
+{"district":"darrang","neighbours":"kamrup metropolitan,baksa,morigaon,udalguri,sonitpur,kamrup","district_code":"AS_Darrang"}
+{"district":"dhemaji","neighbours":"lower siang,kamle,lower dibang valley,lakhimpur,dibrugarh,east siang,tinsukia","district_code":"AS_Dhemaji"}
+{"district":"dhubri","neighbours":"cooch behar,goalpara,bongaigaon,south salmara mankachar,kokrajhar","district_code":"AS_Dhubri"}
+{"district":"dibrugarh","neighbours":"longding,tirap,dhemaji,majuli,lakhimpur,charaideo,sivasagar,tinsukia","district_code":"AS_Dibrugarh"}
+{"district":"dima hasao","neighbours":"cachar,west jaintia hills,east jaintia hills,west karbi anglong,tamenglong,peren,hojai,karbi anglong","district_code":"AS_Dima Hasao"}
+{"district":"goalpara","neighbours":"west garo hills,north garo hills,dhubri,barpeta,bongaigaon,kamrup,south salmara mankachar","district_code":"AS_Goalpara"}
+{"district":"golaghat","neighbours":"kohima,majuli,lakhimpur,dimapur,nagaon,biswanath,wokha,jorhat,karbi anglong","district_code":"AS_Golaghat"}
+{"district":"hailakandi","neighbours":"mamit,cachar,kolasib,karimganj","district_code":"AS_Hailakandi"}
+{"district":"hojai","neighbours":"west karbi anglong,nagaon,dima hasao,karbi anglong","district_code":"AS_Hojai"}
+{"district":"jorhat","neighbours":"mokokchung,majuli,sivasagar,golaghat,wokha","district_code":"AS_Jorhat"}
+{"district":"kamrup","neighbours":"kamrup metropolitan,baksa,north garo hills,nalbari,darrang,barpeta,goalpara,west khasi hills,ribhoi","district_code":"AS_Kamrup"}
+{"district":"kamrup metropolitan","neighbours":"morigaon,kamrup,darrang,ribhoi","district_code":"AS_Kamrup Metropolitan"}
+{"district":"karbi anglong","neighbours":"dimapur,dima hasao,peren,golaghat,hojai,nagaon","district_code":"AS_Karbi Anglong"}
+{"district":"karimganj","neighbours":"mamit,cachar,hailakandi,north tripura","district_code":"AS_Karimganj"}
+{"district":"kokrajhar","neighbours":"alipurduar,dhubri,cooch behar,bongaigaon,chirang","district_code":"AS_Kokrajhar"}
+{"district":"lakhimpur","neighbours":"kamle,dhemaji,papum pare,majuli,biswanath,golaghat,dibrugarh","district_code":"AS_Lakhimpur"}
+{"district":"majuli","neighbours":"lakhimpur,sivasagar,golaghat,dibrugarh,jorhat","district_code":"AS_Majuli"}
+{"district":"morigaon","neighbours":"kamrup metropolitan,west karbi anglong,darrang,ribhoi,sonitpur,nagaon","district_code":"AS_Morigaon"}
+{"district":"nagaon","neighbours":"west karbi anglong,golaghat,morigaon,biswanath,sonitpur,hojai,karbi anglong","district_code":"AS_Nagaon"}
+{"district":"nalbari","neighbours":"baksa,kamrup,barpeta","district_code":"AS_Nalbari"}
+{"district":"sivasagar","neighbours":"longleng,majuli,charaideo,mokokchung,mon,dibrugarh,jorhat","district_code":"AS_Sivasagar"}
+{"district":"sonitpur","neighbours":"darrang,pakke kessang,west kameng,morigaon,biswanath,udalguri,nagaon","district_code":"AS_Sonitpur"}
+{"district":"south salmara mankachar","neighbours":"west garo hills,north garo hills,dhubri,goalpara,south west garo hills","district_code":"AS_South Salmara Mankachar"}
+{"district":"tinsukia","neighbours":"tirap,dhemaji,namsai,lower dibang valley,lohit,changlang,dibrugarh,east siang","district_code":"AS_Tinsukia"}
+{"district":"udalguri","neighbours":"sonitpur,west kameng,baksa,darrang","district_code":"AS_Udalguri"}
+{"district":"west karbi anglong","neighbours":"west jaintia hills,morigaon,dima hasao,ribhoi,hojai,nagaon","district_code":"AS_West Karbi Anglong"}
+{"district":"araria","neighbours":"purnia,kishanganj,madhepura,supaul","district_code":"BR_Araria"}
+{"district":"arwal","neighbours":"aurangabad,bhojpur,gaya,patna,jehanabad,rohtas","district_code":"BR_Arwal"}
+{"district":"aurangabad","neighbours":"jalna,nashik,jalgaon,ahmednagar,beed","district_code":"BR_Aurangabad"}
+{"district":"aurangabad","neighbours":"arwal,gaya,palamu,rohtas","district_code":"BR_Aurangabad"}
+{"district":"banka","neighbours":"munger,deoghar,dumka,bhagalpur,jamui,godda","district_code":"BR_Banka"}
+{"district":"begusarai","neighbours":"munger,khagaria,samastipur,lakhisarai,patna","district_code":"BR_Begusarai"}
+{"district":"bhagalpur","neighbours":"godda,munger,khagaria,banka,katihar,madhepura,purnia,sahibganj","district_code":"BR_Bhagalpur"}
+{"district":"bhojpur","neighbours":"arwal,buxar,saran,ballia,patna,rohtas","district_code":"BR_Bhojpur"}
+{"district":"buxar","neighbours":"ghazipur,bhojpur,kaimur,ballia,rohtas","district_code":"BR_Buxar"}
+{"district":"darbhanga","neighbours":"muzaffarpur,samastipur,madhubani,saharsa,sitamarhi","district_code":"BR_Darbhanga"}
+{"district":"east champaran","neighbours":"west champaran,sheohar,muzaffarpur,gopalganj,sitamarhi","district_code":"BR_East Champaran"}
+{"district":"gaya","neighbours":"arwal,nalanda,nawada,palamu,aurangabad,koderma,chatra,jehanabad,hazaribagh","district_code":"BR_Gaya"}
+{"district":"gopalganj","neighbours":"west champaran,deoria,kushinagar,muzaffarpur,siwan,east champaran,saran","district_code":"BR_Gopalganj"}
+{"district":"jamui","neighbours":"sheikhpura,munger,deoghar,nawada,giridih,banka,lakhisarai","district_code":"BR_Jamui"}
+{"district":"jehanabad","neighbours":"nalanda,gaya,patna,arwal","district_code":"BR_Jehanabad"}
+{"district":"kaimur","neighbours":"ghazipur,sonbhadra,buxar,chandauli,rohtas","district_code":"BR_Kaimur"}
+{"district":"katihar","neighbours":"malda,uttar dinajpur,bhagalpur,purnia,sahibganj","district_code":"BR_Katihar"}
+{"district":"khagaria","neighbours":"munger,begusarai,samastipur,saharsa,madhepura,bhagalpur","district_code":"BR_Khagaria"}
+{"district":"kishanganj","neighbours":"darjeeling,purnia,uttar dinajpur,araria","district_code":"BR_Kishanganj"}
+{"district":"lakhisarai","neighbours":"sheikhpura,munger,nalanda,begusarai,patna,jamui","district_code":"BR_Lakhisarai"}
+{"district":"madhepura","neighbours":"khagaria,supaul,saharsa,bhagalpur,purnia,araria","district_code":"BR_Madhepura"}
+{"district":"madhubani","neighbours":"saharsa,sitamarhi,supaul,darbhanga","district_code":"BR_Madhubani"}
+{"district":"munger","neighbours":"khagaria,begusarai,banka,lakhisarai,bhagalpur,jamui","district_code":"BR_Munger"}
+{"district":"muzaffarpur","neighbours":"sheohar,gopalganj,darbhanga,vaishali,samastipur,east champaran,sitamarhi,saran","district_code":"BR_Muzaffarpur"}
+{"district":"nalanda","neighbours":"sheikhpura,nawada,lakhisarai,gaya,patna,jehanabad","district_code":"BR_Nalanda"}
+{"district":"nawada","neighbours":"sheikhpura,giridih,nalanda,koderma,gaya,jamui","district_code":"BR_Nawada"}
+{"district":"patna","neighbours":"arwal,nalanda,begusarai,vaishali,bhojpur,samastipur,lakhisarai,jehanabad,saran","district_code":"BR_Patna"}
+{"district":"purnia","neighbours":"uttar dinajpur,katihar,madhepura,bhagalpur,kishanganj,araria","district_code":"BR_Purnia"}
+{"district":"rohtas","neighbours":"arwal,sonbhadra,buxar,palamu,aurangabad,bhojpur,garhwa,kaimur","district_code":"BR_Rohtas"}
+{"district":"saharsa","neighbours":"khagaria,supaul,darbhanga,samastipur,madhubani,madhepura","district_code":"BR_Saharsa"}
+{"district":"samastipur","neighbours":"muzaffarpur,khagaria,darbhanga,vaishali,begusarai,saharsa,patna","district_code":"BR_Samastipur"}
+{"district":"saran","neighbours":"muzaffarpur,gopalganj,vaishali,bhojpur,siwan,ballia,patna","district_code":"BR_Saran"}
+{"district":"sheikhpura","neighbours":"jamui,lakhisarai,nalanda,nawada","district_code":"BR_Sheikhpura"}
+{"district":"sheohar","neighbours":"east champaran,sitamarhi,muzaffarpur","district_code":"BR_Sheohar"}
+{"district":"sitamarhi","neighbours":"sheohar,muzaffarpur,darbhanga,madhubani,east champaran","district_code":"BR_Sitamarhi"}
+{"district":"siwan","neighbours":"gopalganj,ballia,deoria,saran","district_code":"BR_Siwan"}
+{"district":"supaul","neighbours":"madhubani,saharsa,madhepura,araria","district_code":"BR_Supaul"}
+{"district":"vaishali","neighbours":"samastipur,patna,muzaffarpur,saran","district_code":"BR_Vaishali"}
+{"district":"west champaran","neighbours":"maharajganj,east champaran,gopalganj,kushinagar","district_code":"BR_West Champaran"}
+{"district":"chandigarh","neighbours":"panchkula,s.a.s. nagar","district_code":"CH_Chandigarh"}
+{"district":"balod","neighbours":"uttar bastar kanker,dhamtari,durg,rajnandgaon","district_code":"CT_Balod"}
+{"district":"baloda bazar","neighbours":"raipur,mungeli,bametara,raigarh,bilaspur,mahasamund,janjgir champa","district_code":"CT_Baloda Bazar"}
+{"district":"balrampur","neighbours":"gonda,shrawasti,siddharthnagar","district_code":"CT_Balrampur"}
+{"district":"balrampur","neighbours":"gumla,sonbhadra,surajpur,jashpur,garhwa,singrauli,latehar,surguja","district_code":"CT_Balrampur"}
+{"district":"bametara","neighbours":"mungeli,kabeerdham,baloda bazar,durg,rajnandgaon,raipur","district_code":"CT_Bametara"}
+{"district":"bastar","neighbours":"koraput,malkangiri,kondagaon,sukma,nabarangapur,dakshin bastar dantewada","district_code":"CT_Bastar"}
+{"district":"bijapur","neighbours":"jayashankar bhupalapally,bhadradri kothagudem,gadchiroli,sukma,dakshin bastar dantewada,narayanpur,mulugu","district_code":"CT_Bijapur"}
+{"district":"bijapur","neighbours":"bagalkote,kalaburagi,sangli,raichur,belagavi,yadadri bhuvanagiri,solapur","district_code":"CT_Bijapur"}
+{"district":"bilaspur","neighbours":"mungeli,baloda bazar,korba,anuppur,janjgir champa,koriya","district_code":"CT_Bilaspur"}
+{"district":"bilaspur","neighbours":"rupnagar,una,solan,mandi,hamirpur","district_code":"CT_Bilaspur"}
+{"district":"dakshin bastar dantewada","neighbours":"kondagaon,bastar,sukma,bijapur,narayanpur","district_code":"CT_Dakshin Bastar Dantewada"}
+{"district":"dhamtari","neighbours":"kondagaon,gariaband,nabarangapur,uttar bastar kanker,durg,balod,raipur","district_code":"CT_Dhamtari"}
+{"district":"durg","neighbours":"dhamtari,bametara,balod,rajnandgaon,raipur","district_code":"CT_Durg"}
+{"district":"gariaband","neighbours":"nuapada,dhamtari,kalahandi,nabarangapur,raipur,mahasamund","district_code":"CT_Gariaband"}
+{"district":"janjgir champa","neighbours":"bilaspur,baloda bazar,raigarh,korba","district_code":"CT_Janjgir Champa"}
+{"district":"jashpur","neighbours":"gumla,balrampur,raigarh,sundargarh,simdega,surguja","district_code":"CT_Jashpur"}
+{"district":"kabeerdham","neighbours":"mungeli,bametara,dindori,mandla,rajnandgaon,balaghat","district_code":"CT_Kabeerdham"}
+{"district":"kondagaon","neighbours":"dhamtari,bastar,nabarangapur,uttar bastar kanker,dakshin bastar dantewada,narayanpur","district_code":"CT_Kondagaon"}
+{"district":"korba","neighbours":"surajpur,raigarh,bilaspur,janjgir champa,koriya,surguja","district_code":"CT_Korba"}
+{"district":"koriya","neighbours":"surajpur,singrauli,korba,bilaspur,anuppur,sidhi,shahdol","district_code":"CT_Koriya"}
+{"district":"mahasamund","neighbours":"nuapada,bargarh,baloda bazar,gariaband,raigarh,raipur","district_code":"CT_Mahasamund"}
+{"district":"mungeli","neighbours":"kabeerdham,baloda bazar,bametara,dindori,bilaspur,anuppur","district_code":"CT_Mungeli"}
+{"district":"narayanpur","neighbours":"kondagaon,gadchiroli,uttar bastar kanker,bijapur,dakshin bastar dantewada","district_code":"CT_Narayanpur"}
+{"district":"raigarh","neighbours":"jharsuguda,bargarh,jashpur,baloda bazar,korba,sundargarh,mahasamund,janjgir champa,surguja","district_code":"CT_Raigarh"}
+{"district":"raipur","neighbours":"dhamtari,baloda bazar,gariaband,bametara,durg,mahasamund","district_code":"CT_Raipur"}
+{"district":"rajnandgaon","neighbours":"kabeerdham,gadchiroli,bametara,uttar bastar kanker,durg,balod,gondia,balaghat","district_code":"CT_Rajnandgaon"}
+{"district":"sukma","neighbours":"east godavari,malkangiri,bastar,bhadradri kothagudem,bijapur,dakshin bastar dantewada","district_code":"CT_Sukma"}
+{"district":"surajpur","neighbours":"singrauli,balrampur,korba,koriya,surguja","district_code":"CT_Surajpur"}
+{"district":"surguja","neighbours":"surajpur,jashpur,balrampur,raigarh,korba","district_code":"CT_Surguja"}
+{"district":"uttar bastar kanker","neighbours":"dhamtari,kondagaon,gadchiroli,balod,rajnandgaon,narayanpur","district_code":"CT_Uttar Bastar Kanker"}
+{"district":"central delhi","neighbours":"delhi,south east delhi,east delhi,north east delhi,north west delhi,shahdara,north delhi,new delhi","district_code":"DL_Central Delhi"}
+{"district":"east delhi","neighbours":"gautam buddha nagar,central delhi,south east delhi,ghaziabad,shahdara","district_code":"DL_East Delhi"}
+{"district":"new delhi","neighbours":"central delhi,delhi,south east delhi,gurugram,south west delhi,south delhi","district_code":"DL_New Delhi"}
+{"district":"north delhi","neighbours":"central delhi,sonipat,ghaziabad,north east delhi,north west delhi,baghpat","district_code":"DL_North Delhi"}
+{"district":"north east delhi","neighbours":"north delhi,central delhi,ghaziabad,shahdara","district_code":"DL_North East Delhi"}
+{"district":"north west delhi","neighbours":"central delhi,delhi,sonipat,north delhi,jhajjar","district_code":"DL_North West Delhi"}
+{"district":"shahdara","neighbours":"central delhi,ghaziabad,north east delhi,east delhi","district_code":"DL_Shahdara"}
+{"district":"south delhi","neighbours":"gurugram,new delhi,faridabad,south east delhi","district_code":"DL_South Delhi"}
+{"district":"south east delhi","neighbours":"gautam buddha nagar,central delhi,east delhi,faridabad,new delhi,south delhi","district_code":"DL_South East Delhi"}
+{"district":"south west delhi","neighbours":"gurugram,new delhi,delhi,jhajjar","district_code":"DL_South West Delhi"}
+{"district":"dadra and nagar haveli","neighbours":"palghar,valsad,konkan division","district_code":"DN_Dadra and Nagar Haveli"}
+{"district":"daman","neighbours":"valsad","district_code":"DN_Daman"}
+{"district":"diu","neighbours":"gir somnath","district_code":"DN_Diu"}
+{"district":"north goa","neighbours":"sindhudurg,south goa,uttara kannada,konkan division,belagavi","district_code":"GA_North Goa"}
+{"district":"south goa","neighbours":"north goa,uttara kannada","district_code":"GA_South Goa"}
+{"district":"ahmedabad","neighbours":"anand,mehsana,botad,surendranagar,bhavnagar,gandhinagar,kheda","district_code":"GJ_Ahmedabad"}
+{"district":"amreli","neighbours":"rajkot,junagadh,botad,gir somnath,bhavnagar","district_code":"GJ_Amreli"}
+{"district":"anand","neighbours":"vadodara,ahmedabad,bharuch,kheda","district_code":"GJ_Anand"}
+{"district":"aravalli","neighbours":"dungarpur,udaipur,sabarkantha,gandhinagar,mahisagar,kheda","district_code":"GJ_Aravalli"}
+{"district":"banaskantha","neighbours":"patan,sabarkantha,sirohi,mehsana,kutch,jalore","district_code":"GJ_Banaskantha"}
+{"district":"bharuch","neighbours":"vadodara,anand,narmada,surat","district_code":"GJ_Bharuch"}
+{"district":"bhavnagar","neighbours":"amreli,ahmedabad,botad","district_code":"GJ_Bhavnagar"}
+{"district":"botad","neighbours":"rajkot,ahmedabad,amreli,surendranagar,bhavnagar","district_code":"GJ_Botad"}
+{"district":"chhota udaipur","neighbours":"vadodara,dahod,narmada,panchmahal,alirajpur,nandurbar","district_code":"GJ_Chhota Udaipur"}
+{"district":"dahod","neighbours":"panchmahal,alirajpur,jhabua,banswara,mahisagar,chhota udaipur","district_code":"GJ_Dahod"}
+{"district":"dang","neighbours":"tapi,navsari,dhule,nashik","district_code":"GJ_Dang"}
+{"district":"devbhumi dwarka","neighbours":"porbandar,jamnagar","district_code":"GJ_Devbhumi Dwarka"}
+{"district":"gandhinagar","neighbours":"sabarkantha,ahmedabad,mehsana,kheda,aravalli","district_code":"GJ_Gandhinagar"}
+{"district":"gir somnath","neighbours":"amreli,diu,junagadh","district_code":"GJ_Gir Somnath"}
+{"district":"jamnagar","neighbours":"rajkot,morbi,devbhumi dwarka,porbandar","district_code":"GJ_Jamnagar"}
+{"district":"junagadh","neighbours":"rajkot,porbandar,gir somnath,amreli","district_code":"GJ_Junagadh"}
+{"district":"kheda","neighbours":"vadodara,anand,ahmedabad,panchmahal,gandhinagar,mahisagar,aravalli","district_code":"GJ_Kheda"}
+{"district":"kutch","neighbours":"banaskantha,patan,barmer,surendranagar,morbi,jalore","district_code":"GJ_Kutch"}
+{"district":"mahisagar","neighbours":"dahod,dungarpur,aravalli,panchmahal,banswara,kheda","district_code":"GJ_Mahisagar"}
+{"district":"mehsana","neighbours":"banaskantha,patan,sabarkantha,ahmedabad,surendranagar,gandhinagar","district_code":"GJ_Mehsana"}
+{"district":"morbi","neighbours":"surendranagar,kutch,jamnagar,rajkot","district_code":"GJ_Morbi"}
+{"district":"narmada","neighbours":"vadodara,bharuch,nandurbar,tapi,surat,chhota udaipur","district_code":"GJ_Narmada"}
+{"district":"navsari","neighbours":"nashik,valsad,tapi,dang,surat","district_code":"GJ_Navsari"}
+{"district":"panchmahal","neighbours":"vadodara,dahod,kheda,mahisagar,chhota udaipur","district_code":"GJ_Panchmahal"}
+{"district":"patan","neighbours":"surendranagar,kutch,mehsana,banaskantha","district_code":"GJ_Patan"}
+{"district":"porbandar","neighbours":"rajkot,devbhumi dwarka,junagadh,jamnagar","district_code":"GJ_Porbandar"}
+{"district":"rajkot","neighbours":"porbandar,amreli,junagadh,botad,surendranagar,morbi,jamnagar","district_code":"GJ_Rajkot"}
+{"district":"sabarkantha","neighbours":"banaskantha,udaipur,sirohi,mehsana,gandhinagar,aravalli","district_code":"GJ_Sabarkantha"}
+{"district":"surat","neighbours":"narmada,bharuch,tapi,navsari","district_code":"GJ_Surat"}
+{"district":"surendranagar","neighbours":"patan,rajkot,ahmedabad,mehsana,botad,morbi,kutch","district_code":"GJ_Surendranagar"}
+{"district":"tapi","neighbours":"narmada,navsari,dhule,nandurbar,dang,surat","district_code":"GJ_Tapi"}
+{"district":"vadodara","neighbours":"anand,bharuch,narmada,panchmahal,chhota udaipur,kheda","district_code":"GJ_Vadodara"}
+{"district":"valsad","neighbours":"nashik,konkan division,palghar,navsari,daman,dadra and nagar haveli","district_code":"GJ_Valsad"}
+{"district":"chamba","neighbours":"lahaul and spiti,kangra,kishtwar,pathankot,doda,kathua","district_code":"HP_Chamba"}
+{"district":"hamirpur","neighbours":"kanpur nagar,mahoba,kanpur dehat,jhansi,jalaun,banda,fatehpur","district_code":"HP_Hamirpur"}
+{"district":"hamirpur","neighbours":"bilaspur,una,kangra,mandi","district_code":"HP_Hamirpur"}
+{"district":"kangra","neighbours":"hoshiarpur,lahaul and spiti,chamba,una,gurdaspur,pathankot,kullu,mandi,hamirpur","district_code":"HP_Kangra"}
+{"district":"kinnaur","neighbours":"kullu,lahaul and spiti,uttarkashi,shimla","district_code":"HP_Kinnaur"}
+{"district":"kullu","neighbours":"shimla,lahaul and spiti,kinnaur,kangra,mandi","district_code":"HP_Kullu"}
+{"district":"lahaul and spiti","neighbours":"leh,kinnaur,chamba,kangra,kishtwar,kargil,kullu","district_code":"HP_Lahaul and Spiti"}
+{"district":"mandi","neighbours":"shimla,kangra,kullu,solan,bilaspur,hamirpur","district_code":"HP_Mandi"}
+{"district":"shimla","neighbours":"uttarkashi,kinnaur,sirmaur,dehradun,kullu,solan,mandi","district_code":"HP_Shimla"}
+{"district":"sirmaur","neighbours":"shimla,ambala,panchkula,dehradun,saharanpur,solan,yamunanagar","district_code":"HP_Sirmaur"}
+{"district":"solan","neighbours":"rupnagar,shimla,panchkula,sirmaur,s.a.s. nagar,mandi,bilaspur","district_code":"HP_Solan"}
+{"district":"una","neighbours":"rupnagar,hoshiarpur,kangra,bilaspur,hamirpur","district_code":"HP_Una"}
+{"district":"ambala","neighbours":"panchkula,sirmaur,patiala,s.a.s. nagar,yamunanagar,kurukshetra","district_code":"HR_Ambala"}
+{"district":"bhiwani","neighbours":"churu,charkhi dadri,jhunjhunu,mahendragarh,rohtak,hisar,hanumangarh","district_code":"HR_Bhiwani"}
+{"district":"charkhi dadri","neighbours":"mahendragarh,rohtak,jhajjar,bhiwani","district_code":"HR_Charkhi Dadri"}
+{"district":"faridabad","neighbours":"gautam buddha nagar,south east delhi,gurugram,palwal,south delhi","district_code":"HR_Faridabad"}
+{"district":"fatehabad","neighbours":"sirsa,sangrur,mansa,jind,hisar,hanumangarh","district_code":"HR_Fatehabad"}
+{"district":"gurugram","neighbours":"new delhi,faridabad,nuh,rewari,south west delhi,palwal,jhajjar,south delhi","district_code":"HR_Gurugram"}
+{"district":"hisar","neighbours":"jind,rohtak,fatehabad,bhiwani,hanumangarh","district_code":"HR_Hisar"}
+{"district":"jhajjar","neighbours":"charkhi dadri,delhi,gurugram,sonipat,mahendragarh,rohtak,rewari,north west delhi,south west delhi","district_code":"HR_Jhajjar"}
+{"district":"jind","neighbours":"karnal,sangrur,patiala,panipat,sonipat,kaithal,fatehabad,rohtak,hisar","district_code":"HR_Jind"}
+{"district":"kaithal","neighbours":"patiala,kurukshetra,karnal,jind","district_code":"HR_Kaithal"}
+{"district":"karnal","neighbours":"panipat,shamli,jind,saharanpur,kaithal,yamunanagar,kurukshetra","district_code":"HR_Karnal"}
+{"district":"kurukshetra","neighbours":"karnal,ambala,patiala,kaithal,yamunanagar","district_code":"HR_Kurukshetra"}
+{"district":"mahendragarh","neighbours":"charkhi dadri,jaipur,jhunjhunu,sikar,rewari,alwar,bhiwani,jhajjar","district_code":"HR_Mahendragarh"}
+{"district":"nuh","neighbours":"gurugram,rewari,alwar,mathura,palwal,bharatpur","district_code":"HR_Nuh"}
+{"district":"palwal","neighbours":"gautam buddha nagar,gurugram,faridabad,nuh,aligarh,mathura","district_code":"HR_Palwal"}
+{"district":"panchkula","neighbours":"ambala,sirmaur,solan,s.a.s. nagar,chandigarh","district_code":"HR_Panchkula"}
+{"district":"panipat","neighbours":"karnal,shamli,jind,sonipat,baghpat","district_code":"HR_Panipat"}
+{"district":"rewari","neighbours":"gurugram,nuh,mahendragarh,alwar,jhajjar","district_code":"HR_Rewari"}
+{"district":"rohtak","neighbours":"charkhi dadri,jind,sonipat,hisar,bhiwani,jhajjar","district_code":"HR_Rohtak"}
+{"district":"sirsa","neighbours":"bathinda,mansa,sri muktsar sahib,fatehabad,hanumangarh","district_code":"HR_Sirsa"}
+{"district":"sonipat","neighbours":"panipat,jind,rohtak,north west delhi,north delhi,baghpat,jhajjar","district_code":"HR_Sonipat"}
+{"district":"yamunanagar","neighbours":"karnal,ambala,sirmaur,saharanpur,kurukshetra","district_code":"HR_Yamunanagar"}
+{"district":"bokaro","neighbours":"giridih,dhanbad,ramgarh,hazaribagh,purulia","district_code":"JH_Bokaro"}
+{"district":"chatra","neighbours":"palamu,gaya,latehar,ranchi,hazaribagh","district_code":"JH_Chatra"}
+{"district":"deoghar","neighbours":"dumka,giridih,jamtara,banka,jamui","district_code":"JH_Deoghar"}
+{"district":"dhanbad","neighbours":"giridih,jamtara,paschim bardhaman,bokaro,purulia","district_code":"JH_Dhanbad"}
+{"district":"dumka","neighbours":"deoghar,jamtara,banka,birbhum,pakur,godda","district_code":"JH_Dumka"}
+{"district":"east singhbhum","neighbours":"saraikela-kharsawan,jhargram,mayurbhanj,purulia","district_code":"JH_East Singhbhum"}
+{"district":"garhwa","neighbours":"sonbhadra,palamu,balrampur,latehar,rohtas","district_code":"JH_Garhwa"}
+{"district":"giridih","neighbours":"deoghar,nawada,jamtara,koderma,dhanbad,jamui,bokaro,hazaribagh","district_code":"JH_Giridih"}
+{"district":"godda","neighbours":"dumka,banka,bhagalpur,pakur,sahibganj","district_code":"JH_Godda"}
+{"district":"gumla","neighbours":"jashpur,lohardaga,balrampur,latehar,simdega,ranchi,khunti","district_code":"JH_Gumla"}
+{"district":"hazaribagh","neighbours":"giridih,koderma,gaya,ranchi,ramgarh,chatra,bokaro","district_code":"JH_Hazaribagh"}
+{"district":"jamtara","neighbours":"dumka,giridih,deoghar,birbhum,dhanbad,paschim bardhaman","district_code":"JH_Jamtara"}
+{"district":"khunti","neighbours":"gumla,west singhbhum,simdega,saraikela-kharsawan,ranchi","district_code":"JH_Khunti"}
+{"district":"koderma","neighbours":"giridih,gaya,hazaribagh,nawada","district_code":"JH_Koderma"}
+{"district":"latehar","neighbours":"gumla,chatra,palamu,garhwa,lohardaga,balrampur,ranchi","district_code":"JH_Latehar"}
+{"district":"lohardaga","neighbours":"gumla,ranchi,latehar","district_code":"JH_Lohardaga"}
+{"district":"pakur","neighbours":"dumka,murshidabad,birbhum,godda,sahibganj","district_code":"JH_Pakur"}
+{"district":"palamu","neighbours":"aurangabad,garhwa,gaya,latehar,chatra,rohtas","district_code":"JH_Palamu"}
+{"district":"ramgarh","neighbours":"ranchi,bokaro,hazaribagh,purulia","district_code":"JH_Ramgarh"}
+{"district":"ranchi","neighbours":"gumla,lohardaga,khunti,latehar,ramgarh,saraikela-kharsawan,chatra,hazaribagh,purulia","district_code":"JH_Ranchi"}
+{"district":"sahibganj","neighbours":"malda,murshidabad,katihar,bhagalpur,pakur,godda","district_code":"JH_Sahibganj"}
+{"district":"saraikela-kharsawan","neighbours":"east singhbhum,mayurbhanj,ranchi,west singhbhum,khunti,purulia","district_code":"JH_Saraikela-Kharsawan"}
+{"district":"simdega","neighbours":"gumla,jashpur,sundargarh,west singhbhum,khunti","district_code":"JH_Simdega"}
+{"district":"west singhbhum","neighbours":"saraikela-kharsawan,mayurbhanj,sundargarh,simdega,kendujhar,khunti","district_code":"JH_West Singhbhum"}
+{"district":"anantnag","neighbours":"ramban,kishtwar,kargil,doda,ganderbal,shopiyan,pulwama,kulgam,srinagar","district_code":"JK_Anantnag"}
+{"district":"bandipora","neighbours":"kupwara,kargil,baramulla,ganderbal,srinagar","district_code":"JK_Bandipora"}
+{"district":"baramulla","neighbours":"punch,kupwara,budgam,bandipora,srinagar","district_code":"JK_Baramulla"}
+{"district":"budgam","neighbours":"punch,baramulla,shopiyan,pulwama,kulgam,srinagar","district_code":"JK_Budgam"}
+{"district":"doda","neighbours":"anantnag,udhampur,chamba,ramban,kishtwar,kathua","district_code":"JK_Doda"}
+{"district":"ganderbal","neighbours":"bandipora,anantnag,srinagar,kargil","district_code":"JK_Ganderbal"}
+{"district":"jammu","neighbours":"reasi,rajouri,udhampur,samba","district_code":"JK_Jammu"}
+{"district":"kathua","neighbours":"udhampur,chamba,samba,doda,pathankot","district_code":"JK_Kathua"}
+{"district":"kishtwar","neighbours":"anantnag,lahaul and spiti,chamba,doda,kargil","district_code":"JK_Kishtwar"}
+{"district":"kulgam","neighbours":"reasi,anantnag,punch,ramban,shopiyan,budgam,rajouri","district_code":"JK_Kulgam"}
+{"district":"kupwara","neighbours":"bandipora,baramulla","district_code":"JK_Kupwara"}
+{"district":"pulwama","neighbours":"anantnag,shopiyan,budgam,srinagar","district_code":"JK_Pulwama"}
+{"district":"punch","neighbours":"reasi,baramulla,budgam,rajouri,kulgam","district_code":"JK_Punch"}
+{"district":"rajouri","neighbours":"reasi,jammu,kulgam,punch","district_code":"JK_Rajouri"}
+{"district":"ramban","neighbours":"reasi,anantnag,udhampur,doda,kulgam","district_code":"JK_Ramban"}
+{"district":"reasi","neighbours":"udhampur,punch,jammu,ramban,rajouri,kulgam","district_code":"JK_Reasi"}
+{"district":"samba","neighbours":"kathua,jammu,udhampur","district_code":"JK_Samba"}
+{"district":"shopiyan","neighbours":"anantnag,kulgam,budgam,pulwama","district_code":"JK_Shopiyan"}
+{"district":"srinagar","neighbours":"anantnag,baramulla,ganderbal,budgam,pulwama,bandipora","district_code":"JK_Srinagar"}
+{"district":"udhampur","neighbours":"reasi,jammu,ramban,samba,doda,kathua","district_code":"JK_Udhampur"}
+{"district":"bagalkote","neighbours":"raichur,bijapur,gadag,belagavi,koppal","district_code":"KA_Bagalkote"}
+{"district":"ballari","neighbours":"raichur,gadag,kurnool,koppal,haveri,davanagere,anantapur,chitradurga","district_code":"KA_Ballari"}
+{"district":"belagavi","neighbours":"bagalkote,kolhapur,sindhudurg,uttara kannada,bijapur,gadag,konkan division,dharwad,north goa,sangli","district_code":"KA_Belagavi"}
+{"district":"bengaluru rural","neighbours":"krishnagiri,bengaluru urban,kolar,ramanagara,tumakuru,chikkaballapura","district_code":"KA_Bengaluru Rural"}
+{"district":"bengaluru urban","neighbours":"krishnagiri,ramanagara,bengaluru rural","district_code":"KA_Bengaluru Urban"}
+{"district":"bidar","neighbours":"kalaburagi,sangareddy,latur,kamareddy,nanded,osmanabad","district_code":"KA_Bidar"}
+{"district":"chamarajanagara","neighbours":"mysuru,krishnagiri,erode,ramanagara,wayanad,nilgiris,mandya,salem,dharmapuri","district_code":"KA_Chamarajanagara"}
+{"district":"chikkaballapura","neighbours":"kolar,chittoor,tumakuru,bengaluru rural,anantapur","district_code":"KA_Chikkaballapura"}
+{"district":"chikkamagaluru","neighbours":"shivamogga,tumakuru,udupi,davanagere,dakshina kannada,hassan,chitradurga","district_code":"KA_Chikkamagaluru"}
+{"district":"chitradurga","neighbours":"ballari,chikkamagaluru,tumakuru,davanagere,anantapur","district_code":"KA_Chitradurga"}
+{"district":"dakshina kannada","neighbours":"kodagu,kasaragod,chikkamagaluru,udupi,hassan","district_code":"KA_Dakshina Kannada"}
+{"district":"davanagere","neighbours":"ballari,chikkamagaluru,shivamogga,haveri,chitradurga","district_code":"KA_Davanagere"}
+{"district":"dharwad","neighbours":"gadag,uttara kannada,haveri,belagavi","district_code":"KA_Dharwad"}
+{"district":"gadag","neighbours":"bagalkote,ballari,belagavi,haveri,dharwad,koppal","district_code":"KA_Gadag"}
+{"district":"hassan","neighbours":"kodagu,mysuru,chikkamagaluru,tumakuru,dakshina kannada,mandya","district_code":"KA_Hassan"}
+{"district":"haveri","neighbours":"ballari,uttara kannada,shivamogga,gadag,dharwad,davanagere","district_code":"KA_Haveri"}
+{"district":"kalaburagi","neighbours":"sangareddy,vikarabad,bijapur,bidar,osmanabad,narayanpet,yadadri bhuvanagiri,solapur","district_code":"KA_Kalaburagi"}
+{"district":"kodagu","neighbours":"mysuru,kasaragod,kannur,wayanad,dakshina kannada,hassan","district_code":"KA_Kodagu"}
+{"district":"kolar","neighbours":"chittoor,krishnagiri,chikkaballapura,bengaluru rural","district_code":"KA_Kolar"}
+{"district":"koppal","neighbours":"bagalkote,ballari,gadag,raichur","district_code":"KA_Koppal"}
+{"district":"mandya","neighbours":"mysuru,ramanagara,tumakuru,chamarajanagara,hassan","district_code":"KA_Mandya"}
+{"district":"mysuru","neighbours":"kodagu,chamarajanagara,wayanad,mandya,hassan","district_code":"KA_Mysuru"}
+{"district":"raichur","neighbours":"bagalkote,ballari,jogulamba gadwal,bijapur,kurnool,koppal,narayanpet,yadadri bhuvanagiri","district_code":"KA_Raichur"}
+{"district":"ramanagara","neighbours":"krishnagiri,bengaluru urban,tumakuru,bengaluru rural,chamarajanagara,mandya","district_code":"KA_Ramanagara"}
+{"district":"shivamogga","neighbours":"uttara kannada,chikkamagaluru,udupi,haveri,davanagere","district_code":"KA_Shivamogga"}
+{"district":"tumakuru","neighbours":"chikkamagaluru,ramanagara,bengaluru rural,chikkaballapura,mandya,hassan,anantapur,chitradurga","district_code":"KA_Tumakuru"}
+{"district":"udupi","neighbours":"dakshina kannada,chikkamagaluru,shivamogga,uttara kannada","district_code":"KA_Udupi"}
+{"district":"uttara kannada","neighbours":"south goa,shivamogga,belagavi,udupi,dharwad,haveri,north goa","district_code":"KA_Uttara Kannada"}
+{"district":"alappuzha","neighbours":"kollam,kottayam,pathanamthitta,ernakulam","district_code":"KL_Alappuzha"}
+{"district":"ernakulam","neighbours":"thrissur,kottayam,idukki,coimbatore,alappuzha","district_code":"KL_Ernakulam"}
+{"district":"idukki","neighbours":"ernakulam,virudhunagar,kottayam,tirunelveli,theni,dindigul,tiruppur,coimbatore,pathanamthitta","district_code":"KL_Idukki"}
+{"district":"kannur","neighbours":"kodagu,mahe,kasaragod,kozhikode,wayanad","district_code":"KL_Kannur"}
+{"district":"kasaragod","neighbours":"kodagu,dakshina kannada,kannur","district_code":"KL_Kasaragod"}
+{"district":"kollam","neighbours":"pathanamthitta,alappuzha,thiruvananthapuram,tirunelveli","district_code":"KL_Kollam"}
+{"district":"kottayam","neighbours":"pathanamthitta,idukki,alappuzha,ernakulam","district_code":"KL_Kottayam"}
+{"district":"kozhikode","neighbours":"kannur,mahe,malappuram,wayanad","district_code":"KL_Kozhikode"}
+{"district":"malappuram","neighbours":"thrissur,kozhikode,wayanad,nilgiris,palghar","district_code":"KL_Malappuram"}
+{"district":"pathanamthitta","neighbours":"kollam,kottayam,tirunelveli,idukki,alappuzha","district_code":"KL_Pathanamthitta"}
+{"district":"thiruvananthapuram","neighbours":"kollam,kanyakumari,tirunelveli","district_code":"KL_Thiruvananthapuram"}
+{"district":"thrissur","neighbours":"ernakulam,malappuram,palghar,coimbatore","district_code":"KL_Thrissur"}
+{"district":"wayanad","neighbours":"kodagu,mysuru,malappuram,kannur,chamarajanagara,kozhikode,nilgiris","district_code":"KL_Wayanad"}
+{"district":"kargil","neighbours":"anantnag,leh,lahaul and spiti,kishtwar,ganderbal,bandipora","district_code":"LA_Kargil"}
+{"district":"leh","neighbours":"lahaul and spiti,kargil","district_code":"LA_Leh"}
+{"district":"ahmednagar","neighbours":"nashik,konkan division,pune,beed,osmanabad,aurangabad,thane,solapur","district_code":"MH_Ahmednagar"}
+{"district":"akola","neighbours":"amravati,washim,buldhana","district_code":"MH_Akola"}
+{"district":"amravati","neighbours":"wardha,burhanpur,akola,khandwa,betul,washim,yavatmal,buldhana,nagpur,chhindwara","district_code":"MH_Amravati"}
+{"district":"beed","neighbours":"jalna,latur,ahmednagar,osmanabad,aurangabad,parbhani","district_code":"MH_Beed"}
+{"district":"bhandara","neighbours":"gadchiroli,gondia,chandrapur,nagpur,balaghat","district_code":"MH_Bhandara"}
+{"district":"buldhana","neighbours":"burhanpur,jalna,akola,washim,jalgaon,amravati,parbhani","district_code":"MH_Buldhana"}
+{"district":"chandrapur","neighbours":"wardha,bhandara,gadchiroli,komaram bheem,yavatmal,nagpur,adilabad","district_code":"MH_Chandrapur"}
+{"district":"dhule","neighbours":"nashik,barwani,jalgaon,nandurbar,dang,tapi","district_code":"MH_Dhule"}
+{"district":"gadchiroli","neighbours":"bhandara,jayashankar bhupalapally,mancherial,uttar bastar kanker,komaram bheem,bijapur,rajnandgaon,gondia,chandrapur,narayanpur","district_code":"MH_Gadchiroli"}
+{"district":"gondia","neighbours":"balaghat,gadchiroli,bhandara,rajnandgaon","district_code":"MH_Gondia"}
+{"district":"hingoli","neighbours":"nanded,washim,yavatmal,parbhani","district_code":"MH_Hingoli"}
+{"district":"jalgaon","neighbours":"khargone,burhanpur,jalna,nashik,barwani,dhule,buldhana,aurangabad","district_code":"MH_Jalgaon"}
+{"district":"jalna","neighbours":"jalgaon,beed,buldhana,aurangabad,parbhani","district_code":"MH_Jalna"}
+{"district":"kolhapur","neighbours":"sindhudurg,konkan division,belagavi,ratnagiri,sangli","district_code":"MH_Kolhapur"}
+{"district":"latur","neighbours":"bidar,nanded,beed,osmanabad,parbhani","district_code":"MH_Latur"}
+{"district":"mumbai","neighbours":"konkan division,mumbai suburban","district_code":"MH_Mumbai"}
+{"district":"nagpur","neighbours":"wardha,bhandara,seoni,amravati,chandrapur,balaghat,chhindwara","district_code":"MH_Nagpur"}
+{"district":"nanded","neighbours":"hingoli,nizamabad,latur,kamareddy,bidar,yavatmal,nirmal,adilabad,parbhani","district_code":"MH_Nanded"}
+{"district":"nandurbar","neighbours":"narmada,barwani,alirajpur,dhule,tapi,chhota udaipur","district_code":"MH_Nandurbar"}
+{"district":"nashik","neighbours":"navsari,valsad,dhule,konkan division,jalgaon,ahmednagar,palghar,dang,aurangabad,thane","district_code":"MH_Nashik"}
+{"district":"osmanabad","neighbours":"kalaburagi,latur,bidar,ahmednagar,beed,solapur","district_code":"MH_Osmanabad"}
+{"district":"palghar","neighbours":"nashik,valsad,konkan division,thane,dadra and nagar haveli","district_code":"MH_Palghar"}
+{"district":"palghar","neighbours":"thrissur,malappuram,nilgiris,coimbatore","district_code":"MH_Palghar"}
+{"district":"parbhani","neighbours":"jalna,hingoli,latur,nanded,washim,beed,buldhana","district_code":"MH_Parbhani"}
+{"district":"pune","neighbours":"raigad,satara,konkan division,ahmednagar,thane,solapur","district_code":"MH_Pune"}
+{"district":"raigad","neighbours":"satara,konkan division,pune,thane,ratnagiri","district_code":"MH_Raigad"}
+{"district":"ratnagiri","neighbours":"kolhapur,sindhudurg,raigad,konkan division,satara,sangli","district_code":"MH_Ratnagiri"}
+{"district":"sangli","neighbours":"kolhapur,bijapur,belagavi,konkan division,satara,ratnagiri,solapur","district_code":"MH_Sangli"}
+{"district":"satara","neighbours":"raigad,sangli,konkan division,pune,ratnagiri,solapur","district_code":"MH_Satara"}
+{"district":"sindhudurg","neighbours":"kolhapur,konkan division,belagavi,north goa,ratnagiri","district_code":"MH_Sindhudurg"}
+{"district":"solapur","neighbours":"kalaburagi,bijapur,pune,ahmednagar,osmanabad,satara,sangli","district_code":"MH_Solapur"}
+{"district":"thane","neighbours":"raigad,nashik,mumbai suburban,konkan division,pune,ahmednagar,palghar","district_code":"MH_Thane"}
+{"district":"wardha","neighbours":"amravati,chandrapur,nagpur,yavatmal","district_code":"MH_Wardha"}
+{"district":"washim","neighbours":"hingoli,akola,buldhana,yavatmal,amravati,parbhani","district_code":"MH_Washim"}
+{"district":"yavatmal","neighbours":"wardha,hingoli,nanded,washim,amravati,chandrapur,adilabad","district_code":"MH_Yavatmal"}
+{"district":"east garo hills","neighbours":"west garo hills,north garo hills,west khasi hills,south garo hills","district_code":"ML_East Garo Hills"}
+{"district":"east jaintia hills","neighbours":"cachar,west jaintia hills,dima hasao","district_code":"ML_East Jaintia Hills"}
+{"district":"east khasi hills","neighbours":"west khasi hills,west jaintia hills,south west khasi hills,ribhoi","district_code":"ML_East Khasi Hills"}
+{"district":"north garo hills","neighbours":"west garo hills,goalpara,west khasi hills,east garo hills,kamrup,south salmara mankachar","district_code":"ML_North Garo Hills"}
+{"district":"ribhoi","neighbours":"west jaintia hills,kamrup metropolitan,west karbi anglong,west khasi hills,morigaon,east khasi hills,kamrup","district_code":"ML_Ribhoi"}
+{"district":"south garo hills","neighbours":"west garo hills,west khasi hills,east garo hills,south west khasi hills","district_code":"ML_South Garo Hills"}
+{"district":"south west garo hills","neighbours":"west garo hills,south salmara mankachar","district_code":"ML_South West Garo Hills"}
+{"district":"south west khasi hills","neighbours":"east khasi hills,west khasi hills,south garo hills","district_code":"ML_South West Khasi Hills"}
+{"district":"west garo hills","neighbours":"north garo hills,goalpara,east garo hills,south west garo hills,south salmara mankachar,south garo hills","district_code":"ML_West Garo Hills"}
+{"district":"west jaintia hills","neighbours":"east jaintia hills,west karbi anglong,east khasi hills,ribhoi,dima hasao","district_code":"ML_West Jaintia Hills"}
+{"district":"west khasi hills","neighbours":"north garo hills,south west khasi hills,east garo hills,ribhoi,east khasi hills,kamrup,south garo hills","district_code":"ML_West Khasi Hills"}
+{"district":"bishnupur","neighbours":"imphal west,kakching,noney,kangpokpi,churachandpur","district_code":"MN_Bishnupur"}
+{"district":"chandel","neighbours":"churachandpur,tengnoupal,kakching","district_code":"MN_Chandel"}
+{"district":"churachandpur","neighbours":"kakching,noney,pherzawl,bishnupur,chandel","district_code":"MN_Churachandpur"}
+{"district":"imphal east","neighbours":"imphal west,thoubal,kangpokpi","district_code":"MN_Imphal East"}
+{"district":"imphal west","neighbours":"kakching,imphal east,kangpokpi,bishnupur,thoubal","district_code":"MN_Imphal West"}
+{"district":"jiribam","neighbours":"cachar,pherzawl,tamenglong,noney","district_code":"MN_Jiribam"}
+{"district":"kakching","neighbours":"imphal west,tengnoupal,chandel,bishnupur,churachandpur,thoubal","district_code":"MN_Kakching"}
+{"district":"kamjong","neighbours":"tengnoupal,ukhrul,kangpokpi","district_code":"MN_Kamjong"}
+{"district":"kangpokpi","neighbours":"imphal west,senapati,kamjong,imphal east,noney,tengnoupal,tamenglong,ukhrul,bishnupur,thoubal","district_code":"MN_Kangpokpi"}
+{"district":"noney","neighbours":"churachandpur,pherzawl,tamenglong,kangpokpi,bishnupur,jiribam","district_code":"MN_Noney"}
+{"district":"pherzawl","neighbours":"churachandpur,cachar,champhai,noney,jiribam,aizawl","district_code":"MN_Pherzawl"}
+{"district":"senapati","neighbours":"phek,kohima,tamenglong,ukhrul,kangpokpi,peren","district_code":"MN_Senapati"}
+{"district":"tamenglong","neighbours":"senapati,cachar,noney,kangpokpi,dima hasao,peren,jiribam","district_code":"MN_Tamenglong"}
+{"district":"tengnoupal","neighbours":"kakching,kamjong,kangpokpi,chandel,thoubal","district_code":"MN_Tengnoupal"}
+{"district":"thoubal","neighbours":"imphal west,kakching,imphal east,tengnoupal,kangpokpi","district_code":"MN_Thoubal"}
+{"district":"ukhrul","neighbours":"senapati,kamjong,phek,kangpokpi","district_code":"MN_Ukhrul"}
+{"district":"agar malwa","neighbours":"rajgarh,shajapur,ratlam,ujjain,jhalawar","district_code":"MP_Agar Malwa"}
+{"district":"alirajpur","neighbours":"dahod,barwani,jhabua,dhar,nandurbar,chhota udaipur","district_code":"MP_Alirajpur"}
+{"district":"anuppur","neighbours":"umaria,mungeli,dindori,bilaspur,koriya,shahdol","district_code":"MP_Anuppur"}
+{"district":"ashoknagar","neighbours":"shivpuri,guna,vidisha,lalitpur,sagar","district_code":"MP_Ashoknagar"}
+{"district":"balaghat","neighbours":"bhandara,kabeerdham,seoni,mandla,rajnandgaon,gondia,nagpur","district_code":"MP_Balaghat"}
+{"district":"barwani","neighbours":"khargone,alirajpur,dhule,dhar,jalgaon,nandurbar","district_code":"MP_Barwani"}
+{"district":"betul","neighbours":"harda,hoshangabad,khandwa,amravati,chhindwara","district_code":"MP_Betul"}
+{"district":"bhind","neighbours":"etawah,jhansi,agra,datia,jalaun,gwalior,morena","district_code":"MP_Bhind"}
+{"district":"bhopal","neighbours":"vidisha,rajgarh,guna,sehore,raisen","district_code":"MP_Bhopal"}
+{"district":"burhanpur","neighbours":"khargone,khandwa,jalgaon,buldhana,amravati","district_code":"MP_Burhanpur"}
+{"district":"chhatarpur","neighbours":"mahoba,damoh,jhansi,lalitpur,tikamgarh,sagar,banda,panna","district_code":"MP_Chhatarpur"}
+{"district":"chhindwara","neighbours":"hoshangabad,narsinghpur,seoni,betul,amravati,nagpur","district_code":"MP_Chhindwara"}
+{"district":"damoh","neighbours":"jabalpur,narsinghpur,sagar,chhatarpur,panna,katni","district_code":"MP_Damoh"}
+{"district":"datia","neighbours":"shivpuri,jhansi,lalitpur,bhind,gwalior","district_code":"MP_Datia"}
+{"district":"dewas","neighbours":"khargone,harda,shajapur,sehore,ujjain,khandwa,indore","district_code":"MP_Dewas"}
+{"district":"dhar","neighbours":"khargone,ratlam,barwani,ujjain,alirajpur,jhabua,indore","district_code":"MP_Dhar"}
+{"district":"dindori","neighbours":"umaria,mungeli,jabalpur,kabeerdham,mandla,anuppur","district_code":"MP_Dindori"}
+{"district":"guna","neighbours":"shivpuri,vidisha,rajgarh,ashoknagar,bhopal,baran,jhalawar","district_code":"MP_Guna"}
+{"district":"gwalior","neighbours":"morena,shivpuri,datia,bhind","district_code":"MP_Gwalior"}
+{"district":"harda","neighbours":"hoshangabad,sehore,khandwa,betul,dewas","district_code":"MP_Harda"}
+{"district":"hoshangabad","neighbours":"harda,narsinghpur,sehore,raisen,betul,chhindwara","district_code":"MP_Hoshangabad"}
+{"district":"indore","neighbours":"khargone,dewas,dhar,ujjain","district_code":"MP_Indore"}
+{"district":"jabalpur","neighbours":"umaria,damoh,narsinghpur,seoni,dindori,mandla,katni","district_code":"MP_Jabalpur"}
+{"district":"jhabua","neighbours":"ratlam,dahod,alirajpur,banswara,dhar","district_code":"MP_Jhabua"}
+{"district":"katni","neighbours":"umaria,jabalpur,damoh,satna,panna","district_code":"MP_Katni"}
+{"district":"khandwa","neighbours":"khargone,harda,burhanpur,betul,dewas,amravati","district_code":"MP_Khandwa"}
+{"district":"khargone","neighbours":"burhanpur,barwani,khandwa,dewas,dhar,jalgaon,indore","district_code":"MP_Khargone"}
+{"district":"mandla","neighbours":"jabalpur,kabeerdham,seoni,dindori,balaghat","district_code":"MP_Mandla"}
+{"district":"mandsaur","neighbours":"chittorgarh,ratlam,neemuch,kota,jhalawar,pratapgarh","district_code":"MP_Mandsaur"}
+{"district":"morena","neighbours":"shivpuri,agra,dholpur,bhind,sheopur,gwalior,karauli","district_code":"MP_Morena"}
+{"district":"narsinghpur","neighbours":"jabalpur,damoh,hoshangabad,sagar,raisen,seoni,chhindwara","district_code":"MP_Narsinghpur"}
+{"district":"neemuch","neighbours":"chittorgarh,mandsaur,pratapgarh,bhilwara","district_code":"MP_Neemuch"}
+{"district":"panna","neighbours":"damoh,chhatarpur,satna,banda,katni","district_code":"MP_Panna"}
+{"district":"raisen","neighbours":"vidisha,hoshangabad,narsinghpur,sagar,sehore,bhopal","district_code":"MP_Raisen"}
+{"district":"rajgarh","neighbours":"guna,shajapur,agar malwa,sehore,bhopal,jhalawar","district_code":"MP_Rajgarh"}
+{"district":"ratlam","neighbours":"agar malwa,mandsaur,ujjain,jhabua,banswara,dhar,jhalawar,pratapgarh","district_code":"MP_Ratlam"}
+{"district":"rewa","neighbours":"prayagraj,singrauli,satna,mirzapur,chitrakoot,sidhi","district_code":"MP_Rewa"}
+{"district":"sagar","neighbours":"damoh,vidisha,ashoknagar,lalitpur,narsinghpur,raisen,chhatarpur","district_code":"MP_Sagar"}
+{"district":"satna","neighbours":"umaria,banda,panna,katni,rewa,chitrakoot,sidhi,shahdol","district_code":"MP_Satna"}
+{"district":"sehore","neighbours":"harda,rajgarh,shajapur,hoshangabad,raisen,dewas,bhopal","district_code":"MP_Sehore"}
+{"district":"seoni","neighbours":"jabalpur,narsinghpur,mandla,nagpur,balaghat,chhindwara","district_code":"MP_Seoni"}
+{"district":"shahdol","neighbours":"umaria,satna,anuppur,sidhi,koriya","district_code":"MP_Shahdol"}
+{"district":"shajapur","neighbours":"rajgarh,agar malwa,sehore,ujjain,dewas","district_code":"MP_Shajapur"}
+{"district":"sheopur","neighbours":"shivpuri,kota,morena,baran,sawai madhopur,karauli","district_code":"MP_Sheopur"}
+{"district":"shivpuri","neighbours":"guna,ashoknagar,jhansi,lalitpur,datia,sheopur,gwalior,morena,baran","district_code":"MP_Shivpuri"}
+{"district":"sidhi","neighbours":"singrauli,satna,rewa,koriya,shahdol","district_code":"MP_Sidhi"}
+{"district":"singrauli","neighbours":"sonbhadra,surajpur,mirzapur,balrampur,rewa,sidhi,koriya","district_code":"MP_Singrauli"}
+{"district":"tikamgarh","neighbours":"jhansi,niwari,chhatarpur,lalitpur","district_code":"MP_Tikamgarh"}
+{"district":"ujjain","neighbours":"shajapur,ratlam,agar malwa,dhar,dewas,indore","district_code":"MP_Ujjain"}
+{"district":"umaria","neighbours":"jabalpur,dindori,satna,katni,anuppur,shahdol","district_code":"MP_Umaria"}
+{"district":"vidisha","neighbours":"guna,ashoknagar,sagar,raisen,bhopal","district_code":"MP_Vidisha"}
+{"district":"aizawl","neighbours":"mamit,cachar,champhai,serchhip,pherzawl,kolasib,lunglei","district_code":"MZ_Aizawl"}
+{"district":"champhai","neighbours":"serchhip,aizawl,pherzawl","district_code":"MZ_Champhai"}
+{"district":"kolasib","neighbours":"mamit,cachar,aizawl,hailakandi","district_code":"MZ_Kolasib"}
+{"district":"lawngtlai","neighbours":"lunglei,saiha","district_code":"MZ_Lawngtlai"}
+{"district":"lunglei","neighbours":"mamit,lawngtlai,serchhip,aizawl","district_code":"MZ_Lunglei"}
+{"district":"mamit","neighbours":"kolasib,north tripura,karimganj,aizawl,hailakandi,lunglei","district_code":"MZ_Mamit"}
+{"district":"saiha","neighbours":"lawngtlai","district_code":"MZ_Saiha"}
+{"district":"serchhip","neighbours":"aizawl,champhai,lunglei","district_code":"MZ_Serchhip"}
+{"district":"dimapur","neighbours":"golaghat,peren,kohima,karbi anglong","district_code":"NL_Dimapur"}
+{"district":"kiphire","neighbours":"phek,tuensang,zunheboto","district_code":"NL_Kiphire"}
+{"district":"kohima","neighbours":"senapati,phek,zunheboto,dimapur,peren,golaghat,wokha","district_code":"NL_Kohima"}
+{"district":"longleng","neighbours":"mokokchung,mon,sivasagar,tuensang","district_code":"NL_Longleng"}
+{"district":"mokokchung","neighbours":"longleng,zunheboto,sivasagar,wokha,tuensang,jorhat","district_code":"NL_Mokokchung"}
+{"district":"mon","neighbours":"longding,longleng,noklak,charaideo,sivasagar,tuensang","district_code":"NL_Mon"}
+{"district":"peren","neighbours":"senapati,kohima,tamenglong,dimapur,dima hasao,karbi anglong","district_code":"NL_Peren"}
+{"district":"phek","neighbours":"senapati,kohima,ukhrul,zunheboto,kiphire","district_code":"NL_Phek"}
+{"district":"tuensang","neighbours":"longleng,zunheboto,noklak,mokokchung,mon,kiphire","district_code":"NL_Tuensang"}
+{"district":"wokha","neighbours":"mokokchung,kohima,zunheboto,golaghat,jorhat","district_code":"NL_Wokha"}
+{"district":"zunheboto","neighbours":"phek,kohima,mokokchung,wokha,kiphire,tuensang","district_code":"NL_Zunheboto"}
+{"district":"angul","neighbours":"sambalpur,cuttack,boudh,sundargarh,deogarh,nayagarh,kendujhar,dhenkanal,subarnapur","district_code":"OR_Angul"}
+{"district":"balangir","neighbours":"nuapada,kalahandi,bargarh,kandhamal,boudh,subarnapur","district_code":"OR_Balangir"}
+{"district":"bargarh","neighbours":"nuapada,jharsuguda,sambalpur,raigarh,mahasamund,balangir,subarnapur","district_code":"OR_Bargarh"}
+{"district":"bhadrak","neighbours":"kendujhar,jajpur,bageshwar,kendrapara","district_code":"OR_Bhadrak"}
+{"district":"boudh","neighbours":"angul,kandhamal,nayagarh,balangir,subarnapur","district_code":"OR_Boudh"}
+{"district":"cuttack","neighbours":"angul,jajpur,kendrapara,jagatsinghpur,nayagarh,dhenkanal,khordha,puri","district_code":"OR_Cuttack"}
+{"district":"deogarh","neighbours":"angul,sambalpur,sundargarh","district_code":"OR_Deogarh"}
+{"district":"dhenkanal","neighbours":"cuttack,kendujhar,jajpur,angul","district_code":"OR_Dhenkanal"}
+{"district":"gajapati","neighbours":"kandhamal,ganjam,rayagada,srikakulam","district_code":"OR_Gajapati"}
+{"district":"ganjam","neighbours":"gajapati,kandhamal,nayagarh,srikakulam,khordha,puri","district_code":"OR_Ganjam"}
+{"district":"jagatsinghpur","neighbours":"cuttack,kendrapara,puri","district_code":"OR_Jagatsinghpur"}
+{"district":"jajpur","neighbours":"kendrapara,cuttack,kendujhar,dhenkanal,bhadrak","district_code":"OR_Jajpur"}
+{"district":"jharsuguda","neighbours":"sambalpur,raigarh,sundargarh,bargarh","district_code":"OR_Jharsuguda"}
+{"district":"kalahandi","neighbours":"koraput,nuapada,kandhamal,gariaband,nabarangapur,rayagada,balangir","district_code":"OR_Kalahandi"}
+{"district":"kandhamal","neighbours":"gajapati,ganjam,kalahandi,boudh,nayagarh,rayagada,balangir","district_code":"OR_Kandhamal"}
+{"district":"kendrapara","neighbours":"cuttack,jajpur,bhadrak,jagatsinghpur","district_code":"OR_Kendrapara"}
+{"district":"kendujhar","neighbours":"bageshwar,angul,jajpur,mayurbhanj,sundargarh,dhenkanal,west singhbhum,bhadrak","district_code":"OR_Kendujhar"}
+{"district":"khordha","neighbours":"cuttack,ganjam,nayagarh,puri","district_code":"OR_Khordha"}
+{"district":"koraput","neighbours":"kalahandi,malkangiri,bastar,vizianagaram,visakhapatnam,nabarangapur,rayagada","district_code":"OR_Koraput"}
+{"district":"malkangiri","neighbours":"koraput,east godavari,bastar,visakhapatnam,sukma","district_code":"OR_Malkangiri"}
+{"district":"mayurbhanj","neighbours":"saraikela-kharsawan,bageshwar,jhargram,east singhbhum,kendujhar,west singhbhum","district_code":"OR_Mayurbhanj"}
+{"district":"nabarangapur","neighbours":"koraput,dhamtari,kalahandi,kondagaon,bastar,gariaband","district_code":"OR_Nabarangapur"}
+{"district":"nayagarh","neighbours":"angul,kandhamal,cuttack,boudh,ganjam,khordha","district_code":"OR_Nayagarh"}
+{"district":"nuapada","neighbours":"kalahandi,bargarh,gariaband,mahasamund,balangir","district_code":"OR_Nuapada"}
+{"district":"puri","neighbours":"cuttack,ganjam,khordha,jagatsinghpur","district_code":"OR_Puri"}
+{"district":"rayagada","neighbours":"koraput,gajapati,kalahandi,kandhamal,vizianagaram,srikakulam","district_code":"OR_Rayagada"}
+{"district":"sambalpur","neighbours":"angul,bargarh,sundargarh,deogarh,jharsuguda,subarnapur","district_code":"OR_Sambalpur"}
+{"district":"subarnapur","neighbours":"angul,bargarh,sambalpur,boudh,balangir","district_code":"OR_Subarnapur"}
+{"district":"sundargarh","neighbours":"angul,jashpur,sambalpur,raigarh,deogarh,simdega,kendujhar,jharsuguda,west singhbhum","district_code":"OR_Sundargarh"}
+{"district":"amritsar","neighbours":"kapurthala,gurdaspur,tarn taran","district_code":"PB_Amritsar"}
+{"district":"barnala","neighbours":"bathinda,sangrur,mansa,moga,ludhiana","district_code":"PB_Barnala"}
+{"district":"bathinda","neighbours":"sirsa,mansa,moga,sri muktsar sahib,barnala,faridkot","district_code":"PB_Bathinda"}
+{"district":"faridkot","neighbours":"sri muktsar sahib,bathinda,moga,ferozepur","district_code":"PB_Faridkot"}
+{"district":"fatehgarh sahib","neighbours":"rupnagar,sangrur,patiala,s.a.s. nagar,ludhiana","district_code":"PB_Fatehgarh Sahib"}
+{"district":"fazilka","neighbours":"sri muktsar sahib,ferozepur,ganganagar,hanumangarh","district_code":"PB_Fazilka"}
+{"district":"ferozepur","neighbours":"kapurthala,tarn taran,fazilka,jalandhar,moga,sri muktsar sahib,faridkot","district_code":"PB_Ferozepur"}
+{"district":"gurdaspur","neighbours":"kapurthala,amritsar,hoshiarpur,kangra,pathankot","district_code":"PB_Gurdaspur"}
+{"district":"hoshiarpur","neighbours":"kapurthala,rupnagar,una,jalandhar,kangra,gurdaspur,shahid bhagat singh nagar","district_code":"PB_Hoshiarpur"}
+{"district":"jalandhar","neighbours":"kapurthala,hoshiarpur,moga,ferozepur,ludhiana,shahid bhagat singh nagar","district_code":"PB_Jalandhar"}
+{"district":"kapurthala","neighbours":"amritsar,hoshiarpur,tarn taran,jalandhar,gurdaspur,ferozepur,shahid bhagat singh nagar","district_code":"PB_Kapurthala"}
+{"district":"ludhiana","neighbours":"rupnagar,sangrur,jalandhar,moga,fatehgarh sahib,barnala,shahid bhagat singh nagar","district_code":"PB_Ludhiana"}
+{"district":"mansa","neighbours":"sirsa,bathinda,sangrur,fatehabad,barnala","district_code":"PB_Mansa"}
+{"district":"moga","neighbours":"bathinda,jalandhar,barnala,ferozepur,faridkot,ludhiana","district_code":"PB_Moga"}
+{"district":"pathankot","neighbours":"kathua,chamba,kangra,gurdaspur","district_code":"PB_Pathankot"}
+{"district":"patiala","neighbours":"sangrur,ambala,jind,kaithal,s.a.s. nagar,fatehgarh sahib,kurukshetra","district_code":"PB_Patiala"}
+{"district":"rupnagar","neighbours":"hoshiarpur,una,solan,shahid bhagat singh nagar,fatehgarh sahib,s.a.s. nagar,bilaspur,ludhiana","district_code":"PB_Rupnagar"}
+{"district":"s.a.s. nagar","neighbours":"rupnagar,ambala,panchkula,patiala,solan,fatehgarh sahib,chandigarh","district_code":"PB_S.A.S. Nagar"}
+{"district":"sangrur","neighbours":"patiala,mansa,jind,fatehabad,fatehgarh sahib,barnala,ludhiana","district_code":"PB_Sangrur"}
+{"district":"shahid bhagat singh nagar","neighbours":"kapurthala,rupnagar,hoshiarpur,jalandhar,ludhiana","district_code":"PB_Shahid Bhagat Singh Nagar"}
+{"district":"sri muktsar sahib","neighbours":"sirsa,bathinda,fazilka,ferozepur,faridkot,hanumangarh","district_code":"PB_Sri Muktsar Sahib"}
+{"district":"tarn taran","neighbours":"kapurthala,ferozepur,amritsar","district_code":"PB_Tarn Taran"}
+{"district":"karaikal","neighbours":"nagapattinam,thiruvarur","district_code":"PY_Karaikal"}
+{"district":"mahe","neighbours":"kozhikode,kannur","district_code":"PY_Mahe"}
+{"district":"puducherry","neighbours":"viluppuram,cuddalore","district_code":"PY_Puducherry"}
+{"district":"ajmer","neighbours":"pali,rajsamand,jaipur,bhilwara,nagaur,tonk","district_code":"RJ_Ajmer"}
+{"district":"alwar","neighbours":"jaipur,nuh,mahendragarh,rewari,dausa,bharatpur","district_code":"RJ_Alwar"}
+{"district":"banswara","neighbours":"ratlam,dahod,dungarpur,jhabua,pratapgarh,mahisagar","district_code":"RJ_Banswara"}
+{"district":"baran","neighbours":"shivpuri,guna,sheopur,kota,jhalawar","district_code":"RJ_Baran"}
+{"district":"barmer","neighbours":"pali,jaisalmer,jodhpur,kutch,jalore","district_code":"RJ_Barmer"}
+{"district":"bharatpur","neighbours":"agra,dholpur,nuh,dausa,alwar,mathura,karauli","district_code":"RJ_Bharatpur"}
+{"district":"bhilwara","neighbours":"rajsamand,chittorgarh,bundi,ajmer,neemuch,tonk","district_code":"RJ_Bhilwara"}
+{"district":"bikaner","neighbours":"jaisalmer,churu,jodhpur,nagaur,ganganagar,hanumangarh","district_code":"RJ_Bikaner"}
+{"district":"bundi","neighbours":"chittorgarh,bhilwara,kota,sawai madhopur,tonk","district_code":"RJ_Bundi"}
+{"district":"chittorgarh","neighbours":"rajsamand,bundi,udaipur,mandsaur,neemuch,bhilwara,kota,pratapgarh","district_code":"RJ_Chittorgarh"}
+{"district":"churu","neighbours":"jhunjhunu,bhiwani,nagaur,sikar,bikaner,hanumangarh","district_code":"RJ_Churu"}
+{"district":"dausa","neighbours":"jaipur,alwar,sawai madhopur,karauli,tonk,bharatpur","district_code":"RJ_Dausa"}
+{"district":"dholpur","neighbours":"karauli,agra,bharatpur,morena","district_code":"RJ_Dholpur"}
+{"district":"dungarpur","neighbours":"udaipur,banswara,pratapgarh,mahisagar,aravalli","district_code":"RJ_Dungarpur"}
+{"district":"ganganagar","neighbours":"fazilka,hanumangarh,bikaner","district_code":"RJ_Ganganagar"}
+{"district":"hanumangarh","neighbours":"sirsa,churu,fazilka,bikaner,sri muktsar sahib,fatehabad,hisar,bhiwani,ganganagar","district_code":"RJ_Hanumangarh"}
+{"district":"jaipur","neighbours":"ajmer,mahendragarh,nagaur,sikar,dausa,alwar,tonk","district_code":"RJ_Jaipur"}
+{"district":"jaisalmer","neighbours":"jodhpur,bikaner,barmer","district_code":"RJ_Jaisalmer"}
+{"district":"jalore","neighbours":"pali,banaskantha,sirohi,barmer,kutch","district_code":"RJ_Jalore"}
+{"district":"jhalawar","neighbours":"rajgarh,guna,ratlam,agar malwa,mandsaur,kota,baran","district_code":"RJ_Jhalawar"}
+{"district":"jhunjhunu","neighbours":"churu,mahendragarh,sikar,bhiwani","district_code":"RJ_Jhunjhunu"}
+{"district":"jodhpur","neighbours":"pali,jaisalmer,nagaur,bikaner,barmer","district_code":"RJ_Jodhpur"}
+{"district":"karauli","neighbours":"dholpur,sheopur,morena,dausa,sawai madhopur,bharatpur","district_code":"RJ_Karauli"}
+{"district":"kota","neighbours":"chittorgarh,bundi,mandsaur,sheopur,baran,sawai madhopur,jhalawar","district_code":"RJ_Kota"}
+{"district":"nagaur","neighbours":"pali,churu,jodhpur,jaipur,ajmer,sikar,bikaner","district_code":"RJ_Nagaur"}
+{"district":"pali","neighbours":"rajsamand,jodhpur,udaipur,ajmer,nagaur,sirohi,barmer,jalore","district_code":"RJ_Pali"}
+{"district":"pratapgarh","neighbours":"jaunpur,rae bareli,prayagraj,amethi,kaushambi,sultanpur,fatehpur","district_code":"RJ_Pratapgarh"}
+{"district":"pratapgarh","neighbours":"chittorgarh,ratlam,dungarpur,udaipur,mandsaur,neemuch,banswara","district_code":"RJ_Pratapgarh"}
+{"district":"rajsamand","neighbours":"pali,chittorgarh,udaipur,ajmer,bhilwara","district_code":"RJ_Rajsamand"}
+{"district":"sawai madhopur","neighbours":"bundi,sheopur,kota,dausa,karauli,tonk","district_code":"RJ_Sawai Madhopur"}
+{"district":"sikar","neighbours":"churu,jaipur,jhunjhunu,mahendragarh,nagaur","district_code":"RJ_Sikar"}
+{"district":"sirohi","neighbours":"pali,banaskantha,udaipur,sabarkantha,jalore","district_code":"RJ_Sirohi"}
+{"district":"tonk","neighbours":"jaipur,bundi,ajmer,bhilwara,dausa,sawai madhopur","district_code":"RJ_Tonk"}
+{"district":"udaipur","neighbours":"pali,rajsamand,chittorgarh,dungarpur,sabarkantha,sirohi,pratapgarh,aravalli","district_code":"RJ_Udaipur"}
+{"district":"east sikkim","neighbours":"south sikkim,kalimpong,north sikkim","district_code":"SK_East Sikkim"}
+{"district":"north sikkim","neighbours":"south sikkim,west sikkim,east sikkim","district_code":"SK_North Sikkim"}
+{"district":"south sikkim","neighbours":"kalimpong,north sikkim,west sikkim,east sikkim,darjeeling","district_code":"SK_South Sikkim"}
+{"district":"west sikkim","neighbours":"darjeeling,south sikkim,north sikkim","district_code":"SK_West Sikkim"}
+{"district":"adilabad","neighbours":"komaram bheem,nanded,yavatmal,nirmal,chandrapur","district_code":"TG_Adilabad"}
+{"district":"bhadradri kothagudem","neighbours":"west godavari,east godavari,sukma,bijapur,mahabubabad,khammam,mulugu","district_code":"TG_Bhadradri Kothagudem"}
+{"district":"hyderabad","neighbours":"medchal malkajgiri,ranga reddy","district_code":"TG_Hyderabad"}
+{"district":"jagtial","neighbours":"peddapalli,nizamabad,rajanna sircilla,mancherial,nirmal,karimnagar","district_code":"TG_Jagtial"}
+{"district":"jangaon","neighbours":"warangal rural,suryapet,warangal urban,siddipet,mahabubabad,yadadri bhuvanagiri","district_code":"TG_Jangaon"}
+{"district":"jayashankar bhupalapally","neighbours":"peddapalli,warangal rural,gadchiroli,mancherial,warangal urban,bijapur,karimnagar,mulugu","district_code":"TG_Jayashankar Bhupalapally"}
+{"district":"jogulamba gadwal","neighbours":"kurnool,wanaparthy,narayanpet,raichur","district_code":"TG_Jogulamba Gadwal"}
+{"district":"kamareddy","neighbours":"sangareddy,nizamabad,rajanna sircilla,bidar,nanded,medak,siddipet","district_code":"TG_Kamareddy"}
+{"district":"karimnagar","neighbours":"peddapalli,jayashankar bhupalapally,jagtial,rajanna sircilla,warangal urban,siddipet","district_code":"TG_Karimnagar"}
+{"district":"khammam","neighbours":"west godavari,bhadradri kothagudem,krishna,suryapet,mahabubabad","district_code":"TG_Khammam"}
+{"district":"komaram bheem","neighbours":"gadchiroli,mancherial,nirmal,chandrapur,adilabad","district_code":"TG_Komaram Bheem"}
+{"district":"mahabubabad","neighbours":"jangaon,bhadradri kothagudem,warangal rural,suryapet,khammam,mulugu","district_code":"TG_Mahabubabad"}
+{"district":"mahabubnagar","neighbours":"wanaparthy,vikarabad,narayanpet,ranga reddy,nagarkurnool","district_code":"TG_Mahabubnagar"}
+{"district":"mancherial","neighbours":"peddapalli,jayashankar bhupalapally,jagtial,gadchiroli,komaram bheem,nirmal","district_code":"TG_Mancherial"}
+{"district":"medak","neighbours":"kamareddy,siddipet,sangareddy,medchal malkajgiri","district_code":"TG_Medak"}
+{"district":"medchal malkajgiri","neighbours":"sangareddy,hyderabad,medak,siddipet,ranga reddy,yadadri bhuvanagiri","district_code":"TG_Medchal Malkajgiri"}
+{"district":"mulugu","neighbours":"jayashankar bhupalapally,bhadradri kothagudem,warangal rural,bijapur,mahabubabad","district_code":"TG_Mulugu"}
+{"district":"nagarkurnool","neighbours":"wanaparthy,prakasam,guntur,kurnool,nalgonda,ranga reddy,mahabubnagar","district_code":"TG_Nagarkurnool"}
+{"district":"nalgonda","neighbours":"guntur,suryapet,ranga reddy,nagarkurnool,yadadri bhuvanagiri","district_code":"TG_Nalgonda"}
+{"district":"narayanpet","neighbours":"kalaburagi,wanaparthy,raichur,jogulamba gadwal,vikarabad,mahabubnagar,yadadri bhuvanagiri","district_code":"TG_Narayanpet"}
+{"district":"nirmal","neighbours":"nizamabad,jagtial,mancherial,komaram bheem,nanded,adilabad","district_code":"TG_Nirmal"}
+{"district":"nizamabad","neighbours":"jagtial,rajanna sircilla,kamareddy,nanded,nirmal","district_code":"TG_Nizamabad"}
+{"district":"peddapalli","neighbours":"jagtial,karimnagar,jayashankar bhupalapally,mancherial","district_code":"TG_Peddapalli"}
+{"district":"rajanna sircilla","neighbours":"nizamabad,jagtial,kamareddy,siddipet,karimnagar","district_code":"TG_Rajanna Sircilla"}
+{"district":"ranga reddy","neighbours":"sangareddy,vikarabad,hyderabad,nalgonda,medchal malkajgiri,nagarkurnool,yadadri bhuvanagiri,mahabubnagar","district_code":"TG_Ranga Reddy"}
+{"district":"sangareddy","neighbours":"kalaburagi,vikarabad,kamareddy,bidar,medak,medchal malkajgiri,ranga reddy","district_code":"TG_Sangareddy"}
+{"district":"siddipet","neighbours":"jangaon,rajanna sircilla,kamareddy,warangal urban,medak,medchal malkajgiri,karimnagar,yadadri bhuvanagiri","district_code":"TG_Siddipet"}
+{"district":"suryapet","neighbours":"jangaon,krishna,guntur,nalgonda,mahabubabad,khammam,yadadri bhuvanagiri","district_code":"TG_Suryapet"}
+{"district":"vikarabad","neighbours":"kalaburagi,sangareddy,narayanpet,ranga reddy,mahabubnagar","district_code":"TG_Vikarabad"}
+{"district":"wanaparthy","neighbours":"jogulamba gadwal,kurnool,narayanpet,nagarkurnool,mahabubnagar","district_code":"TG_Wanaparthy"}
+{"district":"warangal rural","neighbours":"jangaon,jayashankar bhupalapally,warangal urban,mahabubabad,mulugu","district_code":"TG_Warangal Rural"}
+{"district":"warangal urban","neighbours":"jangaon,jayashankar bhupalapally,warangal rural,siddipet,karimnagar","district_code":"TG_Warangal Urban"}
+{"district":"yadadri bhuvanagiri","neighbours":"jangaon,suryapet,nalgonda,siddipet,medchal malkajgiri,ranga reddy","district_code":"TG_Yadadri Bhuvanagiri"}
+{"district":"yadadri bhuvanagiri","neighbours":"kalaburagi,bijapur,narayanpet,raichur","district_code":"TG_Yadadri Bhuvanagiri"}
+{"district":"ariyalur","neighbours":"tiruchirappalli,cuddalore,thanjavur,perambalur","district_code":"TN_Ariyalur"}
+{"district":"chennai","neighbours":"kancheepuram,thiruvallur","district_code":"TN_Chennai"}
+{"district":"coimbatore","neighbours":"thrissur,erode,ernakulam,idukki,tiruppur,nilgiris,palghar","district_code":"TN_Coimbatore"}
+{"district":"cuddalore","neighbours":"puducherry,kallakurichi,perambalur,ariyalur,thanjavur,viluppuram,nagapattinam","district_code":"TN_Cuddalore"}
+{"district":"dharmapuri","neighbours":"krishnagiri,erode,kallakurichi,chamarajanagara,tiruvannamalai,salem","district_code":"TN_Dharmapuri"}
+{"district":"dindigul","neighbours":"madurai,karur,tiruchirappalli,theni,idukki,tiruppur","district_code":"TN_Dindigul"}
+{"district":"erode","neighbours":"karur,chamarajanagara,tiruppur,nilgiris,coimbatore,namakkal,salem,dharmapuri","district_code":"TN_Erode"}
+{"district":"kallakurichi","neighbours":"perambalur,tiruvannamalai,viluppuram,salem,cuddalore,dharmapuri","district_code":"TN_Kallakurichi"}
+{"district":"kancheepuram","neighbours":"tiruvannamalai,vellore,viluppuram,thiruvallur,chennai","district_code":"TN_Kancheepuram"}
+{"district":"kanyakumari","neighbours":"thiruvananthapuram,tirunelveli","district_code":"TN_Kanyakumari"}
+{"district":"karur","neighbours":"erode,tiruchirappalli,tiruppur,dindigul,namakkal","district_code":"TN_Karur"}
+{"district":"krishnagiri","neighbours":"bengaluru urban,kolar,ramanagara,bengaluru rural,chamarajanagara,tiruvannamalai,vellore,chittoor,dharmapuri","district_code":"TN_Krishnagiri"}
+{"district":"madurai","neighbours":"sivaganga,tiruchirappalli,virudhunagar,theni,dindigul","district_code":"TN_Madurai"}
+{"district":"nagapattinam","neighbours":"thiruvarur,cuddalore,thanjavur,karaikal","district_code":"TN_Nagapattinam"}
+{"district":"namakkal","neighbours":"salem,tiruchirappalli,erode,karur","district_code":"TN_Namakkal"}
+{"district":"nilgiris","neighbours":"malappuram,erode,chamarajanagara,wayanad,coimbatore,palghar","district_code":"TN_Nilgiris"}
+{"district":"perambalur","neighbours":"kallakurichi,ariyalur,tiruchirappalli,salem,cuddalore","district_code":"TN_Perambalur"}
+{"district":"pudukkottai","neighbours":"tiruchirappalli,sivaganga,thanjavur,ramanathapuram","district_code":"TN_Pudukkottai"}
+{"district":"ramanathapuram","neighbours":"thoothukkudi,pudukkottai,virudhunagar,sivaganga","district_code":"TN_Ramanathapuram"}
+{"district":"salem","neighbours":"erode,kallakurichi,perambalur,tiruchirappalli,chamarajanagara,namakkal,dharmapuri","district_code":"TN_Salem"}
+{"district":"sivaganga","neighbours":"madurai,ramanathapuram,virudhunagar,tiruchirappalli,pudukkottai","district_code":"TN_Sivaganga"}
+{"district":"thanjavur","neighbours":"ariyalur,tiruchirappalli,pudukkottai,nagapattinam,cuddalore,thiruvarur","district_code":"TN_Thanjavur"}
+{"district":"theni","neighbours":"madurai,virudhunagar,dindigul,idukki","district_code":"TN_Theni"}
+{"district":"thiruvallur","neighbours":"s.p.s. nellore,kancheepuram,vellore,chittoor,chennai","district_code":"TN_Thiruvallur"}
+{"district":"thiruvarur","neighbours":"nagapattinam,thanjavur,karaikal","district_code":"TN_Thiruvarur"}
+{"district":"thoothukkudi","neighbours":"virudhunagar,ramanathapuram,tirunelveli","district_code":"TN_Thoothukkudi"}
+{"district":"tiruchirappalli","neighbours":"madurai,sivaganga,karur,ariyalur,perambalur,thanjavur,pudukkottai,dindigul,namakkal,salem","district_code":"TN_Tiruchirappalli"}
+{"district":"tirunelveli","neighbours":"kollam,kanyakumari,thoothukkudi,virudhunagar,idukki,pathanamthitta,thiruvananthapuram","district_code":"TN_Tirunelveli"}
+{"district":"tiruppur","neighbours":"erode,karur,idukki,dindigul,coimbatore","district_code":"TN_Tiruppur"}
+{"district":"tiruvannamalai","neighbours":"krishnagiri,kallakurichi,kancheepuram,vellore,viluppuram,dharmapuri","district_code":"TN_Tiruvannamalai"}
+{"district":"vellore","neighbours":"krishnagiri,kancheepuram,tiruvannamalai,chittoor,thiruvallur","district_code":"TN_Vellore"}
+{"district":"viluppuram","neighbours":"puducherry,kallakurichi,kancheepuram,tiruvannamalai,cuddalore","district_code":"TN_Viluppuram"}
+{"district":"virudhunagar","neighbours":"madurai,sivaganga,ramanathapuram,thoothukkudi,tirunelveli,theni,idukki","district_code":"TN_Virudhunagar"}
+{"district":"dhalai","neighbours":"unokoti,khowai,gomati,north tripura","district_code":"TR_Dhalai"}
+{"district":"gomati","neighbours":"south tripura,khowai,sipahijala,dhalai","district_code":"TR_Gomati"}
+{"district":"khowai","neighbours":"west tripura,sipahijala,gomati,dhalai","district_code":"TR_Khowai"}
+{"district":"north tripura","neighbours":"mamit,unokoti,karimganj,dhalai","district_code":"TR_North Tripura"}
+{"district":"sipahijala","neighbours":"west tripura,south tripura,khowai,gomati","district_code":"TR_Sipahijala"}
+{"district":"south tripura","neighbours":"sipahijala,gomati","district_code":"TR_South Tripura"}
+{"district":"unokoti","neighbours":"north tripura,dhalai","district_code":"TR_Unokoti"}
+{"district":"west tripura","neighbours":"khowai,sipahijala","district_code":"TR_West Tripura"}
+{"district":"agra","neighbours":"etawah,hathras,dholpur,bhind,morena,mathura,etah,firozabad,bharatpur","district_code":"UP_Agra"}
+{"district":"aligarh","neighbours":"gautam buddha nagar,sambhal,bulandshahr,hathras,kasganj,mathura,budaun,palwal","district_code":"UP_Aligarh"}
+{"district":"ambedkar nagar","neighbours":"azamgarh,gorakhpur,basti,sant kabir nagar,ayodhya,sultanpur","district_code":"UP_Ambedkar Nagar"}
+{"district":"amethi","neighbours":"pratapgarh,rae bareli,ayodhya,barabanki,sultanpur","district_code":"UP_Amethi"}
+{"district":"amroha","neighbours":"sambhal,bijnor,bulandshahr,hapur,moradabad,meerut","district_code":"UP_Amroha"}
+{"district":"auraiya","neighbours":"kannauj,etawah,kanpur dehat,jalaun","district_code":"UP_Auraiya"}
+{"district":"ayodhya","neighbours":"basti,amethi,ambedkar nagar,barabanki,sultanpur,gonda","district_code":"UP_Ayodhya"}
+{"district":"azamgarh","neighbours":"mau,ghazipur,jaunpur,gorakhpur,ambedkar nagar,sultanpur","district_code":"UP_Azamgarh"}
+{"district":"baghpat","neighbours":"panipat,shamli,muzaffarnagar,sonipat,ghaziabad,north delhi,meerut","district_code":"UP_Baghpat"}
+{"district":"bahraich","neighbours":"shrawasti,sitapur,barabanki,lakhimpur kheri,gonda","district_code":"UP_Bahraich"}
+{"district":"ballia","neighbours":"mau,ghazipur,deoria,buxar,bhojpur,siwan,saran","district_code":"UP_Ballia"}
+{"district":"banda","neighbours":"mahoba,hamirpur,chhatarpur,satna,panna,chitrakoot,fatehpur","district_code":"UP_Banda"}
+{"district":"barabanki","neighbours":"lucknow,rae bareli,amethi,bahraich,ayodhya,gonda,sitapur","district_code":"UP_Barabanki"}
+{"district":"bareilly","neighbours":"pilibhit,rampur,shahjahanpur,budaun,udham singh nagar","district_code":"UP_Bareilly"}
+{"district":"basti","neighbours":"siddharthnagar,sant kabir nagar,ambedkar nagar,ayodhya,gonda","district_code":"UP_Basti"}
+{"district":"bhadohi","neighbours":"mirzapur,varanasi,jaunpur,prayagraj","district_code":"UP_Bhadohi"}
+{"district":"bijnor","neighbours":"haridwar,nainital,muzaffarnagar,moradabad,amroha,meerut,pauri garhwal,udham singh nagar","district_code":"UP_Bijnor"}
+{"district":"budaun","neighbours":"kasganj,sambhal,moradabad,bareilly,rampur,aligarh,shahjahanpur,farrukhabad","district_code":"UP_Budaun"}
+{"district":"bulandshahr","neighbours":"gautam buddha nagar,sambhal,hapur,aligarh,amroha","district_code":"UP_Bulandshahr"}
+{"district":"chandauli","neighbours":"varanasi,ghazipur,sonbhadra,kaimur,mirzapur","district_code":"UP_Chandauli"}
+{"district":"chitrakoot","neighbours":"prayagraj,satna,banda,kaushambi,rewa,fatehpur","district_code":"UP_Chitrakoot"}
+{"district":"deoria","neighbours":"mau,gopalganj,kushinagar,gorakhpur,siwan,ballia","district_code":"UP_Deoria"}
+{"district":"etah","neighbours":"agra,hathras,mainpuri,kasganj,firozabad,farrukhabad","district_code":"UP_Etah"}
+{"district":"etawah","neighbours":"auraiya,agra,bhind,jalaun,mainpuri,firozabad,kannauj","district_code":"UP_Etawah"}
+{"district":"farrukhabad","neighbours":"kasganj,mainpuri,shahjahanpur,kannauj,etah,budaun,hardoi","district_code":"UP_Farrukhabad"}
+{"district":"fatehpur","neighbours":"kanpur nagar,unnao,hamirpur,pratapgarh,rae bareli,banda,kaushambi,chitrakoot","district_code":"UP_Fatehpur"}
+{"district":"firozabad","neighbours":"etah,agra,etawah,mainpuri","district_code":"UP_Firozabad"}
+{"district":"gautam buddha nagar","neighbours":"south east delhi,east delhi,bulandshahr,hapur,faridabad,aligarh,ghaziabad,palwal","district_code":"UP_Gautam Buddha Nagar"}
+{"district":"ghaziabad","neighbours":"gautam buddha nagar,east delhi,hapur,north east delhi,shahdara,north delhi,meerut,baghpat","district_code":"UP_Ghaziabad"}
+{"district":"ghazipur","neighbours":"mau,jaunpur,varanasi,buxar,azamgarh,kaimur,chandauli,ballia","district_code":"UP_Ghazipur"}
+{"district":"gonda","neighbours":"shrawasti,balrampur,siddharthnagar,basti,bahraich,ayodhya,barabanki","district_code":"UP_Gonda"}
+{"district":"gorakhpur","neighbours":"mau,kushinagar,siddharthnagar,deoria,azamgarh,sant kabir nagar,ambedkar nagar,maharajganj","district_code":"UP_Gorakhpur"}
+{"district":"hapur","neighbours":"gautam buddha nagar,bulandshahr,ghaziabad,amroha,meerut","district_code":"UP_Hapur"}
+{"district":"hardoi","neighbours":"lucknow,kanpur nagar,unnao,shahjahanpur,lakhimpur kheri,sitapur,farrukhabad,kannauj","district_code":"UP_Hardoi"}
+{"district":"hathras","neighbours":"agra,aligarh,kasganj,mathura,etah","district_code":"UP_Hathras"}
+{"district":"jalaun","neighbours":"etawah,auraiya,hamirpur,kanpur dehat,jhansi,bhind","district_code":"UP_Jalaun"}
+{"district":"jaunpur","neighbours":"varanasi,ghazipur,pratapgarh,azamgarh,prayagraj,sultanpur,bhadohi","district_code":"UP_Jaunpur"}
+{"district":"jhansi","neighbours":"mahoba,shivpuri,hamirpur,lalitpur,tikamgarh,datia,bhind,jalaun,chhatarpur,niwari","district_code":"UP_Jhansi"}
+{"district":"kannauj","neighbours":"kanpur nagar,auraiya,etawah,kanpur dehat,mainpuri,farrukhabad,hardoi","district_code":"UP_Kannauj"}
+{"district":"kanpur dehat","neighbours":"kanpur nagar,auraiya,hamirpur,jalaun,kannauj","district_code":"UP_Kanpur Dehat"}
+{"district":"kanpur nagar","neighbours":"unnao,hamirpur,kanpur dehat,hardoi,fatehpur,kannauj","district_code":"UP_Kanpur Nagar"}
+{"district":"kasganj","neighbours":"hathras,aligarh,etah,budaun,farrukhabad","district_code":"UP_Kasganj"}
+{"district":"kaushambi","neighbours":"pratapgarh,rae bareli,prayagraj,chitrakoot,fatehpur","district_code":"UP_Kaushambi"}
+{"district":"kushinagar","neighbours":"west champaran,gopalganj,deoria,gorakhpur,maharajganj","district_code":"UP_Kushinagar"}
+{"district":"lakhimpur kheri","neighbours":"pilibhit,bahraich,shahjahanpur,sitapur,hardoi","district_code":"UP_Lakhimpur Kheri"}
+{"district":"lalitpur","neighbours":"shivpuri,ashoknagar,jhansi,tikamgarh,sagar,datia,chhatarpur,niwari","district_code":"UP_Lalitpur"}
+{"district":"lucknow","neighbours":"unnao,rae bareli,barabanki,sitapur,hardoi","district_code":"UP_Lucknow"}
+{"district":"maharajganj","neighbours":"west champaran,gorakhpur,kushinagar,siddharthnagar","district_code":"UP_Maharajganj"}
+{"district":"mahoba","neighbours":"jhansi,banda,chhatarpur,hamirpur","district_code":"UP_Mahoba"}
+{"district":"mainpuri","neighbours":"etawah,etah,firozabad,farrukhabad,kannauj","district_code":"UP_Mainpuri"}
+{"district":"mathura","neighbours":"agra,hathras,nuh,aligarh,palwal,bharatpur","district_code":"UP_Mathura"}
+{"district":"mau","neighbours":"ghazipur,deoria,azamgarh,gorakhpur,ballia","district_code":"UP_Mau"}
+{"district":"meerut","neighbours":"bijnor,hapur,muzaffarnagar,ghaziabad,amroha,baghpat","district_code":"UP_Meerut"}
+{"district":"mirzapur","neighbours":"varanasi,sonbhadra,prayagraj,singrauli,chandauli,rewa,bhadohi","district_code":"UP_Mirzapur"}
+{"district":"moradabad","neighbours":"sambhal,bijnor,rampur,amroha,budaun,udham singh nagar","district_code":"UP_Moradabad"}
+{"district":"muzaffarnagar","neighbours":"haridwar,bijnor,shamli,saharanpur,meerut,baghpat","district_code":"UP_Muzaffarnagar"}
+{"district":"pilibhit","neighbours":"lakhimpur kheri,udham singh nagar,bareilly,shahjahanpur","district_code":"UP_Pilibhit"}
+{"district":"prayagraj","neighbours":"jaunpur,pratapgarh,mirzapur,kaushambi,rewa,chitrakoot,bhadohi","district_code":"UP_Prayagraj"}
+{"district":"rae bareli","neighbours":"lucknow,unnao,pratapgarh,amethi,kaushambi,barabanki,fatehpur","district_code":"UP_Rae Bareli"}
+{"district":"rampur","neighbours":"moradabad,udham singh nagar,bareilly,budaun","district_code":"UP_Rampur"}
+{"district":"saharanpur","neighbours":"haridwar,karnal,sirmaur,dehradun,muzaffarnagar,shamli,yamunanagar","district_code":"UP_Saharanpur"}
+{"district":"sambhal","neighbours":"bulandshahr,moradabad,aligarh,amroha,budaun","district_code":"UP_Sambhal"}
+{"district":"sant kabir nagar","neighbours":"ambedkar nagar,gorakhpur,basti,siddharthnagar","district_code":"UP_Sant Kabir Nagar"}
+{"district":"shahjahanpur","neighbours":"pilibhit,bareilly,lakhimpur kheri,budaun,farrukhabad,hardoi","district_code":"UP_Shahjahanpur"}
+{"district":"shamli","neighbours":"karnal,panipat,muzaffarnagar,saharanpur,baghpat","district_code":"UP_Shamli"}
+{"district":"shrawasti","neighbours":"gonda,balrampur,bahraich","district_code":"UP_Shrawasti"}
+{"district":"siddharthnagar","neighbours":"balrampur,gorakhpur,sant kabir nagar,basti,gonda,maharajganj","district_code":"UP_Siddharthnagar"}
+{"district":"sitapur","neighbours":"lucknow,bahraich,barabanki,lakhimpur kheri,hardoi","district_code":"UP_Sitapur"}
+{"district":"sonbhadra","neighbours":"garhwa,kaimur,singrauli,mirzapur,balrampur,chandauli,rohtas","district_code":"UP_Sonbhadra"}
+{"district":"sultanpur","neighbours":"jaunpur,pratapgarh,azamgarh,amethi,ambedkar nagar,ayodhya","district_code":"UP_Sultanpur"}
+{"district":"unnao","neighbours":"lucknow,kanpur nagar,rae bareli,fatehpur,hardoi","district_code":"UP_Unnao"}
+{"district":"varanasi","neighbours":"jaunpur,ghazipur,mirzapur,chandauli,bhadohi","district_code":"UP_Varanasi"}
+{"district":"almora","neighbours":"nainital,bageshwar,chamoli,champawat,pauri garhwal,pithoragarh","district_code":"UT_Almora"}
+{"district":"bageshwar","neighbours":"chamoli,pithoragarh,almora","district_code":"UT_Bageshwar"}
+{"district":"bageshwar","neighbours":"jhargram,purba medinipur,mayurbhanj,paschim medinipur,kendujhar,bhadrak","district_code":"UT_Bageshwar"}
+{"district":"chamoli","neighbours":"uttarkashi,bageshwar,almora,pauri garhwal,pithoragarh,rudraprayag","district_code":"UT_Chamoli"}
+{"district":"champawat","neighbours":"udham singh nagar,nainital,pithoragarh,almora","district_code":"UT_Champawat"}
+{"district":"dehradun","neighbours":"haridwar,uttarkashi,shimla,tehri garhwal,sirmaur,saharanpur,pauri garhwal","district_code":"UT_Dehradun"}
+{"district":"haridwar","neighbours":"bijnor,dehradun,muzaffarnagar,saharanpur,pauri garhwal","district_code":"UT_Haridwar"}
+{"district":"nainital","neighbours":"bijnor,champawat,almora,pauri garhwal,udham singh nagar","district_code":"UT_Nainital"}
+{"district":"pauri garhwal","neighbours":"haridwar,nainital,bijnor,tehri garhwal,chamoli,dehradun,almora,rudraprayag","district_code":"UT_Pauri Garhwal"}
+{"district":"pithoragarh","neighbours":"bageshwar,chamoli,almora,champawat","district_code":"UT_Pithoragarh"}
+{"district":"rudraprayag","neighbours":"pauri garhwal,uttarkashi,chamoli,tehri garhwal","district_code":"UT_Rudraprayag"}
+{"district":"tehri garhwal","neighbours":"uttarkashi,pauri garhwal,dehradun,rudraprayag","district_code":"UT_Tehri Garhwal"}
+{"district":"udham singh nagar","neighbours":"nainital,bijnor,pilibhit,rampur,bareilly,champawat,moradabad","district_code":"UT_Udham Singh Nagar"}
+{"district":"uttarkashi","neighbours":"shimla,tehri garhwal,kinnaur,chamoli,dehradun,rudraprayag","district_code":"UT_Uttarkashi"}
+{"district":"alipurduar","neighbours":"jalpaiguri,cooch behar,kokrajhar","district_code":"WB_Alipurduar"}
+{"district":"bankura","neighbours":"jhargram,purba bardhaman,paschim medinipur,paschim bardhaman,hooghly,purulia","district_code":"WB_Bankura"}
+{"district":"birbhum","neighbours":"dumka,jamtara,murshidabad,purba bardhaman,pakur,paschim bardhaman","district_code":"WB_Birbhum"}
+{"district":"cooch behar","neighbours":"dhubri,jalpaiguri,alipurduar,kokrajhar","district_code":"WB_Cooch Behar"}
+{"district":"dakshin dinajpur","neighbours":"malda,uttar dinajpur","district_code":"WB_Dakshin Dinajpur"}
+{"district":"darjeeling","neighbours":"uttar dinajpur,kalimpong,south sikkim,west sikkim,kishanganj,jalpaiguri","district_code":"WB_Darjeeling"}
+{"district":"hooghly","neighbours":"nadia,north 24 parganas,purba bardhaman,paschim medinipur,bankura,howrah","district_code":"WB_Hooghly"}
+{"district":"howrah","neighbours":"purba medinipur,south 24 parganas,north 24 parganas,kolkata,paschim medinipur,hooghly","district_code":"WB_Howrah"}
+{"district":"jalpaiguri","neighbours":"darjeeling,kalimpong,alipurduar,cooch behar","district_code":"WB_Jalpaiguri"}
+{"district":"jhargram","neighbours":"bageshwar,east singhbhum,mayurbhanj,paschim medinipur,bankura,purulia","district_code":"WB_Jhargram"}
+{"district":"kalimpong","neighbours":"darjeeling,south sikkim,jalpaiguri,east sikkim","district_code":"WB_Kalimpong"}
+{"district":"kolkata","neighbours":"south 24 parganas,howrah,north 24 parganas","district_code":"WB_Kolkata"}
+{"district":"malda","neighbours":"murshidabad,uttar dinajpur,katihar,dakshin dinajpur,sahibganj","district_code":"WB_Malda"}
+{"district":"murshidabad","neighbours":"malda,birbhum,purba bardhaman,pakur,sahibganj,nadia","district_code":"WB_Murshidabad"}
+{"district":"nadia","neighbours":"murshidabad,purba bardhaman,hooghly,north 24 parganas","district_code":"WB_Nadia"}
+{"district":"north 24 parganas","neighbours":"south 24 parganas,nadia,kolkata,hooghly,howrah","district_code":"WB_North 24 Parganas"}
+{"district":"paschim bardhaman","neighbours":"jamtara,birbhum,purba bardhaman,dhanbad,bankura,purulia","district_code":"WB_Paschim Bardhaman"}
+{"district":"paschim medinipur","neighbours":"bageshwar,jhargram,purba medinipur,bankura,hooghly,howrah","district_code":"WB_Paschim Medinipur"}
+{"district":"purba bardhaman","neighbours":"murshidabad,birbhum,bankura,paschim bardhaman,hooghly,nadia","district_code":"WB_Purba Bardhaman"}
+{"district":"purba medinipur","neighbours":"south 24 parganas,bageshwar,howrah,paschim medinipur","district_code":"WB_Purba Medinipur"}
+{"district":"purulia","neighbours":"jhargram,east singhbhum,paschim bardhaman,dhanbad,bankura,ramgarh,saraikela-kharsawan,ranchi,bokaro","district_code":"WB_Purulia"}
+{"district":"south 24 parganas","neighbours":"purba medinipur,kolkata,howrah,north 24 parganas","district_code":"WB_South 24 Parganas"}
+{"district":"uttar dinajpur","neighbours":"malda,katihar,purnia,darjeeling,dakshin dinajpur,kishanganj","district_code":"WB_Uttar Dinajpur"}

@@ -11,7 +11,7 @@ import pandas as pd
 
 
 
-with open(r'/home/joker/Downloads/Video/SEM1-Downloads/DM/neighbor-districts.json') as f:
+with open(r'/home/pranshu/Desktop/SEM1-Downloads/DM/neighbor-districts.json') as f:
     
     js = json.load(f)
     #df = pd.json_normalize(js)
@@ -41,7 +41,7 @@ df1['neighbours'] = df1['neighbours'].apply(lambda x: [str(s).split('/')[0].lowe
 
 df1['neighbours'] = df1['neighbours'].apply(lambda x: str(x).replace('[', '').replace(']', '').replace("'", ""))
 
-dfc = pd.read_csv(r'/home/joker/Downloads/Video/SEM1-Downloads/DM/cowin_vaccine_data_districtwise.csv')
+dfc = pd.read_csv(r'//home/pranshu/Desktop/SEM1-Downloads//DM/cowin_vaccine_data_districtwise.csv')
 
 
 def corrected_name( x ):
@@ -584,7 +584,7 @@ final.to_csv('case_generator.csv')
 import pandas as pd
 import numpy as np
 
-df3 = pd.read_csv( "/home/joker/Downloads/Video/SEM1-Downloads/DM/covid_all_Data.csv", low_memory=False)
+df3 = pd.read_csv( "/home/pranshu/Desktop/SEM1-Downloads/DM/files/data/covid_all_Data.csv", low_memory=False)
 tbd = [ 'Date Announced', \
        'Detected District',\
          'Num Cases']
@@ -732,7 +732,10 @@ month 1-3 wave 1
 '''
 all_dists = list(set(final['districtid']))
 
-final['Num Cases'] = final['Num Cases'].astype(int)
+
+
+
+final['cases'] = final['cases'].astype(int)
 final_first = final[((final['weekid_num']>=0) & (final['weekid_num']<=21))]
 final_second = final[((final['weekid_num']>=109) & (final['weekid_num']<=125))]
 
@@ -788,7 +791,7 @@ pd.DataFrame(out).replace('set()', 'NA').to_csv('peeks.csv')
 # =============================================================================
     
 import pandas as pd 
-dfc = pd.read_csv(r'/home/joker/Downloads/Video/SEM1-Downloads/DM/cowin_vaccine_data_districtwise.csv')
+dfc = pd.read_csv(r'data/cowin_vaccine_data_districtwise.csv')
 dfc = dfc.loc[1:, :]
 dfc.reset_index(drop=True, inplace=True)
 
@@ -2491,5 +2494,4 @@ for state in all_states:
 out_df = pd.DataFrame(out)
 
 out_df.to_csv('complete-vaccination.csv')
-
 

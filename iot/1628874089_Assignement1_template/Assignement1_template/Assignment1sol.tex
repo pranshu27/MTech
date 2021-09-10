@@ -1,287 +1,29 @@
 \documentclass[a4paper,11pt]{article}
 
 \usepackage{iotsubmit}
-\usepackage{graphicx}
-\usepackage{adjustbox}
-\usepackage{enumerate}
-\usepackage{longtable}
-\usepackage{url}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-    pdftitle={Overleaf Example},
-    pdfpagemode=FullScreen,
-    }
 
 \begin{document}
 
 \initiotsubmision{1}                    % assignment number
-{Pranshu Sahijwani, Gajender Sharma}                    % group member names
-{pranshus21@iitk.ac.in, gajenders21@iitk.ac.in}      % email addresses for all members
-{21111048, 21111028}          % roll numbers for all members (according to names)
-
+{Alice, Bob}                            % group member names
+{alice@iitk.ac.in, bob@iitk.ac.in}      % email addresses for all members
+{xxxxxxxx, xxxxxxxx}                    % roll numbers for all members (according to names)
 
 \begin{iotsolution}
 
-
-\begin{center}
-\caption{\textbf{Comparative Study of IOT Boards}} \label{tab:title} 
-\begin{longtable}{|p{2.2cm}|p{1.5cm}|p{1.5cm}|p{2.2cm}|p{2cm}|p{2cm}|p{2cm}|} 
-
- \hline
- \textbf{Parameters} & Particle IO \cite{compstudy} (ARGON)& Espressif ESP8266 \cite{compstudy, are} & Beaglebone Black  \cite{bb, bb1} & Arduino UNO \cite{are, compstudy} & Raspberry Pi B+ \cite{are, compstudy}  & Discovery STMP-32MP157C \cite{stmp, top21}\\ [0.5ex] 
- \hline\hline
- \textbf{Processor} & 
-ARM Cortex-M4F 32-bit processor @ 64MHz & 32-bit RISC & ARMv7-A Cortex-A8 
-64-bit Processor & ATMega 328P & Quad-core ARM Cortex A53 & ARM® Cortex®-A7, Cortex®-M4 \\ 
- \hline
-  \textbf{Operating Voltage} & 3.6VDC to 5.5VDC & 3.0 to 3.6V & 3.7V & 5V & 5V & 5V/3A \\
- \hline
-  \textbf{Clock Speed} & 120MHz & 26-52MHz & 8MHz & 16 MHz & 1.2GHz & 533 MHz\\
- \hline
-  \textbf{RAM} & 256KB & <45kB & 512MB & 24KB & 1GB & 4-Gbit DDR3L\\
- \hline
-   \textbf{Flash Memory (Storage)} & 4MB & 512KB-128MB & Off-chip  & 196KB & 8GB-32GB & NA\\
- \hline
-\textbf{Cost in Dollars} & 27 & 6 & 83.48 & 22.95 & 35 & 148.23\\
- \hline
-
-\textbf{Communi-cation Supported} & IEEE 802.11 b/g/n support & IEEE 802.11 b/g/n &Bluetooth 4.1, BLE + IEEE 802.11 b/g/n + Ethernet& IEEE 802.11 b/g/n + IEEE 
-802.15.4 433RF + BLE 4.0 via 
-Shield & IEEE 802.11 b/g/n + IEEE 802.15.4 
-433RF + BLE 4.0 Ethernet Serial & Wi-Fi® 802.11-b/g/n + Bluetooth® Low Energy 4.1\\
- \hline
-
-\textbf{I/O Connectivity} & 20 mixed signal GPIO (6xAnalog, 8 x PWM) UART, 12C, SPI & SDIO 2.0, (H) SPI, UART, 12C, 12S, IRDA, PWM & 2x46 GPIO pin headers &SPI I2C UART GPIO SERIAL PWM& SPI DSI UART SDIOCSI GPIO & Ethernet RJ454 × USB Host Type-AUSB Type-CTM DRPMIPI DSISM-HDMI® Stereo headset jack including analog microphone inputmicroSDTM card\\
- \hline
-
-   \textbf{Operating System} & Device OS & Mon-goose OS & Linux  & Not Supported & Raspbian, OSMC, OpenELEC, Windows IoT Core, RISC & NA\\
- \hline
-\textbf{Limitations} & - & - & - & - & - & -\\
- \hline
- 
-\end{longtable}
-
-\end{center}
-
-
-\vspace{20}
-\paragraph{\large{Summary}} We've mentioned a few development boards here, but there are plenty of more possibilities that will best suit your product development needs.
-IoT development has a very bright future. It contributes to the solution of everyday difficulties by developing a variety of goods. It is evident from the above table that a Raspberry Pi is a clear winner in most of the situations. However, other boards offer a strong competition in different areas as specified below:
-
-\subparagraph{Raspberry Pi versus Arduino}\cite{ar, bb}
-These two are the most popular boards among the researchers. The  detailed  
-analysis  show  that  higher  end  development  boards  such  as  
-Raspberry Pi-4 B+ have higher performance in comparison with 
-other  boards  like  Arduino in  terms  of  its  
-storage and computing speeds but at the cost of higher price. The places where we need to perform a task repeatedly, we can use Arduino where we use Raspberry Pi where we need to perform multiple tasks together. Also Arduino is used for simple tasks as compared to Pi which is used for highly complex work. Pi in general can be thought of as a mini computer in itself. The key distinction between the two is that Arduino tends to have a strong I/O capability which drives external hardware directly. Whereas Raspberry Pi has a weak I/O which requires transistors to drive the hardware.
-
-\subparagraph{Espressif ESP8266}\cite{are} The ESP8266 has
-exceptionally basic equipment foundational layout and is
-most superb utilized in customer applications, for example,
-information logging and control of actuators from online
-worker applications. Being  a  low  cost  device, it  is  a  first  choice  for  implementing 
-sensor networks in an IoT scenario. However, due to limited storage and computing capabilities, and inability to support popular OS like Linux, it is used in a fewer areas as compared to other boards. 
-
-\subparagraph{Particle IO - Argon}\cite{compstudy} The Particle Argon is a significant IoT prototyping stage thinking about eliminated programming, straightforward code migration, and speedy progression of ventures. However, just like ESP8266, inability to support any other operating system is still a matter of concern here.
-
-\subparagraph{Beaglebone Black} \cite{bbvr} It is apparent that Beaglebone is simply more versatile and compatible with makers and developers’ use. It is pretty well documented which allows users to have enough support and tutorials for projects and learning. One of the major drawbacks is, it is costlier than Pi, which a offers somewhat more features and is more commonly used.  If you’re looking for affordable, casual use and versatility, Raspberry Pi would be more suitable for you. But if you’re more into IoT applications and stability for industrial usage, this is the one. 
-
-\subparagraph{Discovery STMP32MP157C} \cite{stmp, top21} These highly secure boards are specifically designed to accelerate 3D graphics in applications such as graphical user interfaces (GUI), menu displays or animations.There is a dedicated 3D graphics processing unit (GPU) and MIPI-DSI display interface and a CAN FD interface. The only drawback is its 148 whopping dollars price, which might not be justified over a much cheaper Raspberry Pi available in the market.
-
-\begin{thebibliography}{9}
-\bibitem{compstudy} 
-Dr. Naveen Tewari, Dr. Nitin Deepak, Dr. Mukesh Joshi and Mr. Jai Shankar Bhatt,
-\textit{Comparative Study of IoT Development Boards in
-2021: Choosing right Hardware for IoT Projects}. 
-978-1-6654-1450-0/20/\$31.00 2021 IEEE | DOI: 10.1109/ICIEM51511.2021.9445290
-
-\bibitem{bb} 
-Ravi Payal and Amit Prakash Singh, 
-\textit{A Study on Different Hardware and Cloud Based IOT Platforms}.
-1916 (2021) 012055 doi: 10.1088/1742-6596/1916/1/012055
-
-\bibitem{are} 
-Dinkar R Patnaik Patnaikuni,
-\textit{A Comparative Study of Arduino, Raspberry Pi and ESP8266 as IoT Development
-Board}.
-ISSN No. 0976-5697
-
-\bibitem{bb1} 
-Mr. Stephen A. Strom and Prof. David R. Loker
-\textit{BeagleBone Black for Embedded Measurement and Control Applications}.
-
-\bibitem{stmp} 
-\textit{STM32MP157 MPU with Arm Dual Cortex-A7 650 MHz, Arm Cortex-M4 real-time coprocessor, 3D GPU, TFT/MIPI DSI displays, FD-CAN, Secure boot and Cryptography }
-\url{https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-arm-cortex-mpus/stm32mp1-series/stm32mp157/stm32mp157c.html#overview&secondary=st_all-features_sec-nav-tab}
-
-\bibitem{ar} 
-\textit{Difference between Arduino and Raspberry Pi}
-\url{https://www.geeksforgeeks.org/difference-between-arduino-and-raspberry-pi/}
-
-\bibitem{top21} 
-\textit{Top IoT Boards to Kickstart Project Development in 2021}
-\url{https://siliconithub.com/top-iot-boards-to-kickstart-project-development/}
-
-\bibitem{bbvr} 
-\textit{Beaglebone vs Raspberry Pi: Which SBC is better?}
-\url{https://www.seeedstudio.com/blog/2021/01/20/beaglebone-vs-raspberry-pi-which-sbc-is-better/}
-\end{thebibliography}
-
+An example of citation: \cite{ref1}
 
 \end{iotsolution}
 
 \begin{iotsolution}
 
-%My solution to problem 2
-\textbf{\underline{Simulators}}: Simulators are devices or systems which enables the experimenter to reproduce the similar conditions which Iot devices will experience in real life but without any fatal risk or uncertain danger from the actual Iot device.\\\\
-\textbf{Followings are the few Popular IOT simulators that has been used widely for simulation of Iot devices and application}
-
-\begin{center}
-    \textbf{Comparative Study of Different IOT Simulators }
-\end{center}
-
-% ////////table 
-
-
-\begin{table}[htbp]
-\label{tab 2}
-\resizebox{\columnwidth}{!}{
-\begin{tabular}{|p{2.7cm}|p{2.5cm}|p{2cm}|p{2.6cm}|p{2.3cm}|p{2.2cm}|}
-\hline
-\textbf{Simulator}                   & \textbf{CupCarbon}                                                  & \textbf{IoTIFY}     & \textbf{TOSSIM}       & \textbf{BEVYWISE} & \textbf{MobIoTSim}                      \\ \hline\hline
-\textbf{Scope}                       & Network                                                             & Hardware
-Connection & Tiny OS               & IoT
-Device        & IoT
-Networks                            \\ \hline
-\textbf{Type}                        & \begin{tabular}[c]{@{}c@{}}Agent-based\\ discreteevent\end{tabular} & Mobile App          & Communication
-Network & Broker            & Research Based                          \\ \hline
-\textbf{Programming Language}        & Java
-Custom
-scripting                                               & Java  Python        & Communication
-Network & Python
-Java       & C++
-C Sharp                             \\ \hline
-\textbf{Architecture Layers}         & Perceptual
-Network                                                  & Application
-Network & Communication
-Network & Network           & Application
-Network                     \\ \hline
-\textbf{Scale of Operation}          & Small
-scale                                                         & Large Scale         & Small
-Scale           & Large
-scale       & Large
-scale                             \\ \hline
-\textbf{Built-In Standards}          & 802.15.4
-LoRaWAN                                                    & Real time           & Injecting
-Packets     & Real Time         & Devices
-Profile for
-Web
-Services
-(DPWS) \\ \hline
-\textbf{API Integration}             & UDX                                                                 & Rest                & Real Time             & Real Time         & REST                                    \\ \hline
-\textbf{Cyber Resilience Simulation} & NO                                                                  & YES                 & Yes                   & No                & No                                      \\ \hline
-\textbf{Service Domain}              & Smart City                                                          & Smart City          & Generic               & Smart City        & Generic                                 \\ \hline
-\textbf{Security measures}           & High                                                                & High                & High                  & High              & Medium                                  \\ \hline
-\end{tabular}
-}
-\caption{Comparison Table for few Popular IoT simulators}
-\end{table}
-\clearpage
-\centering\large{\textbf{Summary}}
-\begin{enumerate}[1]
-\item{\textbf{CupCarbon Simulator}}\\
-
-
-CupCarbon is a multi-agent and discrete event wireless sensor network simulator which is based on geolocation.It helps to simulate and models the actual working of wireless sensors network in real life on graphical interface of \emph{OpenstreetMap}.
-CupCarbon is composed
-of three main components: a multi-agent simulation environment,
-mobile simulation, and the WSN simulator
-(WiSen).
-  
-\\It also supports Physical layer Protocols such as Zigbee,WiFi and LoRaWAN.
-
-
-\item{\textbf{IoTIFY}}\\
-IoTIFY is a test system that uses device virtualisation and intelligent device simulator.It lets you quickly create virtual devices on cloud. It can create traffic from a large number of virtual endpoints and test your foundation for
-scale, security and quality so as to recognise and fix issues before actual implementation. Simulations speed can be fast or slow depends on how superficial and deeply you want to analyse the system. Protocols supported are MQTT, HTTP, CoAP, LWM2M , UDP and TCP.
-
-\item{\textbf{TOSSIM}}
-
-TOSSIM is a smart wireless sensor network simulator and is used to simulate TinyOS(action based OS) smart devices.Good thing about Tossim is its versatility and support for large number of sensors and system configuration. Some benefits of this simulator are easy use of perception devices, great precision, distributed models. It has low productivity of reenactment. 
-
-\item{\textbf{BEVYWISE-IOT}}\\
-Bevywise IoT Simulator supports your experiment with
-on-premise MQTT (virtual clients) application in fog
-computing environment for users and functional testing
-on the cloud. It simulate thousands of the commodity server. It can
-be used to demo, develop, and test in a real-time IoT
-environment. It greatly supports industrial automation, asset tracking , Better quality product and minimum downtime but on the other hand It requires more memory for simulation and takes more time for analysis.
-
-\item{\textbf{MobIoTSim}}\\
-MobIoTSim is a mobile-based simulator for IoT devices.It helps researchers and cloud application
-developers to learn IoT device handling without buying
-real sensors, and to test and demonstrate IoT applications
-utilizing multiple devices.It can substitute real devices by mimicking their behaviour by using IoT protocols such as MQTT,HTTP,etc and uses different formats like JSON,etc
-
-
-\end{enumerate}
-\vspace{1cm}
-\textbf{References}
-\begin{enumerate}[1]
-    \item K. Mehdi, M. Lounis, A. Bounceur and T. Kechadi,
-‘Cupcarbon: A multi-agent and discrete event wireless
-sensor network design and simulation tool’, in \emph{7th
-International ICST Conference on Simulation Tools and
-Techniques, Lisbon, Portugal, 2014}, 2014, pp. 126–131.
-    \item T. Pflanzner, A. Kertesz, B. Spinnewyn and S. Latré, "MobIoTSim: Towards a Mobile IoT Device Simulator," 2016 IEEE 4th International Conference on Future Internet of Things and Cloud Workshops (FiCloudW), 2016, pp. 21-27, doi: 10.1109/W-FiCloud.2016.21.
-    \item https://www.bevywise.com/blog/
-    \item https://networksimulationtools.com/tossim-simulator/
-    \item https://docs.iotify.io
-\end{enumerate}
+My solution to problem 2
 
 \end{iotsolution}
 
-
-
 \begin{iotsolution}
-\textbf{\large{Following are the applications of various boards as discussed in the first question:}}
-\section{Arduino UNO}
-\subsection{Arduino Satellite (ArduSat)}
-ArduSat is an open source satellite completely based on Arduino to create a stage for space
-discoveries. Built by Spire previously known as NanoSatisfi, ArduSat collects various types of
-information’s from the space environment, with the help of numerous sensors that includes
-temperature sensors, pressure sensors, cameras, GPS, spectrometer, and magnetometer etc with its programmable Arduino processors.
-This platform also allows common public to experiment their projects in space. ArduSat can be
-used for photography from space, making a spectrograph of the sun, detecting high energy
-radiation, compiling temperature readings and observing meteors etc. .
 
-\subsection{ArduPilot (ArduPilotMega - APM)}
-ArduPilot is an unmanned aerial vehicle (UAV) based on the open source platform and built using
-Aruino Mega which is able to control independent multicopters, fixed-wing aircraft, traditional
-helicopters and ground rovers. It was created by the DIY Drones community in 2007 and was also an award winning platform of 2012.
-
-\section{ParticleIO  (ARGON)}
-
-\subsection{Reduction in traffic noise}
-This board can be easily used to collect data using sensors which will then be transferred over Particle cloud, and could be accessed easily from anywhere. One of the main issues with such an application could be a source for a power supply, as the setup needs to be deployed somewhere. The Argon takes care of this for you with its included charging circuitry, which makes it easier to connect a Li-Po battery.
-
-
-\section{Espressif ESP8266}
-\subsection{Implementation of Esp8266 in Home automation:}
-Due to its compact size, wide availability, and low cost, this can be easily used in building simple to complex home automation projects. Its WiFi module is widely used in several autonomous as well as non-autonomous systems.
-
-\subsection{Wearabale device}  
-The ESP8266 board used was NodeMCU 1.0 (ESP-12E Module) with CPU Frequency: 80MHz and Flash Size: 4M (3M SPIFFS). the development of prototype that enables monitoring of heart rate and inter beat interval for several subjects
-
-\section{Beaglebone Black}
-\subsection{Efficient and self-controlled  surveillance  drone } Due to its networking  capabilities(it  is  capable  for  providing  all  sorts  of networking  services  like  FTP,  TELNET,  SSH  an), remote  control, multitasking capabilities(uses Linux), time  management(has NTP) and growing worldwide support, this board is an ideal choice for building such a drone. 
-
-
-
+My solution to problem 3
 
 \end{iotsolution}
 
@@ -289,5 +31,4 @@ The ESP8266 board used was NodeMCU 1.0 (ESP-12E Module) with CPU Frequency: 80MH
 \bibliography{references.bib}
 
 \end{document}
-
 
