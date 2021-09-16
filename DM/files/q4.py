@@ -8,11 +8,9 @@ Created on Thu Sep  9 01:54:26 2021
 import pandas as pd
 import numpy as np
 
-import os
-os.chdir(r'/home/pranshu/Desktop/SEM1-Downloads/DM/files/')
 
 
-df3 = pd.read_csv( "data/districts.csv", low_memory=False)
+df3 = pd.read_csv( "districts.csv", low_memory=False)
 
 tbd = [ 'Date', 'District','Confirmed']
 df = df3[tbd]
@@ -55,12 +53,32 @@ df3.dropna(subset=['Date'], inplace=True)
 
 df3.reset_index(inplace=True, drop=True)
 
-df3['cases'] = df3['Confirmed'].astype(int)
 
 df3.reset_index(drop=True, inplace=True)
 
 
 
+
+df3.sort_values(['District','Date'], inplace = True)
+
+
+#print('removing duplicates')
+
+imd = []
+districts = list(df3['District'].unique() )
+
+
+for dist in districts:
+    tmp = df3[df3['District']==dist].copy()
+    tmp.sort_values('Date', inplace = True)
+    tmp.reset_index(drop=True, inplace=True)
+    for i in range(len(tmp)-1,0,-1):
+        tmp.loc[i, 'Confirmed'] = tmp.loc[i, 'Confirmed'] - tmp.loc[i-1, 'Confirmed']
+    
+    imd.append(tmp)  
+
+
+df3 = pd.concat(imd, ignore_index=True)
 
 
 
@@ -101,9 +119,16 @@ df3['monthid'] = df3['monthid'].astype(int)
 
 md = df3.copy()
 
-md.groupby(level=0).diff().fillna(md).reset_index()
 
-#md.groupby(['Detected District']).agg(sum)
+md = md.groupby(['District', 'monthid']).agg('sum')
+# 
+md['districtid'] = md.index
+md['monthid'] = md['districtid'].apply(lambda x: x[1])
+md['districtid'] = md['districtid'].apply(lambda x: x[0])
+
+
+md.reset_index(drop = True, inplace=True)
+
 ####################
 
 
@@ -146,9 +171,9 @@ final['weekid_num'], tmp  = pd.Series(list(final['weekid'])).factorize()
 
 final['weekid_num'] = final['weekid_num'].apply(lambda x: x+1)
 
-final.drop(['Confirmed', 'monthid', 'weekid'], inplace=True, axis = 1)
+final.drop(['monthid', 'weekid'], inplace=True, axis = 1)
 
-final.groupby(level=0).diff().fillna(final).reset_index()
+
 
 
 
@@ -220,7 +245,7 @@ md_second = md[((md['monthid']>=13) & (md['monthid']<=15))]
 
 
 
-faltu = set(final_first.districtid) & set(final['districtid'])
+#faltu = set(final_first.districtid) & set(final['districtid'])
 
 out = []
 for i in range(len(all_dists)):
@@ -230,19 +255,19 @@ for i in range(len(all_dists)):
         tmp['districtid'] = all_dists[i]
         df_curr =  final_first[final_first['districtid']==all_dists[i]]
         maxx = df_curr['cases'].max()
-        tmp['wave1-weekid'] =str(set(df_curr.loc[df_curr['cases']==maxx, 'weekid_num'])).replace('{', '').replace('}', '')
+        tmp['wave1-weekid'] =str(list(set(df_curr.loc[df_curr['cases']==maxx, 'weekid_num']))[0]).replace('{', '').replace('}', '')
         
         df_curr =  final_second[final_second['districtid']==all_dists[i]]
         maxx = df_curr['cases'].max()
-        tmp['wave2-weekid'] =str(set(df_curr.loc[df_curr['cases']==maxx, 'weekid_num'])).replace('{', '').replace('}', '')
+        tmp['wave2-weekid'] =str(list(set(df_curr.loc[df_curr['cases']==maxx, 'weekid_num']))[0]).replace('{', '').replace('}', '')
  
         df_curr =  md_first[md_first['districtid']==all_dists[i]]
-        maxx = df_curr['cases'].max()
-        tmp['wave1-monthid'] =str(set(df_curr.loc[df_curr['cases']==maxx, 'monthid'])).replace('{', '').replace('}', '')
+        maxx = df_curr['Confirmed'].max()
+        tmp['wave1-monthid'] =str(list(set(df_curr.loc[df_curr['Confirmed']==maxx, 'monthid']))[0]).replace('{', '').replace('}', '')
         
         df_curr =  md_second[md_second['districtid']==all_dists[i]]
-        maxx = df_curr['cases'].max()
-        tmp['wave2-monthid'] =str(set(df_curr.loc[df_curr['cases']==maxx, 'monthid'])).replace('{', '').replace('}', '')       
+        maxx = df_curr['Confirmed'].max()
+        tmp['wave2-monthid'] =str(list(set(df_curr.loc[df_curr['Confirmed']==maxx, 'monthid']))[0]).replace('{', '').replace('}', '')       
         
         
         
@@ -251,9 +276,11 @@ for i in range(len(all_dists)):
         
         
     except:
-        print(all_dists[i])
+        #print(all_dists[i])
+        pass
        
     
     
     
-pd.DataFrame(out).replace('set()', 'NA').to_csv('peeks.csv')
+ola = pd.DataFrame(out).replace('set()', 'NA')
+ola.to_csv('output/peeks.csv', index = False)
