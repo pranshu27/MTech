@@ -93,14 +93,13 @@ for dist in districts:
     tmp.reset_index(drop=True, inplace=True)
     for i in range(len(tmp)-1,0,-1):
         tmp.loc[i, 'Confirmed'] = tmp.loc[i, 'Confirmed'] - tmp.loc[i-1, 'Confirmed']
+        if (tmp.loc[i, 'Confirmed']<0):
+            tmp.loc[i, 'Confirmed'] = 0
     
     imd.append(tmp)  
 
 
 df3 = pd.concat(imd, ignore_index=True)
-
-
-
 
 
 df3 = df3.set_index(pd.to_datetime(df3['Date']))

@@ -237,8 +237,8 @@ final.columns = ['cases', 'districtid', 'weekid_num']
 
 
 final['cases'] = final['cases'].astype(int)
-final_first = final[((final['weekid_num']>=0) & (final['weekid_num']<=21))]
-final_second = final[((final['weekid_num']>=109) & (final['weekid_num']<=125))]
+final_first = final[((final['weekid_num']>=0) & (final['weekid_num']<=25))]
+final_second = final[((final['weekid_num']>=109) & (final['weekid_num']<=133))]
 
 md_first = md[((md['monthid']>=1) & (md['monthid']<=3))]
 md_second = md[((md['monthid']>=13) & (md['monthid']<=15))]
