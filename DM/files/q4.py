@@ -279,8 +279,21 @@ for i in range(len(all_dists)):
         #print(all_dists[i])
         pass
        
-    
-    
-    
 ola = pd.DataFrame(out).replace('set()', 'NA')
+
+dcodes = pd.read_csv( "district_wise.csv", low_memory=False)
+dcodes  = dcodes[['District', 'District_Key']]
+
+tmp = dcodes['District'].isin(['Unassigned', 'Unknown', 'Other State'])
+dcodes = dcodes[~tmp]   
+
+dcodes.columns = ['districtid', 'District_Key']
+
+ola = pd.merge(ola,  dcodes, on = 'districtid')
+
+ola.drop('districtid', inplace = True, axis = 1)
+
+ola = ola[['District_Key','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wave2-monthid']]
+ola.columns = ['districtid','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wave2-monthid']
+    
 ola.to_csv('output/peeks.csv', index = False)
