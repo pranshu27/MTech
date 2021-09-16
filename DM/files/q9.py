@@ -21,7 +21,7 @@ Created on Thu Sep  9 06:48:55 2021
 
 import pandas as pd 
 import math
-dfc = pd.read_csv(r'data/cowin_vaccine_data_districtwise.csv', low_memory=False)
+dfc = pd.read_csv(r'cowin_vaccine_data_districtwise.csv', low_memory=False)
 dfc = dfc.loc[1:, :]
 dfc.reset_index(drop=True, inplace=True)
 
@@ -174,5 +174,5 @@ for state in all_states:
 
 out_df = pd.DataFrame(out)
 
-out_df.to_csv('output/complete-vaccination.csv')
+out_df.to_csv('output/complete-vaccination.csv', index = False)
 

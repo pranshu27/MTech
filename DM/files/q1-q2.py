@@ -9,8 +9,6 @@ Created on Mon Aug 30 22:52:14 2021
 import json
 import pandas as pd
 
-import os
-os.chdir(r'/home/pranshu/Desktop/SEM1-Downloads/DM/files/')
 
 
 with open(r'data/neighbor-districts.json') as f:
@@ -393,7 +391,7 @@ for j in range(len(df1)):
         for i in range(len(tmp)):
            tmp[i] = dfc[dfc['District']==tmp[i]]['District_Key'].values[0] 
         df1.loc[j, 'neighbours'] = ','.join(tmp).replace('[]', '')
-        print(tmp)
+        #print(tmp)
     except:
         pass
     
@@ -456,4 +454,4 @@ for i in range(len(df1)):
         
 df2 = pd.DataFrame(out) 
 
-df2.to_csv('output/edge_list.csv')
+df2.to_csv('output/edge_list.csv', index=False)

@@ -16,7 +16,7 @@ Created on Thu Sep  9 06:31:09 2021
 
 
 import pandas as pd 
-dfc = pd.read_csv(r'data/cowin_vaccine_data_districtwise.csv', low_memory=False)
+dfc = pd.read_csv(r'cowin_vaccine_data_districtwise.csv', low_memory=False)
 dfc = dfc.loc[1:, :]
 dfc.reset_index(drop=True, inplace=True)
 
@@ -85,7 +85,7 @@ my_df.reset_index(drop = True, inplace=True)
 
 
 
-census = pd.read_excel(r'data/DDW_PCA0000_2011_Indiastatedist.xlsx', \
+census = pd.read_excel(r'DDW_PCA0000_2011_Indiastatedist.xlsx', \
                        sheet_name='Sheet1')
     
     
@@ -503,7 +503,7 @@ my_df['State_Code'] = my_df.index
 
 
 
-census = pd.read_excel(r'data/DDW_PCA0000_2011_Indiastatedist.xlsx', \
+census = pd.read_excel(r'DDW_PCA0000_2011_Indiastatedist.xlsx', \
                        sheet_name='Sheet1')
     
     

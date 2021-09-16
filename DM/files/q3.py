@@ -411,6 +411,19 @@ df3 = df3[['districtid', 'cases']]
 df3.sort_values(['districtid'], inplace = True)
 
 
+tbd = ['AS_Dibrugarh',\
+'AS_Udalguri',\
+'MN_Churachandpur',\
+'HR_Italians',\
+'MP_Other Region',\
+'RJ_Italians',\
+'NL_Others',\
+'OR_Others',\
+'RJ_Evacuees',\
+'RJ_BSF Camp']
+    
+tmp = df3['districtid'].isin(tbd)
+df3 = df3[~tmp]
 
 
 df3.to_csv('output/overall-cases-time.csv', index = False)
