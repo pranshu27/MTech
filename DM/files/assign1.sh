@@ -1,3 +1,5 @@
+SECONDS=0
+
 
 bash scripts/case-generator.sh   
 echo "executed case-generator.sh"
@@ -23,4 +25,8 @@ echo "executed vaccination-population-ratio-generator.sh"
 bash scripts/vaccine-type-ratio-generator.sh
 echo "executed vaccine-type-ratio-generator.sh"
 
-echo "Finished. Please check the 'output' directory for the resultant CSV files."
+echo "Finished. Please check the 'output' directory for the resultant CSV files."duration=$SECONDS
+echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
+
+duration=$SECONDS
+echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
