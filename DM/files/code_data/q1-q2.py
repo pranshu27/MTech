@@ -25,7 +25,7 @@ for key, value in js.items():
     
     out.append(tmp)
     
-   # print(key, value)
+   # #print(key, value)
     
 df = pd.DataFrame(out)
 df['neighbours'] = df['neighbours'].apply(lambda x: str(x).replace('[', '').replace(']', '').replace("'", ""))
@@ -59,7 +59,7 @@ for h in hatao:
              
              for n in new_cols:
                  n = n.strip()
-             #print(new_cols)
+             ##print(new_cols)
              df1.loc[k, 'neighbours'] = ','.join(new_cols).replace('[]', '')
 
 
@@ -289,7 +289,7 @@ vaccine_districts = dfd['District']
 # =============================================================================
 # 
 # for d in vaccine_districts[:10]:
-#     print(d)
+#     #print(d)
 # =============================================================================
 
 
@@ -320,15 +320,15 @@ for i in range(tot_len):
         curr = str(df1.iloc[i, 0])
         
         if (curr not in cowin_districts):
-            #print(curr)
+            ##print(curr)
 # =============================================================================
-#             print(curr)
-#             print('\n')
+#             #print(curr)
+#             #print('\n')
 # =============================================================================
             df1.drop(df1[df1['district']==curr].index, inplace=True)
 
 
-       # print("error", i)
+       # #print("error", i)
 
             df1.reset_index(inplace=True, drop=True)
     
@@ -339,7 +339,7 @@ for i in range(tot_len):
                      
                      for n in new_cols:
                          n = n.strip()
-                     print(new_cols)
+                     #print(new_cols)
                      df1.loc[k, 'neighbours'] = ','.join(new_cols).replace('[]', '')
             
             #df1.reset_index(inplace=True, drop=True)
@@ -359,23 +359,23 @@ dfc_only = set(cowin_districts) - common_dist
 df1_only = set(df1['district']) - common_dist
 '''
 def combine(city):
-    print(city)
+    #print(city)
     all_city = list(df1[df1['district'].str.contains(city)]['district'])
-   # print(all_city)
+   # #print(all_city)
     neighbours = list()
     for d in all_city:
         tmp = str(df1[df1['district']==d]['neighbours'].values[0]).split(', ')
         neighbours.extend(tmp)
         df1.drop(df1[df1['district']==d].index, inplace=True)
     
-        #print(tmp, type(tmp))
+        ##print(tmp, type(tmp))
     neighbours = set(neighbours) - set(all_city)
-    print(neighbours)
-    print(all_city)
+    #print(neighbours)
+    #print(all_city)
     tmp_dict = {}
     tmp_dict['district'] = all_city[0]
     tmp_dict['neighbours'] = str(neighbours).replace('{', '').replace('}', '').replace("'", '')
-   # print(tmp_dict)
+   # #print(tmp_dict)
     df1.reset_index(inplace=True, drop=True)
 
     
@@ -398,9 +398,9 @@ tbc = ['delhi','champaran', 'sikkim', 'singhbhum', '24 parganas', \
 for t in tbc:
     try:
         combine(t)
-        print("merged ", t)
+        #print("merged ", t)
     except:
-        print("can't merge ", t)
+        #print("can't merge ", t)
 
 #combine('mumbai')
 
@@ -439,7 +439,7 @@ for i in range(len(df1)):
          df1.loc[i, 'stateid'] = dcodes[dcodes['District']==df1.loc[i, 'district']]['State_Code'].values[0]
      except:
          tbd.append(i)
-         print(i)
+         #print(i)
 
 
 for j in range(len(df1)):
@@ -448,7 +448,7 @@ for j in range(len(df1)):
         for i in range(len(tmp)):
            tmp[i] = dfc[dfc['District']==tmp[i]]['District_Key'].values[0] 
         df1.loc[j, 'neighbours'] = ','.join(tmp).replace('[]', '')
-        #print(tmp)
+        ##print(tmp)
     except:
         pass
     
@@ -481,16 +481,16 @@ def check(out, item):
     return False
     
 
-#print(check(out, {'district': 'lahaul and spiti', 'neighbour': 'leh'}))
+##print(check(out, {'district': 'lahaul and spiti', 'neighbour': 'leh'}))
 
 
 for i in range(len(df1)):
     #df2.iloc[j, 'district'] = df1.loc[i, 'district']
     try:
         curr = df1.loc[i, 'districtid']
-        #print(curr, '\n')
-        #print(curr)
-        #print(df1.loc[i, 'neighbours'].split(','))
+        ##print(curr, '\n')
+        ##print(curr)
+        ##print(df1.loc[i, 'neighbours'].split(','))
         n_l = df1.loc[i, 'neighbours'].split(',')
         
         for j in range(len(n_l)):
@@ -506,7 +506,7 @@ for i in range(len(df1)):
     except:
         pass
     
-        #print(curr)
+        ##print(curr)
     
         
 df2 = pd.DataFrame(out) 
