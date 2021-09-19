@@ -14,7 +14,7 @@ Created on Thu Sep  9 06:19:37 2021
 # DISTRICTWISE
 # =============================================================================
 import pandas as pd 
-dfc = pd.read_csv(r'data/cowin_vaccine_data_districtwise.csv', low_memory=False)
+dfc = pd.read_csv(r'cowin_vaccine_data_districtwise.csv', low_memory=False)
 dfc = dfc.loc[1:, :]
 dfc.reset_index(drop=True, inplace=True)
 
