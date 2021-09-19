@@ -1,54 +1,48 @@
 {"stateid":"AP","districtid":"AP_Anantapur","neighbours":"AP_Y.S.R. Kadapa,KA_Ballari,KA_Tumakuru,AP_Kurnool,KA_Chikkaballapura,AP_Chittoor,KA_Chitradurga"}
 {"stateid":"AP","districtid":"AP_Chittoor","neighbours":"AP_Y.S.R. Kadapa,TN_Krishnagiri,KA_Kolar,AP_S.P.S. Nellore,TN_Vellore,KA_Chikkaballapura,AP_Anantapur,TN_Thiruvallur"}
-{"stateid":"AP","districtid":"AP_East Godavari","neighbours":"AP_West Godavari,OR_Malkangiri,AP_Visakhapatnam,CT_Sukma"}
-{"stateid":"AP","districtid":"AP_Guntur","neighbours":"AP_Prakasam,AP_Krishna,TG_Suryapet,TG_Nalgonda"}
+{"stateid":"AP","districtid":"AP_East Godavari","neighbours":"AP_West Godavari,OR_Malkangiri,TG_Bhadradri Kothagudem,AP_Visakhapatnam,CT_Sukma, TG_Bhadradri Kothagudem,AP_Krishna,TG_Khammam,AP_East Godavari"}
+{"stateid":"AP","districtid":"AP_Guntur","neighbours":"AP_Prakasam,AP_Krishna,TG_Suryapet,TG_Nalgonda,TG_Nagarkurnool"}
 {"stateid":"AP","districtid":"AP_Krishna","neighbours":"TG_Suryapet,TG_Khammam,AP_West Godavari,AP_Guntur"}
-{"stateid":"AP","districtid":"AP_Kurnool","neighbours":"AP_Y.S.R. Kadapa,KA_Raichur,KA_Ballari,AP_Prakasam,AP_Anantapur"}
-{"stateid":"AP","districtid":"AP_Prakasam","neighbours":"AP_Y.S.R. Kadapa,AP_S.P.S. Nellore,AP_Guntur,AP_Kurnool"}
+{"stateid":"AP","districtid":"AP_Kurnool","neighbours":"AP_Y.S.R. Kadapa,TG_Wanaparthy,KA_Raichur,KA_Ballari,AP_Prakasam,TG_Jogulamba Gadwal,TG_Nagarkurnool,AP_Anantapur"}
+{"stateid":"AP","districtid":"AP_Prakasam","neighbours":"AP_Y.S.R. Kadapa,AP_S.P.S. Nellore,AP_Guntur,AP_Kurnool,TG_Nagarkurnool"}
 {"stateid":"AP","districtid":"AP_S.P.S. Nellore","neighbours":"AP_Prakasam,AP_Y.S.R. Kadapa,TN_Thiruvallur,AP_Chittoor"}
 {"stateid":"AP","districtid":"AP_Srikakulam","neighbours":"OR_Ganjam,OR_Gajapati,OR_Rayagada,AP_Vizianagaram"}
 {"stateid":"AP","districtid":"AP_Visakhapatnam","neighbours":"OR_Koraput,OR_Malkangiri,AP_East Godavari,AP_Vizianagaram"}
 {"stateid":"AP","districtid":"AP_Vizianagaram","neighbours":"OR_Koraput,OR_Rayagada,AP_Visakhapatnam,AP_Srikakulam"}
-{"stateid":"AP","districtid":"AP_West Godavari","neighbours":"AP_Krishna,TG_Khammam,AP_East Godavari"}
 {"stateid":"AP","districtid":"AP_Y.S.R. Kadapa","neighbours":"AP_S.P.S. Nellore,AP_Prakasam,AP_Chittoor,AP_Kurnool,AP_Anantapur"}
 {"stateid":"AR","districtid":"AR_Anjaw","neighbours":"AR_Lohit,AR_Changlang"}
-{"stateid":"AR","districtid":"AR_Changlang","neighbours":"AR_Tirap,AR_Anjaw,AR_Namsai,AR_Lohit"}
-{"stateid":"AR","districtid":"AR_East Kameng","neighbours":"AR_Tawang,AR_Papum Pare,AR_Kurung Kumey,AR_Pakke Kessang,AR_West Kameng"}
-{"stateid":"AR","districtid":"AR_East Siang","neighbours":"AR_Lower Siang,AR_Lower Dibang Valley,AR_Upper Siang,AR_Siang"}
-{"stateid":"AR","districtid":"AR_Kamle","neighbours":"AR_Lower Siang,AR_Kra Daadi,AR_Papum Pare,AR_Lower Subansiri,AS_Lakhimpur,AR_Upper Subansiri"}
+{"stateid":"AR","districtid":"AR_Changlang","neighbours":"AR_Tirap,AR_Anjaw,AR_Namsai,AR_Lohit,AS_Tinsukia"}
+{"stateid":"AR","districtid":"AR_East Siang","neighbours":"AR_Lower Siang,AR_Upper Siang,AR_Shi Yomi,AR_West Siang,AR_East Siang, AR_Lower Siang,AR_Lepa Rada,AR_Shi Yomi,AR_Siang,AR_Upper Subansiri, AR_Upper Dibang Valley,AR_Lower Dibang Valley,AR_Shi Yomi,AR_Siang,AR_East Siang, AR_Lower Siang,AS_Dhemaji,AR_Lower Dibang Valley,AR_Upper Siang,AR_Siang,AS_Tinsukia, AR_Kamle,AR_West Siang,AS_Dhemaji,AR_Lepa Rada,AR_Siang,AR_Upper Subansiri,AR_East Siang"}
+{"stateid":"AR","districtid":"AR_Kamle","neighbours":"AR_Lower Siang,AR_Kra Daadi,AS_Dhemaji,AR_Papum Pare,AR_Lower Subansiri,AS_Lakhimpur,AR_Upper Subansiri"}
 {"stateid":"AR","districtid":"AR_Kra Daadi","neighbours":"AR_Kamle,AR_Papum Pare,AR_Kurung Kumey,AR_Lower Subansiri,AR_Upper Subansiri"}
 {"stateid":"AR","districtid":"AR_Kurung Kumey","neighbours":"AR_Kra Daadi,AR_Upper Subansiri,AR_Papum Pare,AR_East Kameng"}
 {"stateid":"AR","districtid":"AR_Lepa Rada","neighbours":"AR_Upper Subansiri,AR_Lower Siang,AR_West Siang"}
-{"stateid":"AR","districtid":"AR_Lohit","neighbours":"AR_Anjaw,AR_Namsai,AR_Lower Dibang Valley,AR_Changlang"}
-{"stateid":"AR","districtid":"AR_Longding","neighbours":"NL_Mon,AS_Dibrugarh,AR_Tirap"}
-{"stateid":"AR","districtid":"AR_Lower Dibang Valley","neighbours":"AR_Upper Dibang Valley,AR_Upper Siang,AR_Lohit,AR_East Siang"}
-{"stateid":"AR","districtid":"AR_Lower Siang","neighbours":"AR_Kamle,AR_West Siang,AR_Lepa Rada,AR_Siang,AR_Upper Subansiri,AR_East Siang"}
+{"stateid":"AR","districtid":"AR_Lohit","neighbours":"AR_Anjaw,AR_Namsai,AR_Lower Dibang Valley,AR_Changlang,AS_Tinsukia"}
+{"stateid":"AR","districtid":"AR_Longding","neighbours":"AS_Charaideo,NL_Mon,AS_Dibrugarh,AR_Tirap"}
+{"stateid":"AR","districtid":"AR_Lower Dibang Valley","neighbours":"AS_Dhemaji,AR_Upper Dibang Valley,AR_Upper Siang,AR_Lohit,AR_East Siang,AS_Tinsukia"}
 {"stateid":"AR","districtid":"AR_Lower Subansiri","neighbours":"AR_Papum Pare,AR_Kra Daadi,AR_Kamle"}
-{"stateid":"AR","districtid":"AR_Namsai","neighbours":"AR_Lohit,AR_Changlang"}
-{"stateid":"AR","districtid":"AR_Pakke Kessang","neighbours":"AR_East Kameng,AR_Papum Pare,AR_West Kameng,AS_Sonitpur"}
-{"stateid":"AR","districtid":"AR_Papum Pare","neighbours":"AR_Kamle,AR_East Kameng,AR_Kra Daadi,AR_Kurung Kumey,AR_Lower Subansiri,AS_Lakhimpur,AR_Pakke Kessang"}
+{"stateid":"AR","districtid":"AR_Namsai","neighbours":"AR_Lohit,AR_Changlang,AS_Tinsukia"}
+{"stateid":"AR","districtid":"AR_Pakke Kessang","neighbours":"AR_East Kameng,AR_Papum Pare,AR_West Kameng,AS_Biswanath,AS_Sonitpur"}
+{"stateid":"AR","districtid":"AR_Papum Pare","neighbours":"AR_Kamle,AR_East Kameng,AR_Kra Daadi,AR_Kurung Kumey,AR_Lower Subansiri,AS_Lakhimpur,AR_Pakke Kessang,AS_Biswanath"}
 {"stateid":"AR","districtid":"AR_Shi Yomi","neighbours":"AR_Upper Subansiri,AR_Upper Siang,AR_Siang,AR_West Siang"}
-{"stateid":"AR","districtid":"AR_Siang","neighbours":"AR_Lower Siang,AR_Upper Siang,AR_Shi Yomi,AR_West Siang,AR_East Siang"}
 {"stateid":"AR","districtid":"AR_Tawang","neighbours":"AR_West Kameng,AR_East Kameng"}
-{"stateid":"AR","districtid":"AR_Tirap","neighbours":"AR_Longding,AS_Dibrugarh,AR_Changlang"}
+{"stateid":"AR","districtid":"AR_Tirap","neighbours":"AR_Longding,AS_Dibrugarh,AR_Changlang,AS_Tinsukia"}
 {"stateid":"AR","districtid":"AR_Upper Dibang Valley","neighbours":"AR_Upper Siang,AR_Lower Dibang Valley"}
-{"stateid":"AR","districtid":"AR_Upper Siang","neighbours":"AR_Upper Dibang Valley,AR_Lower Dibang Valley,AR_Shi Yomi,AR_Siang,AR_East Siang"}
 {"stateid":"AR","districtid":"AR_Upper Subansiri","neighbours":"AR_Lower Siang,AR_Kamle,AR_Kra Daadi,AR_Kurung Kumey,AR_Lepa Rada,AR_Shi Yomi,AR_West Siang"}
-{"stateid":"AR","districtid":"AR_West Kameng","neighbours":"AR_Tawang,AR_East Kameng,AR_Pakke Kessang,AS_Udalguri,AS_Sonitpur"}
-{"stateid":"AR","districtid":"AR_West Siang","neighbours":"AR_Lower Siang,AR_Lepa Rada,AR_Shi Yomi,AR_Siang,AR_Upper Subansiri"}
-{"stateid":"AS","districtid":"AS_Cachar","neighbours":"ML_East Jaintia Hills,MZ_Kolasib,MN_Pherzawl,AS_Karimganj,AS_Dima Hasao,MZ_Aizawl"}
-{"stateid":"AS","districtid":"AS_Darrang","neighbours":"AS_Udalguri,AS_Sonitpur,AS_Kamrup"}
-{"stateid":"AS","districtid":"AS_Dhubri","neighbours":"WB_Cooch Behar,AS_Goalpara"}
-{"stateid":"AS","districtid":"AS_Dibrugarh","neighbours":"AR_Longding,AR_Tirap,AS_Lakhimpur,AS_Sivasagar"}
-{"stateid":"AS","districtid":"AS_Dima Hasao","neighbours":"AS_Cachar,ML_West Jaintia Hills,ML_East Jaintia Hills,AS_West Karbi Anglong,NL_Peren"}
-{"stateid":"AS","districtid":"AS_Goalpara","neighbours":"ML_West Garo Hills,ML_North Garo Hills,AS_Dhubri,AS_Kamrup"}
-{"stateid":"AS","districtid":"AS_Kamrup","neighbours":"ML_North Garo Hills,AS_Darrang,AS_Goalpara,ML_West Khasi Hills,ML_Ribhoi"}
-{"stateid":"AS","districtid":"AS_Karimganj","neighbours":"MZ_Mamit,AS_Cachar,TR_North Tripura"}
-{"stateid":"AS","districtid":"AS_Lakhimpur","neighbours":"AR_Kamle,AR_Papum Pare,AS_Dibrugarh"}
-{"stateid":"AS","districtid":"AS_Sivasagar","neighbours":"NL_Longleng,NL_Mokokchung,NL_Mon,AS_Dibrugarh"}
-{"stateid":"AS","districtid":"AS_Sonitpur","neighbours":"AS_Darrang,AR_Pakke Kessang,AR_West Kameng,AS_Udalguri"}
-{"stateid":"AS","districtid":"AS_Udalguri","neighbours":"AS_Sonitpur,AR_West Kameng,AS_Darrang"}
-{"stateid":"AS","districtid":"AS_West Karbi Anglong","neighbours":"ML_West Jaintia Hills,AS_Dima Hasao,ML_Ribhoi"}
+{"stateid":"AR","districtid":"AR_West Kameng","neighbours":"AR_Tawang,AR_East Kameng,AR_Pakke Kessang,AS_Udalguri,AS_Sonitpur, AR_Tawang,AR_Papum Pare,AR_Kurung Kumey,AR_Pakke Kessang,AR_West Kameng"}
+{"stateid":"AS","districtid":"AS_Cachar","neighbours":"ML_East Jaintia Hills,MZ_Kolasib,MN_Pherzawl,AS_Karimganj,MN_Tamenglong,AS_Dima Hasao,MN_Jiribam,MZ_Aizawl,AS_Hailakandi"}
+{"stateid":"AS","districtid":"AS_Darrang","neighbours":"AS_Kamrup Metropolitan,AS_Baksa,AS_Morigaon,AS_Udalguri,AS_Sonitpur,AS_Kamrup"}
+{"stateid":"AS","districtid":"AS_Dhubri","neighbours":"WB_Cooch Behar,AS_Goalpara,AS_Bongaigaon,AS_South Salmara Mankachar,AS_Kokrajhar"}
+{"stateid":"AS","districtid":"AS_Dibrugarh","neighbours":"AR_Longding,AR_Tirap,AS_Dhemaji,AS_Majuli,AS_Lakhimpur,AS_Charaideo,AS_Sivasagar,AS_Tinsukia"}
+{"stateid":"AS","districtid":"AS_Dima Hasao","neighbours":"AS_Cachar,ML_West Jaintia Hills,ML_East Jaintia Hills,AS_West Karbi Anglong,MN_Tamenglong,NL_Peren,AS_Hojai,AS_Karbi Anglong"}
+{"stateid":"AS","districtid":"AS_Goalpara","neighbours":"ML_West Garo Hills,ML_North Garo Hills,AS_Dhubri,AS_Barpeta,AS_Bongaigaon,AS_Kamrup,AS_South Salmara Mankachar"}
+{"stateid":"AS","districtid":"AS_Kamrup","neighbours":"AS_Kamrup Metropolitan,AS_Baksa,ML_North Garo Hills,AS_Nalbari,AS_Darrang,AS_Barpeta,AS_Goalpara,ML_West Khasi Hills,ML_Ribhoi"}
+{"stateid":"AS","districtid":"AS_Karimganj","neighbours":"MZ_Mamit,AS_Cachar,AS_Hailakandi,TR_North Tripura"}
+{"stateid":"AS","districtid":"AS_Lakhimpur","neighbours":"AR_Kamle,AS_Dhemaji,AR_Papum Pare,AS_Majuli,AS_Biswanath,AS_Golaghat,AS_Dibrugarh"}
+{"stateid":"AS","districtid":"AS_Sivasagar","neighbours":"NL_Longleng,AS_Majuli,AS_Charaideo,NL_Mokokchung,NL_Mon,AS_Dibrugarh,AS_Jorhat"}
+{"stateid":"AS","districtid":"AS_Sonitpur","neighbours":"AS_Darrang,AR_Pakke Kessang,AR_West Kameng,AS_Morigaon,AS_Biswanath,AS_Udalguri,AS_Nagaon"}
+{"stateid":"AS","districtid":"AS_Udalguri","neighbours":"AS_Sonitpur,AR_West Kameng,AS_Baksa,AS_Darrang"}
+{"stateid":"AS","districtid":"AS_West Karbi Anglong","neighbours":"ML_West Jaintia Hills,AS_Morigaon,AS_Dima Hasao,ML_Ribhoi,AS_Hojai,AS_Nagaon"}
 {"stateid":"BR","districtid":"BR_Araria","neighbours":"BR_Purnia,BR_Kishanganj,BR_Madhepura,BR_Supaul"}
 {"stateid":"BR","districtid":"BR_Arwal","neighbours":"BR_Aurangabad,BR_Bhojpur,BR_Gaya,BR_Patna,BR_Jehanabad,BR_Rohtas"}
 {"stateid":"BR","districtid":"BR_Aurangabad","neighbours":"BR_Arwal,BR_Gaya,JH_Palamu,BR_Rohtas"}
@@ -59,7 +53,7 @@
 {"stateid":"BR","districtid":"BR_Bhojpur","neighbours":"BR_Arwal,BR_Buxar,BR_Saran,UP_Ballia,BR_Patna,BR_Rohtas"}
 {"stateid":"BR","districtid":"BR_Buxar","neighbours":"UP_Ghazipur,BR_Bhojpur,BR_Kaimur,UP_Ballia,BR_Rohtas"}
 {"stateid":"BR","districtid":"BR_Darbhanga","neighbours":"BR_Muzaffarpur,BR_Samastipur,BR_Madhubani,BR_Saharsa,BR_Sitamarhi"}
-{"stateid":"BR","districtid":"BR_East Champaran","neighbours":"BR_West Champaran,BR_Sheohar,BR_Muzaffarpur,BR_Gopalganj,BR_Sitamarhi"}
+{"stateid":"BR","districtid":"BR_East Champaran","neighbours":"BR_West Champaran,BR_Sheohar,BR_Muzaffarpur,BR_Gopalganj,BR_Sitamarhi, UP_Maharajganj,BR_East Champaran,BR_Gopalganj,UP_Kushinagar"}
 {"stateid":"BR","districtid":"BR_Gaya","neighbours":"BR_Arwal,BR_Nalanda,BR_Nawada,JH_Palamu,BR_Aurangabad,JH_Koderma,JH_Chatra,BR_Jehanabad,JH_Hazaribagh"}
 {"stateid":"BR","districtid":"BR_Gopalganj","neighbours":"BR_West Champaran,UP_Deoria,UP_Kushinagar,BR_Muzaffarpur,BR_Siwan,BR_East Champaran,BR_Saran"}
 {"stateid":"BR","districtid":"BR_Jamui","neighbours":"BR_Sheikhpura,BR_Munger,JH_Deoghar,BR_Nawada,JH_Giridih,BR_Banka,BR_Lakhisarai"}
@@ -87,7 +81,6 @@
 {"stateid":"BR","districtid":"BR_Siwan","neighbours":"BR_Gopalganj,UP_Ballia,UP_Deoria,BR_Saran"}
 {"stateid":"BR","districtid":"BR_Supaul","neighbours":"BR_Madhubani,BR_Saharsa,BR_Madhepura,BR_Araria"}
 {"stateid":"BR","districtid":"BR_Vaishali","neighbours":"BR_Samastipur,BR_Patna,BR_Muzaffarpur,BR_Saran"}
-{"stateid":"BR","districtid":"BR_West Champaran","neighbours":"UP_Maharajganj,BR_East Champaran,BR_Gopalganj,UP_Kushinagar"}
 {"stateid":"CH","districtid":"CH_Chandigarh","neighbours":"HR_Panchkula,PB_S.A.S. Nagar"}
 {"stateid":"CT","districtid":"CT_Balod","neighbours":"CT_Uttar Bastar Kanker,CT_Dhamtari,CT_Durg,CT_Rajnandgaon"}
 {"stateid":"CT","districtid":"CT_Baloda Bazar","neighbours":"CT_Raipur,CT_Mungeli,CT_Bametara,CT_Raigarh,CT_Bilaspur,CT_Mahasamund,CT_Janjgir Champa"}
@@ -95,8 +88,8 @@
 {"stateid":"CT","districtid":"CT_Balrampur","neighbours":"JH_Gumla,UP_Sonbhadra,CT_Surajpur,CT_Jashpur,JH_Garhwa,MP_Singrauli,JH_Latehar,CT_Surguja"}
 {"stateid":"CT","districtid":"CT_Bametara","neighbours":"CT_Mungeli,CT_Kabeerdham,CT_Baloda Bazar,CT_Durg,CT_Rajnandgaon,CT_Raipur"}
 {"stateid":"CT","districtid":"CT_Bastar","neighbours":"OR_Koraput,OR_Malkangiri,CT_Kondagaon,CT_Sukma,OR_Nabarangapur,CT_Dakshin Bastar Dantewada"}
-{"stateid":"CT","districtid":"CT_Bijapur","neighbours":"MH_Gadchiroli,CT_Sukma,CT_Dakshin Bastar Dantewada,CT_Narayanpur"}
-{"stateid":"CT","districtid":"CT_Bijapur","neighbours":"KA_Bagalkote,KA_Kalaburagi,MH_Sangli,KA_Raichur,KA_Belagavi,MH_Solapur"}
+{"stateid":"CT","districtid":"CT_Bijapur","neighbours":"TG_Jayashankar Bhupalapally,TG_Bhadradri Kothagudem,MH_Gadchiroli,CT_Sukma,CT_Dakshin Bastar Dantewada,CT_Narayanpur,TG_Mulugu"}
+{"stateid":"CT","districtid":"CT_Bijapur","neighbours":"KA_Bagalkote,KA_Kalaburagi,MH_Sangli,KA_Raichur,KA_Belagavi,TG_Yadadri Bhuvanagiri,MH_Solapur"}
 {"stateid":"CT","districtid":"CT_Bilaspur","neighbours":"PB_Rupnagar,HP_Una,HP_Solan,HP_Mandi,HP_Hamirpur"}
 {"stateid":"CT","districtid":"CT_Bilaspur","neighbours":"CT_Mungeli,CT_Baloda Bazar,CT_Korba,MP_Anuppur,CT_Janjgir Champa,CT_Koriya"}
 {"stateid":"CT","districtid":"CT_Dakshin Bastar Dantewada","neighbours":"CT_Kondagaon,CT_Bastar,CT_Sukma,CT_Bijapur,CT_Narayanpur"}
@@ -115,14 +108,13 @@
 {"stateid":"CT","districtid":"CT_Raigarh","neighbours":"OR_Jharsuguda,OR_Bargarh,CT_Jashpur,CT_Baloda Bazar,CT_Korba,OR_Sundargarh,CT_Mahasamund,CT_Janjgir Champa,CT_Surguja"}
 {"stateid":"CT","districtid":"CT_Raipur","neighbours":"CT_Dhamtari,CT_Baloda Bazar,CT_Gariaband,CT_Bametara,CT_Durg,CT_Mahasamund"}
 {"stateid":"CT","districtid":"CT_Rajnandgaon","neighbours":"CT_Kabeerdham,MH_Gadchiroli,CT_Bametara,CT_Uttar Bastar Kanker,CT_Durg,CT_Balod,MH_Gondia,MP_Balaghat"}
-{"stateid":"CT","districtid":"CT_Sukma","neighbours":"AP_East Godavari,OR_Malkangiri,CT_Bastar,CT_Bijapur,CT_Dakshin Bastar Dantewada"}
+{"stateid":"CT","districtid":"CT_Sukma","neighbours":"AP_East Godavari,OR_Malkangiri,CT_Bastar,TG_Bhadradri Kothagudem,CT_Bijapur,CT_Dakshin Bastar Dantewada"}
 {"stateid":"CT","districtid":"CT_Surajpur","neighbours":"MP_Singrauli,CT_Balrampur,CT_Korba,CT_Koriya,CT_Surguja"}
 {"stateid":"CT","districtid":"CT_Surguja","neighbours":"CT_Surajpur,CT_Jashpur,CT_Balrampur,CT_Raigarh,CT_Korba"}
 {"stateid":"CT","districtid":"CT_Uttar Bastar Kanker","neighbours":"CT_Dhamtari,CT_Kondagaon,MH_Gadchiroli,CT_Balod,CT_Rajnandgaon,CT_Narayanpur"}
-{"stateid":"DL","districtid":"DL_East Delhi","neighbours":"UP_Gautam Buddha Nagar,UP_Ghaziabad,DL_Shahdara"}
-{"stateid":"DL","districtid":"DL_North Delhi","neighbours":"HR_Sonipat,UP_Ghaziabad,UP_Baghpat"}
-{"stateid":"DL","districtid":"DL_Shahdara","neighbours":"UP_Ghaziabad,DL_East Delhi"}
-{"stateid":"DN","districtid":"DN_Dadra and Nagar Haveli","neighbours":"MH_Palghar,GJ_Valsad"}
+{"stateid":"DL","districtid":"DL_East Delhi","neighbours":"DL_Central Delhi,DL_New Delhi,DL_North West Delhi,DL_South West Delhi,HR_Jhajjar, DL_Central Delhi,HR_Sonipat,UP_Ghaziabad,DL_North East Delhi,DL_North West Delhi,UP_Baghpat, UP_Gautam Buddha Nagar,DL_Central Delhi,DL_South East Delhi,UP_Ghaziabad,DL_Shahdara"}
+{"stateid":"DL","districtid":"DL_Shahdara","neighbours":"DL_Central Delhi,UP_Ghaziabad,DL_North East Delhi,DL_East Delhi"}
+{"stateid":"DN","districtid":"DN_Dadra and Nagar Haveli","neighbours":"palghar,valsad"}
 {"stateid":"DN","districtid":"DN_Daman","neighbours":"GJ_Valsad"}
 {"stateid":"DN","districtid":"DN_Diu","neighbours":"GJ_Gir Somnath"}
 {"stateid":"GJ","districtid":"GJ_Ahmedabad","neighbours":"GJ_Anand,GJ_Mehsana,GJ_Botad,GJ_Surendranagar,GJ_Bhavnagar,GJ_Gandhinagar,GJ_Kheda"}
@@ -157,7 +149,7 @@
 {"stateid":"GJ","districtid":"GJ_Surendranagar","neighbours":"GJ_Patan,GJ_Rajkot,GJ_Ahmedabad,GJ_Mehsana,GJ_Botad,GJ_Morbi,GJ_Kutch"}
 {"stateid":"GJ","districtid":"GJ_Tapi","neighbours":"GJ_Narmada,GJ_Navsari,MH_Dhule,MH_Nandurbar,GJ_Dang,GJ_Surat"}
 {"stateid":"GJ","districtid":"GJ_Vadodara","neighbours":"GJ_Anand,GJ_Bharuch,GJ_Narmada,GJ_Panchmahal,GJ_Chhota Udaipur,GJ_Kheda"}
-{"stateid":"GJ","districtid":"GJ_Valsad","neighbours":"MH_Nashik,MH_Palghar,GJ_Navsari,DN_Daman,DN_Dadra and Nagar Haveli"}
+{"stateid":"GJ","districtid":"GJ_Valsad","neighbours":"nashik,palghar,navsari,daman,dadra and nagar haveli"}
 {"stateid":"HP","districtid":"HP_Chamba","neighbours":"HP_Lahaul and Spiti,HP_Kangra,JK_Kishtwar,PB_Pathankot,JK_Doda,JK_Kathua"}
 {"stateid":"HP","districtid":"HP_Hamirpur","neighbours":"CT_Bilaspur,HP_Una,HP_Kangra,HP_Mandi"}
 {"stateid":"HP","districtid":"HP_Hamirpur","neighbours":"UP_Kanpur Nagar,UP_Mahoba,UP_Kanpur Dehat,UP_Jhansi,UP_Jalaun,UP_Banda,UP_Fatehpur"}
@@ -173,9 +165,9 @@
 {"stateid":"HR","districtid":"HR_Ambala","neighbours":"HR_Panchkula,HP_Sirmaur,PB_Patiala,PB_S.A.S. Nagar,HR_Yamunanagar,HR_Kurukshetra"}
 {"stateid":"HR","districtid":"HR_Bhiwani","neighbours":"RJ_Churu,HR_Charkhi Dadri,RJ_Jhunjhunu,HR_Mahendragarh,HR_Rohtak,HR_Hisar,RJ_Hanumangarh"}
 {"stateid":"HR","districtid":"HR_Charkhi Dadri","neighbours":"HR_Mahendragarh,HR_Rohtak,HR_Jhajjar,HR_Bhiwani"}
-{"stateid":"HR","districtid":"HR_Faridabad","neighbours":"UP_Gautam Buddha Nagar,HR_Gurugram,HR_Palwal"}
+{"stateid":"HR","districtid":"HR_Faridabad","neighbours":"UP_Gautam Buddha Nagar,DL_South East Delhi,HR_Gurugram,HR_Palwal,DL_South Delhi"}
 {"stateid":"HR","districtid":"HR_Fatehabad","neighbours":"HR_Sirsa,PB_Sangrur,PB_Mansa,HR_Jind,HR_Hisar,RJ_Hanumangarh"}
-{"stateid":"HR","districtid":"HR_Gurugram","neighbours":"HR_Faridabad,HR_Nuh,HR_Rewari,HR_Palwal,HR_Jhajjar"}
+{"stateid":"HR","districtid":"HR_Gurugram","neighbours":"DL_New Delhi,HR_Faridabad,HR_Nuh,HR_Rewari,DL_South West Delhi,HR_Palwal,HR_Jhajjar,DL_South Delhi"}
 {"stateid":"HR","districtid":"HR_Hisar","neighbours":"HR_Jind,HR_Rohtak,HR_Fatehabad,HR_Bhiwani,RJ_Hanumangarh"}
 {"stateid":"HR","districtid":"HR_Jhajjar","neighbours":"charkhi dadri,delhi,gurugram,sonipat,mahendragarh,rohtak,rewari"}
 {"stateid":"HR","districtid":"HR_Jind","neighbours":"HR_Karnal,PB_Sangrur,PB_Patiala,HR_Panipat,HR_Sonipat,HR_Kaithal,HR_Fatehabad,HR_Rohtak,HR_Hisar"}
@@ -190,14 +182,14 @@
 {"stateid":"HR","districtid":"HR_Rewari","neighbours":"HR_Gurugram,HR_Nuh,HR_Mahendragarh,RJ_Alwar,HR_Jhajjar"}
 {"stateid":"HR","districtid":"HR_Rohtak","neighbours":"HR_Charkhi Dadri,HR_Jind,HR_Sonipat,HR_Hisar,HR_Bhiwani,HR_Jhajjar"}
 {"stateid":"HR","districtid":"HR_Sirsa","neighbours":"PB_Bathinda,PB_Mansa,PB_Sri Muktsar Sahib,HR_Fatehabad,RJ_Hanumangarh"}
-{"stateid":"HR","districtid":"HR_Sonipat","neighbours":"HR_Panipat,HR_Jind,HR_Rohtak,DL_North Delhi,UP_Baghpat,HR_Jhajjar"}
+{"stateid":"HR","districtid":"HR_Sonipat","neighbours":"HR_Panipat,HR_Jind,HR_Rohtak,DL_North West Delhi,DL_North Delhi,UP_Baghpat,HR_Jhajjar"}
 {"stateid":"HR","districtid":"HR_Yamunanagar","neighbours":"HR_Karnal,HR_Ambala,HP_Sirmaur,UP_Saharanpur,HR_Kurukshetra"}
 {"stateid":"JH","districtid":"JH_Bokaro","neighbours":"JH_Giridih,JH_Dhanbad,JH_Ramgarh,JH_Hazaribagh,WB_Purulia"}
 {"stateid":"JH","districtid":"JH_Chatra","neighbours":"JH_Palamu,BR_Gaya,JH_Latehar,JH_Ranchi,JH_Hazaribagh"}
 {"stateid":"JH","districtid":"JH_Deoghar","neighbours":"JH_Dumka,JH_Giridih,JH_Jamtara,BR_Banka,BR_Jamui"}
 {"stateid":"JH","districtid":"JH_Dhanbad","neighbours":"JH_Giridih,JH_Jamtara,WB_Paschim Bardhaman,JH_Bokaro,WB_Purulia"}
 {"stateid":"JH","districtid":"JH_Dumka","neighbours":"JH_Deoghar,JH_Jamtara,BR_Banka,WB_Birbhum,JH_Pakur,JH_Godda"}
-{"stateid":"JH","districtid":"JH_East Singhbhum","neighbours":"JH_Saraikela-Kharsawan,WB_Jhargram,OR_Mayurbhanj,WB_Purulia"}
+{"stateid":"JH","districtid":"JH_East Singhbhum","neighbours":"JH_Saraikela-Kharsawan,OR_Mayurbhanj,OR_Sundargarh,JH_Simdega,OR_Kendujhar,JH_Khunti, JH_Saraikela-Kharsawan,WB_Jhargram,OR_Mayurbhanj,WB_Purulia"}
 {"stateid":"JH","districtid":"JH_Garhwa","neighbours":"UP_Sonbhadra,JH_Palamu,CT_Balrampur,JH_Latehar,BR_Rohtas"}
 {"stateid":"JH","districtid":"JH_Giridih","neighbours":"JH_Deoghar,BR_Nawada,JH_Jamtara,JH_Koderma,JH_Dhanbad,BR_Jamui,JH_Bokaro,JH_Hazaribagh"}
 {"stateid":"JH","districtid":"JH_Godda","neighbours":"JH_Dumka,BR_Banka,BR_Bhagalpur,JH_Pakur,JH_Sahibganj"}
@@ -215,7 +207,6 @@
 {"stateid":"JH","districtid":"JH_Sahibganj","neighbours":"WB_Malda,WB_Murshidabad,BR_Katihar,BR_Bhagalpur,JH_Pakur,JH_Godda"}
 {"stateid":"JH","districtid":"JH_Saraikela-Kharsawan","neighbours":"JH_East Singhbhum,OR_Mayurbhanj,JH_Ranchi,JH_West Singhbhum,JH_Khunti,WB_Purulia"}
 {"stateid":"JH","districtid":"JH_Simdega","neighbours":"JH_Gumla,CT_Jashpur,OR_Sundargarh,JH_West Singhbhum,JH_Khunti"}
-{"stateid":"JH","districtid":"JH_West Singhbhum","neighbours":"JH_Saraikela-Kharsawan,OR_Mayurbhanj,OR_Sundargarh,JH_Simdega,OR_Kendujhar,JH_Khunti"}
 {"stateid":"JK","districtid":"JK_Anantnag","neighbours":"JK_Ramban,JK_Kishtwar,LA_Kargil,JK_Doda,JK_Ganderbal,JK_Shopiyan,JK_Pulwama,JK_Kulgam,JK_Srinagar"}
 {"stateid":"JK","districtid":"JK_Bandipora","neighbours":"JK_Kupwara,LA_Kargil,JK_Baramulla,JK_Ganderbal,JK_Srinagar"}
 {"stateid":"JK","districtid":"JK_Baramulla","neighbours":"JK_Punch,JK_Kupwara,JK_Budgam,JK_Bandipora,JK_Srinagar"}
@@ -238,10 +229,10 @@
 {"stateid":"JK","districtid":"JK_Udhampur","neighbours":"JK_Reasi,JK_Jammu,JK_Ramban,JK_Samba,JK_Doda,JK_Kathua"}
 {"stateid":"KA","districtid":"KA_Bagalkote","neighbours":"KA_Raichur,CT_Bijapur,KA_Gadag,KA_Belagavi,KA_Koppal"}
 {"stateid":"KA","districtid":"KA_Ballari","neighbours":"KA_Raichur,KA_Gadag,AP_Kurnool,KA_Koppal,KA_Haveri,KA_Davanagere,AP_Anantapur,KA_Chitradurga"}
-{"stateid":"KA","districtid":"KA_Belagavi","neighbours":"KA_Bagalkote,MH_Kolhapur,MH_Sindhudurg,KA_Uttara Kannada,CT_Bijapur,KA_Gadag,KA_Dharwad,MH_Sangli"}
+{"stateid":"KA","districtid":"KA_Belagavi","neighbours":"bagalkote,kolhapur,sindhudurg,uttara kannada,bijapur,gadag,dharwad,sangli"}
 {"stateid":"KA","districtid":"KA_Bengaluru Rural","neighbours":"TN_Krishnagiri,KA_Bengaluru Urban,KA_Kolar,KA_Ramanagara,KA_Tumakuru,KA_Chikkaballapura"}
 {"stateid":"KA","districtid":"KA_Bengaluru Urban","neighbours":"TN_Krishnagiri,KA_Ramanagara,KA_Bengaluru Rural"}
-{"stateid":"KA","districtid":"KA_Bidar","neighbours":"KA_Kalaburagi,MH_Latur,MH_Nanded,MH_Osmanabad"}
+{"stateid":"KA","districtid":"KA_Bidar","neighbours":"KA_Kalaburagi,TG_Sangareddy,MH_Latur,TG_Kamareddy,MH_Nanded,MH_Osmanabad"}
 {"stateid":"KA","districtid":"KA_Chamarajanagara","neighbours":"KA_Mysuru,TN_Krishnagiri,TN_Erode,KA_Ramanagara,KL_Wayanad,TN_Nilgiris,KA_Mandya,TN_Salem,TN_Dharmapuri"}
 {"stateid":"KA","districtid":"KA_Chikkaballapura","neighbours":"KA_Kolar,AP_Chittoor,KA_Tumakuru,KA_Bengaluru Rural,AP_Anantapur"}
 {"stateid":"KA","districtid":"KA_Chikkamagaluru","neighbours":"KA_Shivamogga,KA_Tumakuru,KA_Udupi,KA_Davanagere,KA_Dakshina Kannada,KA_Hassan,KA_Chitradurga"}
@@ -252,18 +243,18 @@
 {"stateid":"KA","districtid":"KA_Gadag","neighbours":"KA_Bagalkote,KA_Ballari,KA_Belagavi,KA_Haveri,KA_Dharwad,KA_Koppal"}
 {"stateid":"KA","districtid":"KA_Hassan","neighbours":"KA_Kodagu,KA_Mysuru,KA_Chikkamagaluru,KA_Tumakuru,KA_Dakshina Kannada,KA_Mandya"}
 {"stateid":"KA","districtid":"KA_Haveri","neighbours":"KA_Ballari,KA_Uttara Kannada,KA_Shivamogga,KA_Gadag,KA_Dharwad,KA_Davanagere"}
-{"stateid":"KA","districtid":"KA_Kalaburagi","neighbours":"TG_Vikarabad,CT_Bijapur,KA_Bidar,MH_Osmanabad,TG_Narayanpet,MH_Solapur"}
+{"stateid":"KA","districtid":"KA_Kalaburagi","neighbours":"TG_Sangareddy,TG_Vikarabad,CT_Bijapur,KA_Bidar,MH_Osmanabad,TG_Narayanpet,TG_Yadadri Bhuvanagiri,MH_Solapur"}
 {"stateid":"KA","districtid":"KA_Kodagu","neighbours":"KA_Mysuru,KL_Kasaragod,KL_Kannur,KL_Wayanad,KA_Dakshina Kannada,KA_Hassan"}
 {"stateid":"KA","districtid":"KA_Kolar","neighbours":"AP_Chittoor,TN_Krishnagiri,KA_Chikkaballapura,KA_Bengaluru Rural"}
 {"stateid":"KA","districtid":"KA_Koppal","neighbours":"KA_Bagalkote,KA_Ballari,KA_Gadag,KA_Raichur"}
 {"stateid":"KA","districtid":"KA_Mandya","neighbours":"KA_Mysuru,KA_Ramanagara,KA_Tumakuru,KA_Chamarajanagara,KA_Hassan"}
 {"stateid":"KA","districtid":"KA_Mysuru","neighbours":"KA_Kodagu,KA_Chamarajanagara,KL_Wayanad,KA_Mandya,KA_Hassan"}
-{"stateid":"KA","districtid":"KA_Raichur","neighbours":"KA_Bagalkote,KA_Ballari,CT_Bijapur,AP_Kurnool,KA_Koppal,TG_Narayanpet"}
+{"stateid":"KA","districtid":"KA_Raichur","neighbours":"KA_Bagalkote,KA_Ballari,TG_Jogulamba Gadwal,CT_Bijapur,AP_Kurnool,KA_Koppal,TG_Narayanpet,TG_Yadadri Bhuvanagiri"}
 {"stateid":"KA","districtid":"KA_Ramanagara","neighbours":"TN_Krishnagiri,KA_Bengaluru Urban,KA_Tumakuru,KA_Bengaluru Rural,KA_Chamarajanagara,KA_Mandya"}
 {"stateid":"KA","districtid":"KA_Shivamogga","neighbours":"KA_Uttara Kannada,KA_Chikkamagaluru,KA_Udupi,KA_Haveri,KA_Davanagere"}
 {"stateid":"KA","districtid":"KA_Tumakuru","neighbours":"KA_Chikkamagaluru,KA_Ramanagara,KA_Bengaluru Rural,KA_Chikkaballapura,KA_Mandya,KA_Hassan,AP_Anantapur,KA_Chitradurga"}
 {"stateid":"KA","districtid":"KA_Udupi","neighbours":"KA_Dakshina Kannada,KA_Chikkamagaluru,KA_Shivamogga,KA_Uttara Kannada"}
-{"stateid":"KA","districtid":"KA_Uttara Kannada","neighbours":"KA_Shivamogga,KA_Belagavi,KA_Udupi,KA_Dharwad,KA_Haveri"}
+{"stateid":"KA","districtid":"KA_Uttara Kannada","neighbours":"GA_South Goa,KA_Shivamogga,KA_Belagavi,KA_Udupi,KA_Dharwad,KA_Haveri,GA_North Goa"}
 {"stateid":"KL","districtid":"KL_Alappuzha","neighbours":"KL_Kollam,KL_Kottayam,KL_Pathanamthitta,KL_Ernakulam"}
 {"stateid":"KL","districtid":"KL_Ernakulam","neighbours":"KL_Thrissur,KL_Kottayam,KL_Idukki,TN_Coimbatore,KL_Alappuzha"}
 {"stateid":"KL","districtid":"KL_Idukki","neighbours":"KL_Ernakulam,TN_Virudhunagar,KL_Kottayam,TN_Tirunelveli,TN_Theni,TN_Dindigul,TN_Tiruppur,TN_Coimbatore,KL_Pathanamthitta"}
@@ -279,60 +270,53 @@
 {"stateid":"KL","districtid":"KL_Wayanad","neighbours":"KA_Kodagu,KA_Mysuru,KL_Malappuram,KL_Kannur,KA_Chamarajanagara,KL_Kozhikode,TN_Nilgiris"}
 {"stateid":"LA","districtid":"LA_Kargil","neighbours":"JK_Anantnag,LA_Leh,HP_Lahaul and Spiti,JK_Kishtwar,JK_Ganderbal,JK_Bandipora"}
 {"stateid":"LA","districtid":"LA_Leh","neighbours":"HP_Lahaul and Spiti,LA_Kargil"}
-{"stateid":"MH","districtid":"MH_Ahmednagar","neighbours":"MH_Nashik,MH_Pune,MH_Beed,MH_Osmanabad,BR_Aurangabad,MH_Thane,MH_Solapur"}
+{"stateid":"MH","districtid":"MH_Ahmednagar","neighbours":"nashik,pune,beed,osmanabad,aurangabad,thane,solapur"}
 {"stateid":"MH","districtid":"MH_Akola","neighbours":"MH_Amravati,MH_Washim,MH_Buldhana"}
 {"stateid":"MH","districtid":"MH_Amravati","neighbours":"MH_Wardha,MP_Burhanpur,MH_Akola,MP_Khandwa,MP_Betul,MH_Washim,MH_Yavatmal,MH_Buldhana,MH_Nagpur,MP_Chhindwara"}
 {"stateid":"MH","districtid":"MH_Beed","neighbours":"MH_Jalna,MH_Latur,MH_Ahmednagar,MH_Osmanabad,BR_Aurangabad,MH_Parbhani"}
 {"stateid":"MH","districtid":"MH_Bhandara","neighbours":"MH_Gadchiroli,MH_Gondia,MH_Chandrapur,MH_Nagpur,MP_Balaghat"}
 {"stateid":"MH","districtid":"MH_Buldhana","neighbours":"MP_Burhanpur,MH_Jalna,MH_Akola,MH_Washim,MH_Jalgaon,MH_Amravati,MH_Parbhani"}
-{"stateid":"MH","districtid":"MH_Chandrapur","neighbours":"MH_Wardha,MH_Bhandara,MH_Gadchiroli,TG_Komaram Bheem,MH_Yavatmal,MH_Nagpur"}
+{"stateid":"MH","districtid":"MH_Chandrapur","neighbours":"MH_Wardha,MH_Bhandara,MH_Gadchiroli,TG_Komaram Bheem,MH_Yavatmal,MH_Nagpur,TG_Adilabad"}
 {"stateid":"MH","districtid":"MH_Dhule","neighbours":"MH_Nashik,MP_Barwani,MH_Jalgaon,MH_Nandurbar,GJ_Dang,GJ_Tapi"}
-{"stateid":"MH","districtid":"MH_Gadchiroli","neighbours":"MH_Bhandara,CT_Uttar Bastar Kanker,TG_Komaram Bheem,CT_Bijapur,CT_Rajnandgaon,MH_Gondia,MH_Chandrapur,CT_Narayanpur"}
+{"stateid":"MH","districtid":"MH_Gadchiroli","neighbours":"MH_Bhandara,TG_Jayashankar Bhupalapally,TG_Mancherial,CT_Uttar Bastar Kanker,TG_Komaram Bheem,CT_Bijapur,CT_Rajnandgaon,MH_Gondia,MH_Chandrapur,CT_Narayanpur"}
 {"stateid":"MH","districtid":"MH_Gondia","neighbours":"MP_Balaghat,MH_Gadchiroli,MH_Bhandara,CT_Rajnandgaon"}
 {"stateid":"MH","districtid":"MH_Hingoli","neighbours":"MH_Nanded,MH_Washim,MH_Yavatmal,MH_Parbhani"}
 {"stateid":"MH","districtid":"MH_Jalgaon","neighbours":"MP_Khargone,MP_Burhanpur,MH_Jalna,MH_Nashik,MP_Barwani,MH_Dhule,MH_Buldhana,BR_Aurangabad"}
 {"stateid":"MH","districtid":"MH_Jalna","neighbours":"MH_Jalgaon,MH_Beed,MH_Buldhana,BR_Aurangabad,MH_Parbhani"}
-{"stateid":"MH","districtid":"MH_Kolhapur","neighbours":"MH_Sindhudurg,KA_Belagavi,MH_Ratnagiri,MH_Sangli"}
+{"stateid":"MH","districtid":"MH_Kolhapur","neighbours":"sindhudurg,belagavi,ratnagiri,sangli"}
 {"stateid":"MH","districtid":"MH_Latur","neighbours":"KA_Bidar,MH_Nanded,MH_Beed,MH_Osmanabad,MH_Parbhani"}
-{"stateid":"MH","districtid":"MH_Mumbai Suburban","neighbours":"MH_Thane"}
+{"stateid":"MH","districtid":"MH_Mumbai Suburban","neighbours":"thane"}
 {"stateid":"MH","districtid":"MH_Nagpur","neighbours":"MH_Wardha,MH_Bhandara,MP_Seoni,MH_Amravati,MH_Chandrapur,MP_Balaghat,MP_Chhindwara"}
-{"stateid":"MH","districtid":"MH_Nanded","neighbours":"MH_Hingoli,MH_Latur,KA_Bidar,MH_Yavatmal,TG_Nirmal,MH_Parbhani"}
+{"stateid":"MH","districtid":"MH_Nanded","neighbours":"MH_Hingoli,TG_Nizamabad,MH_Latur,TG_Kamareddy,KA_Bidar,MH_Yavatmal,TG_Nirmal,TG_Adilabad,MH_Parbhani"}
 {"stateid":"MH","districtid":"MH_Nandurbar","neighbours":"GJ_Narmada,MP_Barwani,MP_Alirajpur,MH_Dhule,GJ_Tapi,GJ_Chhota Udaipur"}
-{"stateid":"MH","districtid":"MH_Nashik","neighbours":"GJ_Navsari,GJ_Valsad,MH_Dhule,MH_Jalgaon,MH_Ahmednagar,MH_Palghar,GJ_Dang,BR_Aurangabad,MH_Thane"}
+{"stateid":"MH","districtid":"MH_Nashik","neighbours":"navsari,valsad,dhule,jalgaon,ahmednagar,palghar,dang,aurangabad,thane"}
 {"stateid":"MH","districtid":"MH_Osmanabad","neighbours":"KA_Kalaburagi,MH_Latur,KA_Bidar,MH_Ahmednagar,MH_Beed,MH_Solapur"}
 {"stateid":"MH","districtid":"MH_Palghar","neighbours":"KL_Thrissur,KL_Malappuram,TN_Nilgiris,TN_Coimbatore"}
-{"stateid":"MH","districtid":"MH_Palghar","neighbours":"MH_Nashik,GJ_Valsad,MH_Thane,DN_Dadra and Nagar Haveli"}
+{"stateid":"MH","districtid":"MH_Palghar","neighbours":"nashik,valsad,thane,dadra and nagar haveli"}
 {"stateid":"MH","districtid":"MH_Parbhani","neighbours":"MH_Jalna,MH_Hingoli,MH_Latur,MH_Nanded,MH_Washim,MH_Beed,MH_Buldhana"}
-{"stateid":"MH","districtid":"MH_Pune","neighbours":"MH_Raigad,MH_Satara,MH_Ahmednagar,MH_Thane,MH_Solapur"}
-{"stateid":"MH","districtid":"MH_Raigad","neighbours":"MH_Satara,MH_Pune,MH_Thane,MH_Ratnagiri"}
-{"stateid":"MH","districtid":"MH_Ratnagiri","neighbours":"MH_Kolhapur,MH_Sindhudurg,MH_Raigad,MH_Satara,MH_Sangli"}
-{"stateid":"MH","districtid":"MH_Sangli","neighbours":"MH_Kolhapur,CT_Bijapur,KA_Belagavi,MH_Satara,MH_Ratnagiri,MH_Solapur"}
-{"stateid":"MH","districtid":"MH_Satara","neighbours":"MH_Raigad,MH_Sangli,MH_Pune,MH_Ratnagiri,MH_Solapur"}
-{"stateid":"MH","districtid":"MH_Sindhudurg","neighbours":"MH_Kolhapur,KA_Belagavi,MH_Ratnagiri"}
+{"stateid":"MH","districtid":"MH_Pune","neighbours":"raigad,satara,ahmednagar,thane,solapur"}
+{"stateid":"MH","districtid":"MH_Raigad","neighbours":"satara,pune,thane,ratnagiri"}
+{"stateid":"MH","districtid":"MH_Ratnagiri","neighbours":"kolhapur,sindhudurg,raigad,satara,sangli"}
+{"stateid":"MH","districtid":"MH_Sangli","neighbours":"kolhapur,bijapur,belagavi,satara,ratnagiri,solapur"}
+{"stateid":"MH","districtid":"MH_Satara","neighbours":"raigad,sangli,pune,ratnagiri,solapur"}
+{"stateid":"MH","districtid":"MH_Sindhudurg","neighbours":"kolhapur,belagavi,ratnagiri"}
 {"stateid":"MH","districtid":"MH_Solapur","neighbours":"KA_Kalaburagi,CT_Bijapur,MH_Pune,MH_Ahmednagar,MH_Osmanabad,MH_Satara,MH_Sangli"}
 {"stateid":"MH","districtid":"MH_Thane","neighbours":"raigad,nashik,mumbai suburban,pune,ahmednagar,palghar"}
 {"stateid":"MH","districtid":"MH_Wardha","neighbours":"MH_Amravati,MH_Chandrapur,MH_Nagpur,MH_Yavatmal"}
 {"stateid":"MH","districtid":"MH_Washim","neighbours":"MH_Hingoli,MH_Akola,MH_Buldhana,MH_Yavatmal,MH_Amravati,MH_Parbhani"}
-{"stateid":"MH","districtid":"MH_Yavatmal","neighbours":"MH_Wardha,MH_Hingoli,MH_Nanded,MH_Washim,MH_Amravati,MH_Chandrapur"}
-{"stateid":"ML","districtid":"ML_East Garo Hills","neighbours":"ML_West Garo Hills,ML_North Garo Hills,ML_West Khasi Hills,ML_South Garo Hills"}
-{"stateid":"ML","districtid":"ML_East Jaintia Hills","neighbours":"AS_Cachar,ML_West Jaintia Hills,AS_Dima Hasao"}
-{"stateid":"ML","districtid":"ML_East Khasi Hills","neighbours":"ML_West Khasi Hills,ML_West Jaintia Hills,ML_South West Khasi Hills,ML_Ribhoi"}
-{"stateid":"ML","districtid":"ML_North Garo Hills","neighbours":"ML_West Garo Hills,AS_Goalpara,ML_West Khasi Hills,ML_East Garo Hills,AS_Kamrup"}
-{"stateid":"ML","districtid":"ML_Ribhoi","neighbours":"ML_West Jaintia Hills,AS_West Karbi Anglong,ML_West Khasi Hills,ML_East Khasi Hills,AS_Kamrup"}
-{"stateid":"ML","districtid":"ML_South Garo Hills","neighbours":"ML_West Garo Hills,ML_West Khasi Hills,ML_East Garo Hills,ML_South West Khasi Hills"}
-{"stateid":"ML","districtid":"ML_South West Garo Hills","neighbours":"ML_West Garo Hills"}
-{"stateid":"ML","districtid":"ML_South West Khasi Hills","neighbours":"ML_East Khasi Hills,ML_West Khasi Hills,ML_South Garo Hills"}
-{"stateid":"ML","districtid":"ML_West Garo Hills","neighbours":"ML_North Garo Hills,AS_Goalpara,ML_East Garo Hills,ML_South West Garo Hills,ML_South Garo Hills"}
-{"stateid":"ML","districtid":"ML_West Jaintia Hills","neighbours":"ML_East Jaintia Hills,AS_West Karbi Anglong,ML_East Khasi Hills,ML_Ribhoi,AS_Dima Hasao"}
-{"stateid":"ML","districtid":"ML_West Khasi Hills","neighbours":"ML_North Garo Hills,ML_South West Khasi Hills,ML_East Garo Hills,ML_Ribhoi,ML_East Khasi Hills,AS_Kamrup,ML_South Garo Hills"}
-{"stateid":"MN","districtid":"MN_Chandel","neighbours":"MN_Churachandpur,MN_Kakching"}
-{"stateid":"MN","districtid":"MN_Churachandpur","neighbours":"MN_Kakching,MN_Pherzawl,MN_Chandel"}
-{"stateid":"MN","districtid":"MN_Imphal West","neighbours":"MN_Kakching,MN_Kangpokpi"}
-{"stateid":"MN","districtid":"MN_Kakching","neighbours":"MN_Imphal West,MN_Chandel,MN_Churachandpur"}
-{"stateid":"MN","districtid":"MN_Kamjong","neighbours":"MN_Ukhrul,MN_Kangpokpi"}
-{"stateid":"MN","districtid":"MN_Kangpokpi","neighbours":"MN_Imphal West,MN_Kamjong,MN_Ukhrul"}
-{"stateid":"MN","districtid":"MN_Pherzawl","neighbours":"MN_Churachandpur,AS_Cachar,MZ_Champhai,MZ_Aizawl"}
-{"stateid":"MN","districtid":"MN_Ukhrul","neighbours":"MN_Kamjong,NL_Phek,MN_Kangpokpi"}
+{"stateid":"MH","districtid":"MH_Yavatmal","neighbours":"MH_Wardha,MH_Hingoli,MH_Nanded,MH_Washim,MH_Amravati,MH_Chandrapur,TG_Adilabad"}
+{"stateid":"ML","districtid":"ML_North Garo Hills","neighbours":"ML_West Garo Hills,AS_Goalpara,ML_West Khasi Hills,ML_East Garo Hills,AS_Kamrup,AS_South Salmara Mankachar, ML_West Garo Hills,AS_South Salmara Mankachar, ML_West Garo Hills,ML_West Khasi Hills,ML_East Garo Hills,ML_South West Khasi Hills, ML_North Garo Hills,AS_Goalpara,ML_East Garo Hills,ML_South West Garo Hills,AS_South Salmara Mankachar,ML_South Garo Hills, ML_West Garo Hills,ML_North Garo Hills,ML_West Khasi Hills,ML_South Garo Hills"}
+{"stateid":"ML","districtid":"ML_Ribhoi","neighbours":"ML_West Jaintia Hills,AS_Kamrup Metropolitan,AS_West Karbi Anglong,ML_West Khasi Hills,AS_Morigaon,ML_East Khasi Hills,AS_Kamrup"}
+{"stateid":"ML","districtid":"ML_West Jaintia Hills","neighbours":"ML_East Jaintia Hills,AS_West Karbi Anglong,ML_East Khasi Hills,ML_Ribhoi,AS_Dima Hasao, AS_Cachar,ML_West Jaintia Hills,AS_Dima Hasao"}
+{"stateid":"ML","districtid":"ML_West Khasi Hills","neighbours":"ML_North Garo Hills,ML_South West Khasi Hills,ML_East Garo Hills,ML_Ribhoi,ML_East Khasi Hills,AS_Kamrup,ML_South Garo Hills, ML_West Khasi Hills,ML_West Jaintia Hills,ML_South West Khasi Hills,ML_Ribhoi, ML_East Khasi Hills,ML_West Khasi Hills,ML_South Garo Hills"}
+{"stateid":"MN","districtid":"MN_Chandel","neighbours":"MN_Churachandpur,MN_Tengnoupal,MN_Kakching"}
+{"stateid":"MN","districtid":"MN_Churachandpur","neighbours":"MN_Kakching,MN_Noney,MN_Pherzawl,MN_Bishnupur,MN_Chandel"}
+{"stateid":"MN","districtid":"MN_Imphal West","neighbours":"MN_Kakching,MN_Imphal East,MN_Kangpokpi,MN_Bishnupur,MN_Thoubal"}
+{"stateid":"MN","districtid":"MN_Kakching","neighbours":"MN_Imphal West,MN_Tengnoupal,MN_Chandel,MN_Bishnupur,MN_Churachandpur,MN_Thoubal"}
+{"stateid":"MN","districtid":"MN_Kamjong","neighbours":"MN_Tengnoupal,MN_Ukhrul,MN_Kangpokpi"}
+{"stateid":"MN","districtid":"MN_Kangpokpi","neighbours":"MN_Imphal West,MN_Senapati,MN_Kamjong,MN_Imphal East,MN_Noney,MN_Tengnoupal,MN_Tamenglong,MN_Ukhrul,MN_Bishnupur,MN_Thoubal"}
+{"stateid":"MN","districtid":"MN_Pherzawl","neighbours":"MN_Churachandpur,AS_Cachar,MZ_Champhai,MN_Noney,MN_Jiribam,MZ_Aizawl"}
+{"stateid":"MN","districtid":"MN_Ukhrul","neighbours":"MN_Senapati,MN_Kamjong,NL_Phek,MN_Kangpokpi"}
 {"stateid":"MP","districtid":"MP_Agar Malwa","neighbours":"MP_Rajgarh,MP_Shajapur,MP_Ratlam,MP_Ujjain,RJ_Jhalawar"}
 {"stateid":"MP","districtid":"MP_Alirajpur","neighbours":"GJ_Dahod,MP_Barwani,MP_Jhabua,MP_Dhar,MH_Nandurbar,GJ_Chhota Udaipur"}
 {"stateid":"MP","districtid":"MP_Anuppur","neighbours":"MP_Umaria,CT_Mungeli,MP_Dindori,CT_Bilaspur,CT_Koriya,MP_Shahdol"}
@@ -380,28 +364,28 @@
 {"stateid":"MP","districtid":"MP_Shivpuri","neighbours":"MP_Guna,MP_Ashoknagar,UP_Jhansi,UP_Lalitpur,MP_Datia,MP_Sheopur,MP_Gwalior,MP_Morena,RJ_Baran"}
 {"stateid":"MP","districtid":"MP_Sidhi","neighbours":"MP_Singrauli,MP_Satna,MP_Rewa,CT_Koriya,MP_Shahdol"}
 {"stateid":"MP","districtid":"MP_Singrauli","neighbours":"UP_Sonbhadra,CT_Surajpur,UP_Mirzapur,CT_Balrampur,MP_Rewa,MP_Sidhi,CT_Koriya"}
-{"stateid":"MP","districtid":"MP_Tikamgarh","neighbours":"UP_Jhansi,MP_Chhatarpur,UP_Lalitpur"}
+{"stateid":"MP","districtid":"MP_Tikamgarh","neighbours":"UP_Jhansi,MP_Niwari,MP_Chhatarpur,UP_Lalitpur"}
 {"stateid":"MP","districtid":"MP_Ujjain","neighbours":"MP_Shajapur,MP_Ratlam,MP_Agar Malwa,MP_Dhar,MP_Dewas,MP_Indore"}
 {"stateid":"MP","districtid":"MP_Umaria","neighbours":"MP_Jabalpur,MP_Dindori,MP_Satna,MP_Katni,MP_Anuppur,MP_Shahdol"}
 {"stateid":"MP","districtid":"MP_Vidisha","neighbours":"MP_Guna,MP_Ashoknagar,MP_Sagar,MP_Raisen,MP_Bhopal"}
 {"stateid":"MZ","districtid":"MZ_Aizawl","neighbours":"MZ_Mamit,AS_Cachar,MZ_Champhai,MZ_Serchhip,MN_Pherzawl,MZ_Kolasib,MZ_Lunglei"}
 {"stateid":"MZ","districtid":"MZ_Champhai","neighbours":"MZ_Serchhip,MZ_Aizawl,MN_Pherzawl"}
-{"stateid":"MZ","districtid":"MZ_Kolasib","neighbours":"MZ_Mamit,AS_Cachar,MZ_Aizawl"}
+{"stateid":"MZ","districtid":"MZ_Kolasib","neighbours":"MZ_Mamit,AS_Cachar,MZ_Aizawl,AS_Hailakandi"}
 {"stateid":"MZ","districtid":"MZ_Lawngtlai","neighbours":"MZ_Lunglei,MZ_Saiha"}
 {"stateid":"MZ","districtid":"MZ_Lunglei","neighbours":"MZ_Mamit,MZ_Lawngtlai,MZ_Serchhip,MZ_Aizawl"}
-{"stateid":"MZ","districtid":"MZ_Mamit","neighbours":"MZ_Kolasib,TR_North Tripura,AS_Karimganj,MZ_Aizawl,MZ_Lunglei"}
+{"stateid":"MZ","districtid":"MZ_Mamit","neighbours":"MZ_Kolasib,TR_North Tripura,AS_Karimganj,MZ_Aizawl,AS_Hailakandi,MZ_Lunglei"}
 {"stateid":"MZ","districtid":"MZ_Saiha","neighbours":"MZ_Lawngtlai"}
 {"stateid":"MZ","districtid":"MZ_Serchhip","neighbours":"MZ_Aizawl,MZ_Champhai,MZ_Lunglei"}
-{"stateid":"NL","districtid":"NL_Dimapur","neighbours":"NL_Peren,NL_Kohima"}
+{"stateid":"NL","districtid":"NL_Dimapur","neighbours":"AS_Golaghat,NL_Peren,NL_Kohima,AS_Karbi Anglong"}
 {"stateid":"NL","districtid":"NL_Kiphire","neighbours":"NL_Phek,NL_Tuensang,NL_Zunheboto"}
-{"stateid":"NL","districtid":"NL_Kohima","neighbours":"NL_Phek,NL_Zunheboto,NL_Dimapur,NL_Peren,NL_Wokha"}
+{"stateid":"NL","districtid":"NL_Kohima","neighbours":"MN_Senapati,NL_Phek,NL_Zunheboto,NL_Dimapur,NL_Peren,AS_Golaghat,NL_Wokha"}
 {"stateid":"NL","districtid":"NL_Longleng","neighbours":"NL_Mokokchung,NL_Mon,AS_Sivasagar,NL_Tuensang"}
-{"stateid":"NL","districtid":"NL_Mokokchung","neighbours":"NL_Longleng,NL_Zunheboto,AS_Sivasagar,NL_Wokha,NL_Tuensang"}
-{"stateid":"NL","districtid":"NL_Mon","neighbours":"AR_Longding,NL_Longleng,AS_Sivasagar,NL_Tuensang"}
-{"stateid":"NL","districtid":"NL_Peren","neighbours":"NL_Kohima,NL_Dimapur,AS_Dima Hasao"}
-{"stateid":"NL","districtid":"NL_Phek","neighbours":"NL_Kohima,MN_Ukhrul,NL_Zunheboto,NL_Kiphire"}
-{"stateid":"NL","districtid":"NL_Tuensang","neighbours":"NL_Longleng,NL_Zunheboto,NL_Mokokchung,NL_Mon,NL_Kiphire"}
-{"stateid":"NL","districtid":"NL_Wokha","neighbours":"NL_Mokokchung,NL_Kohima,NL_Zunheboto"}
+{"stateid":"NL","districtid":"NL_Mokokchung","neighbours":"NL_Longleng,NL_Zunheboto,AS_Sivasagar,NL_Wokha,NL_Tuensang,AS_Jorhat"}
+{"stateid":"NL","districtid":"NL_Mon","neighbours":"longding,longleng,sivasagar,tuensang"}
+{"stateid":"NL","districtid":"NL_Peren","neighbours":"MN_Senapati,NL_Kohima,MN_Tamenglong,NL_Dimapur,AS_Dima Hasao,AS_Karbi Anglong"}
+{"stateid":"NL","districtid":"NL_Phek","neighbours":"MN_Senapati,NL_Kohima,MN_Ukhrul,NL_Zunheboto,NL_Kiphire"}
+{"stateid":"NL","districtid":"NL_Tuensang","neighbours":"longleng,zunheboto,mokokchung,mon,kiphire"}
+{"stateid":"NL","districtid":"NL_Wokha","neighbours":"NL_Mokokchung,NL_Kohima,NL_Zunheboto,AS_Golaghat,AS_Jorhat"}
 {"stateid":"NL","districtid":"NL_Zunheboto","neighbours":"NL_Phek,NL_Kohima,NL_Mokokchung,NL_Wokha,NL_Kiphire,NL_Tuensang"}
 {"stateid":"OR","districtid":"OR_Angul","neighbours":"OR_Sambalpur,OR_Cuttack,OR_Boudh,OR_Sundargarh,OR_Deogarh,OR_Nayagarh,OR_Kendujhar,OR_Dhenkanal,OR_Subarnapur"}
 {"stateid":"OR","districtid":"OR_Balangir","neighbours":"OR_Nuapada,OR_Kalahandi,OR_Bargarh,OR_Kandhamal,OR_Boudh,OR_Subarnapur"}
@@ -491,20 +475,19 @@
 {"stateid":"RJ","districtid":"RJ_Sirohi","neighbours":"RJ_Pali,GJ_Banaskantha,RJ_Udaipur,GJ_Sabarkantha,RJ_Jalore"}
 {"stateid":"RJ","districtid":"RJ_Tonk","neighbours":"RJ_Jaipur,RJ_Bundi,RJ_Ajmer,RJ_Bhilwara,RJ_Dausa,RJ_Sawai Madhopur"}
 {"stateid":"RJ","districtid":"RJ_Udaipur","neighbours":"RJ_Pali,RJ_Rajsamand,RJ_Chittorgarh,RJ_Dungarpur,GJ_Sabarkantha,RJ_Sirohi,RJ_Pratapgarh,GJ_Aravalli"}
-{"stateid":"SK","districtid":"SK_North Sikkim","neighbours":"SK_West Sikkim"}
-{"stateid":"SK","districtid":"SK_West Sikkim","neighbours":"WB_Darjeeling,SK_North Sikkim"}
-{"stateid":"TG","districtid":"TG_Hyderabad","neighbours":"TG_Medchal Malkajgiri"}
+{"stateid":"SK","districtid":"SK_West Sikkim","neighbours":"SK_South Sikkim,SK_West Sikkim,SK_East Sikkim, WB_Darjeeling,SK_South Sikkim,SK_North Sikkim"}
+{"stateid":"TG","districtid":"TG_Hyderabad","neighbours":"TG_Medchal Malkajgiri,TG_Ranga Reddy"}
 {"stateid":"TG","districtid":"TG_Jagtial","neighbours":" nizamabad,rajanna sircilla,nirmal"}
-{"stateid":"TG","districtid":"TG_Jangaon","neighbours":"TG_Suryapet,TG_Warangal Urban"}
-{"stateid":"TG","districtid":"TG_Khammam","neighbours":"AP_West Godavari,AP_Krishna,TG_Suryapet"}
-{"stateid":"TG","districtid":"TG_Komaram Bheem","neighbours":"MH_Gadchiroli,TG_Nirmal,MH_Chandrapur"}
-{"stateid":"TG","districtid":"TG_Medchal Malkajgiri","neighbours":"TG_Hyderabad"}
-{"stateid":"TG","districtid":"TG_Nalgonda","neighbours":"AP_Guntur,TG_Suryapet"}
-{"stateid":"TG","districtid":"TG_Narayanpet","neighbours":"KA_Kalaburagi,KA_Raichur,TG_Vikarabad"}
-{"stateid":"TG","districtid":"TG_Nirmal","neighbours":"TG_Jagtial,TG_Komaram Bheem,MH_Nanded"}
-{"stateid":"TG","districtid":"TG_Suryapet","neighbours":"TG_Jangaon,AP_Krishna,AP_Guntur,TG_Nalgonda,TG_Khammam"}
-{"stateid":"TG","districtid":"TG_Vikarabad","neighbours":"KA_Kalaburagi,TG_Narayanpet"}
-{"stateid":"TG","districtid":"TG_Warangal Urban","neighbours":"TG_Jangaon"}
+{"stateid":"TG","districtid":"TG_Jangaon","neighbours":"TG_Warangal Rural,TG_Suryapet,TG_Warangal Urban,TG_Siddipet,TG_Mahabubabad,TG_Yadadri Bhuvanagiri"}
+{"stateid":"TG","districtid":"TG_Khammam","neighbours":"AP_West Godavari,TG_Bhadradri Kothagudem,AP_Krishna,TG_Suryapet,TG_Mahabubabad"}
+{"stateid":"TG","districtid":"TG_Komaram Bheem","neighbours":"MH_Gadchiroli,TG_Mancherial,TG_Nirmal,MH_Chandrapur,TG_Adilabad"}
+{"stateid":"TG","districtid":"TG_Medchal Malkajgiri","neighbours":"TG_Sangareddy,TG_Hyderabad,TG_Medak,TG_Siddipet,TG_Ranga Reddy,TG_Yadadri Bhuvanagiri"}
+{"stateid":"TG","districtid":"TG_Nalgonda","neighbours":"AP_Guntur,TG_Suryapet,TG_Ranga Reddy,TG_Nagarkurnool,TG_Yadadri Bhuvanagiri"}
+{"stateid":"TG","districtid":"TG_Narayanpet","neighbours":"KA_Kalaburagi,TG_Wanaparthy,KA_Raichur,TG_Jogulamba Gadwal,TG_Vikarabad,TG_Mahabubnagar,TG_Yadadri Bhuvanagiri"}
+{"stateid":"TG","districtid":"TG_Nirmal","neighbours":"TG_Nizamabad,TG_Jagtial,TG_Mancherial,TG_Komaram Bheem,MH_Nanded,TG_Adilabad"}
+{"stateid":"TG","districtid":"TG_Suryapet","neighbours":"TG_Jangaon,AP_Krishna,AP_Guntur,TG_Nalgonda,TG_Mahabubabad,TG_Khammam,TG_Yadadri Bhuvanagiri"}
+{"stateid":"TG","districtid":"TG_Vikarabad","neighbours":"KA_Kalaburagi,TG_Sangareddy,TG_Narayanpet,TG_Ranga Reddy,TG_Mahabubnagar"}
+{"stateid":"TG","districtid":"TG_Warangal Urban","neighbours":"TG_Jangaon,TG_Jayashankar Bhupalapally,TG_Warangal Rural,TG_Siddipet,TG_Karimnagar"}
 {"stateid":"TN","districtid":"TN_Ariyalur","neighbours":"TN_Tiruchirappalli,TN_Cuddalore,TN_Thanjavur,TN_Perambalur"}
 {"stateid":"TN","districtid":"TN_Chennai","neighbours":"TN_Kancheepuram,TN_Thiruvallur"}
 {"stateid":"TN","districtid":"TN_Coimbatore","neighbours":"KL_Thrissur,TN_Erode,KL_Ernakulam,KL_Idukki,TN_Tiruppur,TN_Nilgiris,MH_Palghar"}
@@ -541,11 +524,9 @@
 {"stateid":"TR","districtid":"TR_Dhalai","neighbours":"TR_Unokoti,TR_Khowai,TR_Gomati,TR_North Tripura"}
 {"stateid":"TR","districtid":"TR_Gomati","neighbours":"TR_South Tripura,TR_Khowai,TR_Sipahijala,TR_Dhalai"}
 {"stateid":"TR","districtid":"TR_Khowai","neighbours":"TR_West Tripura,TR_Sipahijala,TR_Gomati,TR_Dhalai"}
-{"stateid":"TR","districtid":"TR_North Tripura","neighbours":"MZ_Mamit,TR_Unokoti,AS_Karimganj,TR_Dhalai"}
+{"stateid":"TR","districtid":"TR_North Tripura","neighbours":"TR_Khowai,TR_Sipahijala, TR_Sipahijala,TR_Gomati, MZ_Mamit,TR_Unokoti,AS_Karimganj,TR_Dhalai"}
 {"stateid":"TR","districtid":"TR_Sipahijala","neighbours":"TR_West Tripura,TR_South Tripura,TR_Khowai,TR_Gomati"}
-{"stateid":"TR","districtid":"TR_South Tripura","neighbours":"TR_Sipahijala,TR_Gomati"}
 {"stateid":"TR","districtid":"TR_Unokoti","neighbours":"TR_North Tripura,TR_Dhalai"}
-{"stateid":"TR","districtid":"TR_West Tripura","neighbours":"TR_Khowai,TR_Sipahijala"}
 {"stateid":"UP","districtid":"UP_Agra","neighbours":"UP_Etawah,UP_Hathras,RJ_Dholpur,MP_Bhind,MP_Morena,UP_Mathura,UP_Etah,UP_Firozabad,RJ_Bharatpur"}
 {"stateid":"UP","districtid":"UP_Aligarh","neighbours":"UP_Gautam Buddha Nagar,UP_Sambhal,UP_Bulandshahr,UP_Hathras,UP_Kasganj,UP_Mathura,UP_Budaun,HR_Palwal"}
 {"stateid":"UP","districtid":"UP_Ambedkar Nagar","neighbours":"UP_Azamgarh,UP_Gorakhpur,UP_Basti,UP_Sant Kabir Nagar,UP_Ayodhya,UP_Sultanpur"}
@@ -573,8 +554,8 @@
 {"stateid":"UP","districtid":"UP_Farrukhabad","neighbours":"UP_Kasganj,UP_Mainpuri,UP_Shahjahanpur,UP_Kannauj,UP_Etah,UP_Budaun,UP_Hardoi"}
 {"stateid":"UP","districtid":"UP_Fatehpur","neighbours":"UP_Kanpur Nagar,UP_Unnao,HP_Hamirpur,RJ_Pratapgarh,UP_Rae Bareli,UP_Banda,UP_Kaushambi,UP_Chitrakoot"}
 {"stateid":"UP","districtid":"UP_Firozabad","neighbours":"UP_Etah,UP_Agra,UP_Etawah,UP_Mainpuri"}
-{"stateid":"UP","districtid":"UP_Gautam Buddha Nagar","neighbours":"DL_East Delhi,UP_Bulandshahr,UP_Hapur,HR_Faridabad,UP_Aligarh,UP_Ghaziabad,HR_Palwal"}
-{"stateid":"UP","districtid":"UP_Ghaziabad","neighbours":"UP_Gautam Buddha Nagar,DL_East Delhi,UP_Hapur,DL_Shahdara,DL_North Delhi,UP_Meerut,UP_Baghpat"}
+{"stateid":"UP","districtid":"UP_Gautam Buddha Nagar","neighbours":"DL_South East Delhi,DL_East Delhi,UP_Bulandshahr,UP_Hapur,HR_Faridabad,UP_Aligarh,UP_Ghaziabad,HR_Palwal"}
+{"stateid":"UP","districtid":"UP_Ghaziabad","neighbours":"UP_Gautam Buddha Nagar,DL_East Delhi,UP_Hapur,DL_North East Delhi,DL_Shahdara,DL_North Delhi,UP_Meerut,UP_Baghpat"}
 {"stateid":"UP","districtid":"UP_Ghazipur","neighbours":"UP_Mau,UP_Jaunpur,UP_Varanasi,BR_Buxar,UP_Azamgarh,BR_Kaimur,UP_Chandauli,UP_Ballia"}
 {"stateid":"UP","districtid":"UP_Gonda","neighbours":"UP_Shrawasti,CT_Balrampur,UP_Siddharthnagar,UP_Basti,UP_Bahraich,UP_Ayodhya,UP_Barabanki"}
 {"stateid":"UP","districtid":"UP_Gorakhpur","neighbours":"UP_Mau,UP_Kushinagar,UP_Siddharthnagar,UP_Deoria,UP_Azamgarh,UP_Sant Kabir Nagar,UP_Ambedkar Nagar,UP_Maharajganj"}
@@ -583,15 +564,14 @@
 {"stateid":"UP","districtid":"UP_Hathras","neighbours":"UP_Agra,UP_Aligarh,UP_Kasganj,UP_Mathura,UP_Etah"}
 {"stateid":"UP","districtid":"UP_Jalaun","neighbours":"UP_Etawah,UP_Auraiya,HP_Hamirpur,UP_Kanpur Dehat,UP_Jhansi,MP_Bhind"}
 {"stateid":"UP","districtid":"UP_Jaunpur","neighbours":"UP_Varanasi,UP_Ghazipur,RJ_Pratapgarh,UP_Azamgarh,UP_Prayagraj,UP_Sultanpur,UP_Bhadohi"}
-{"stateid":"UP","districtid":"UP_Jhansi","neighbours":"UP_Mahoba,MP_Shivpuri,HP_Hamirpur,UP_Lalitpur,MP_Tikamgarh,MP_Datia,MP_Bhind,UP_Jalaun,MP_Chhatarpur"}
+{"stateid":"UP","districtid":"UP_Jhansi","neighbours":"UP_Mahoba,MP_Shivpuri,HP_Hamirpur,UP_Lalitpur,MP_Tikamgarh,MP_Datia,MP_Bhind,UP_Jalaun,MP_Chhatarpur,MP_Niwari"}
 {"stateid":"UP","districtid":"UP_Kannauj","neighbours":"UP_Kanpur Nagar,UP_Auraiya,UP_Etawah,UP_Kanpur Dehat,UP_Mainpuri,UP_Farrukhabad,UP_Hardoi"}
-{"stateid":"UP","districtid":"UP_Kanpur Dehat","neighbours":"UP_Kanpur Nagar,UP_Auraiya,HP_Hamirpur,UP_Jalaun,UP_Kannauj"}
-{"stateid":"UP","districtid":"UP_Kanpur Nagar","neighbours":"UP_Unnao,HP_Hamirpur,UP_Kanpur Dehat,UP_Hardoi,UP_Fatehpur,UP_Kannauj"}
+{"stateid":"UP","districtid":"UP_Kanpur Nagar","neighbours":"UP_Kanpur Nagar,UP_Auraiya,HP_Hamirpur,UP_Jalaun,UP_Kannauj, UP_Unnao,HP_Hamirpur,UP_Kanpur Dehat,UP_Hardoi,UP_Fatehpur,UP_Kannauj"}
 {"stateid":"UP","districtid":"UP_Kasganj","neighbours":"UP_Hathras,UP_Aligarh,UP_Etah,UP_Budaun,UP_Farrukhabad"}
 {"stateid":"UP","districtid":"UP_Kaushambi","neighbours":"RJ_Pratapgarh,UP_Rae Bareli,UP_Prayagraj,UP_Chitrakoot,UP_Fatehpur"}
 {"stateid":"UP","districtid":"UP_Kushinagar","neighbours":"BR_West Champaran,BR_Gopalganj,UP_Deoria,UP_Gorakhpur,UP_Maharajganj"}
 {"stateid":"UP","districtid":"UP_Lakhimpur Kheri","neighbours":"UP_Pilibhit,UP_Bahraich,UP_Shahjahanpur,UP_Sitapur,UP_Hardoi"}
-{"stateid":"UP","districtid":"UP_Lalitpur","neighbours":"MP_Shivpuri,MP_Ashoknagar,UP_Jhansi,MP_Tikamgarh,MP_Sagar,MP_Datia,MP_Chhatarpur"}
+{"stateid":"UP","districtid":"UP_Lalitpur","neighbours":"MP_Shivpuri,MP_Ashoknagar,UP_Jhansi,MP_Tikamgarh,MP_Sagar,MP_Datia,MP_Chhatarpur,MP_Niwari"}
 {"stateid":"UP","districtid":"UP_Lucknow","neighbours":"UP_Unnao,UP_Rae Bareli,UP_Barabanki,UP_Sitapur,UP_Hardoi"}
 {"stateid":"UP","districtid":"UP_Maharajganj","neighbours":"BR_West Champaran,UP_Gorakhpur,UP_Kushinagar,UP_Siddharthnagar"}
 {"stateid":"UP","districtid":"UP_Mahoba","neighbours":"UP_Jhansi,UP_Banda,MP_Chhatarpur,HP_Hamirpur"}
@@ -632,26 +612,25 @@
 {"stateid":"UT","districtid":"UT_Tehri Garhwal","neighbours":"UT_Uttarkashi,UT_Pauri Garhwal,UT_Dehradun,UT_Rudraprayag"}
 {"stateid":"UT","districtid":"UT_Udham Singh Nagar","neighbours":"UT_Nainital,UP_Bijnor,UP_Pilibhit,UP_Rampur,UP_Bareilly,UT_Champawat,UP_Moradabad"}
 {"stateid":"UT","districtid":"UT_Uttarkashi","neighbours":"HP_Shimla,UT_Tehri Garhwal,HP_Kinnaur,UT_Chamoli,UT_Dehradun,UT_Rudraprayag"}
-{"stateid":"WB","districtid":"WB_Alipurduar","neighbours":"WB_Jalpaiguri,WB_Cooch Behar"}
+{"stateid":"WB","districtid":"WB_Alipurduar","neighbours":"WB_Jalpaiguri,WB_Cooch Behar,AS_Kokrajhar"}
 {"stateid":"WB","districtid":"WB_Bankura","neighbours":"WB_Jhargram,WB_Purba Bardhaman,WB_Paschim Medinipur,WB_Paschim Bardhaman,WB_Hooghly,WB_Purulia"}
 {"stateid":"WB","districtid":"WB_Birbhum","neighbours":"JH_Dumka,JH_Jamtara,WB_Murshidabad,WB_Purba Bardhaman,JH_Pakur,WB_Paschim Bardhaman"}
-{"stateid":"WB","districtid":"WB_Cooch Behar","neighbours":"AS_Dhubri,WB_Jalpaiguri,WB_Alipurduar"}
+{"stateid":"WB","districtid":"WB_Cooch Behar","neighbours":"AS_Dhubri,WB_Jalpaiguri,WB_Alipurduar,AS_Kokrajhar"}
 {"stateid":"WB","districtid":"WB_Dakshin Dinajpur","neighbours":"WB_Malda,WB_Uttar Dinajpur"}
-{"stateid":"WB","districtid":"WB_Darjeeling","neighbours":"WB_Uttar Dinajpur,WB_Kalimpong,SK_West Sikkim,BR_Kishanganj,WB_Jalpaiguri"}
+{"stateid":"WB","districtid":"WB_Darjeeling","neighbours":"WB_Uttar Dinajpur,WB_Kalimpong,SK_South Sikkim,SK_West Sikkim,BR_Kishanganj,WB_Jalpaiguri"}
 {"stateid":"WB","districtid":"WB_Hooghly","neighbours":"WB_Nadia,WB_North 24 Parganas,WB_Purba Bardhaman,WB_Paschim Medinipur,WB_Bankura,WB_Howrah"}
 {"stateid":"WB","districtid":"WB_Howrah","neighbours":"WB_Purba Medinipur,WB_South 24 Parganas,WB_North 24 Parganas,WB_Kolkata,WB_Paschim Medinipur,WB_Hooghly"}
 {"stateid":"WB","districtid":"WB_Jalpaiguri","neighbours":"WB_Darjeeling,WB_Kalimpong,WB_Alipurduar,WB_Cooch Behar"}
 {"stateid":"WB","districtid":"WB_Jhargram","neighbours":"UT_Bageshwar,JH_East Singhbhum,OR_Mayurbhanj,WB_Paschim Medinipur,WB_Bankura,WB_Purulia"}
-{"stateid":"WB","districtid":"WB_Kalimpong","neighbours":"WB_Darjeeling,WB_Jalpaiguri"}
+{"stateid":"WB","districtid":"WB_Kalimpong","neighbours":"WB_Darjeeling,SK_South Sikkim,WB_Jalpaiguri,SK_East Sikkim"}
 {"stateid":"WB","districtid":"WB_Kolkata","neighbours":"WB_South 24 Parganas,WB_Howrah,WB_North 24 Parganas"}
 {"stateid":"WB","districtid":"WB_Malda","neighbours":"WB_Murshidabad,WB_Uttar Dinajpur,BR_Katihar,WB_Dakshin Dinajpur,JH_Sahibganj"}
 {"stateid":"WB","districtid":"WB_Murshidabad","neighbours":"WB_Malda,WB_Birbhum,WB_Purba Bardhaman,JH_Pakur,JH_Sahibganj,WB_Nadia"}
 {"stateid":"WB","districtid":"WB_Nadia","neighbours":"WB_Murshidabad,WB_Purba Bardhaman,WB_Hooghly,WB_North 24 Parganas"}
-{"stateid":"WB","districtid":"WB_North 24 Parganas","neighbours":"WB_South 24 Parganas,WB_Nadia,WB_Kolkata,WB_Hooghly,WB_Howrah"}
+{"stateid":"WB","districtid":"WB_North 24 Parganas","neighbours":"WB_Purba Medinipur,WB_Kolkata,WB_Howrah,WB_North 24 Parganas, WB_South 24 Parganas,WB_Nadia,WB_Kolkata,WB_Hooghly,WB_Howrah"}
 {"stateid":"WB","districtid":"WB_Paschim Bardhaman","neighbours":"JH_Jamtara,WB_Birbhum,WB_Purba Bardhaman,JH_Dhanbad,WB_Bankura,WB_Purulia"}
 {"stateid":"WB","districtid":"WB_Paschim Medinipur","neighbours":"UT_Bageshwar,WB_Jhargram,WB_Purba Medinipur,WB_Bankura,WB_Hooghly,WB_Howrah"}
 {"stateid":"WB","districtid":"WB_Purba Bardhaman","neighbours":"WB_Murshidabad,WB_Birbhum,WB_Bankura,WB_Paschim Bardhaman,WB_Hooghly,WB_Nadia"}
 {"stateid":"WB","districtid":"WB_Purba Medinipur","neighbours":"WB_South 24 Parganas,UT_Bageshwar,WB_Howrah,WB_Paschim Medinipur"}
 {"stateid":"WB","districtid":"WB_Purulia","neighbours":"WB_Jhargram,JH_East Singhbhum,WB_Paschim Bardhaman,JH_Dhanbad,WB_Bankura,JH_Ramgarh,JH_Saraikela-Kharsawan,JH_Ranchi,JH_Bokaro"}
-{"stateid":"WB","districtid":"WB_South 24 Parganas","neighbours":"WB_Purba Medinipur,WB_Kolkata,WB_Howrah,WB_North 24 Parganas"}
 {"stateid":"WB","districtid":"WB_Uttar Dinajpur","neighbours":"WB_Malda,BR_Katihar,BR_Purnia,WB_Darjeeling,WB_Dakshin Dinajpur,BR_Kishanganj"}

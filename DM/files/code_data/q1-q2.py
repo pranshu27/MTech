@@ -10,6 +10,14 @@ Created on Mon Aug 30 22:52:14 2021
 import json
 import pandas as pd
 
+dcodes = pd.read_csv( "district_wise.csv", low_memory=False)
+dcodes  = dcodes[['District', 'District_Key', 'State_Code']]
+
+tmp = dcodes['District'].isin(['Unassigned', 'Unknown', 'Other State'])
+dcodes = dcodes[~tmp]
+
+dcodes['District'] = dcodes['District'].apply(lambda x: str(x).split('/')[0].lower().replace('_district', '').replace('_', ' '))
+
 
 
 with open(r'neighbor-districts.json') as f:
@@ -314,6 +322,21 @@ for i in range(len(df1)):
     
 
 
+
+nahi_hua = []
+for j in range(len(df1)):
+    try:
+        tmp = df1.loc[j, 'neighbours'].split(',')
+        for i in range(len(tmp)):
+           tmp[i] = dcodes[dcodes['District']==tmp[i]]['District_Key'].values[0] 
+        df1.loc[j, 'neighbours'] = ','.join(tmp).replace('[]', '')
+        ##print(tmp)
+    except:
+        nahi_hua.append(j)
+        
+        
+        
+
 tot_len = len(df1)
 for i in range(tot_len):
     try:
@@ -357,7 +380,7 @@ common_dist = set(df1['district'] ) &set(cowin_districts)
 
 dfc_only = set(cowin_districts) - common_dist
 df1_only = set(df1['district']) - common_dist
-'''
+
 def combine(city):
     #print(city)
     all_city = list(df1[df1['district'].str.contains(city)]['district'])
@@ -400,6 +423,7 @@ for t in tbc:
         combine(t)
         #print("merged ", t)
     except:
+        pass
         #print("can't merge ", t)
 
 #combine('mumbai')
@@ -407,7 +431,7 @@ for t in tbc:
 #dfc[dfc['District']==df1.loc[721, 'district']]['District_Key'].values[0]
 df1.reset_index(inplace=True, drop=True)
 
-'''
+
 
 
 #tbd = ['district']
@@ -420,14 +444,6 @@ df1.reset_index(inplace=True, drop=True)
 
 df1.reset_index(inplace=True, drop=True)
 
-
-dcodes = pd.read_csv( "district_wise.csv", low_memory=False)
-dcodes  = dcodes[['District', 'District_Key', 'State_Code']]
-
-tmp = dcodes['District'].isin(['Unassigned', 'Unknown', 'Other State'])
-dcodes = dcodes[~tmp]
-
-dcodes['District'] = dcodes['District'].apply(lambda x: str(x).split('/')[0].lower().replace('_district', '').replace('_', ' '))
 
 
 
@@ -442,17 +458,11 @@ for i in range(len(df1)):
          #print(i)
 
 
-for j in range(len(df1)):
-    try:
-        tmp = df1.loc[j, 'neighbours'].split(',')
-        for i in range(len(tmp)):
-           tmp[i] = dfc[dfc['District']==tmp[i]]['District_Key'].values[0] 
-        df1.loc[j, 'neighbours'] = ','.join(tmp).replace('[]', '')
-        ##print(tmp)
-    except:
-        pass
+
+        
+        
     
-df1.drop(tbd, inplace = True)
+df1.drop('district', inplace = True, axis = 1)
 
 df1 = df1[['stateid', 'districtid', 'neighbours']]
 
