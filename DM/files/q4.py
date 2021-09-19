@@ -15,7 +15,7 @@ df3 = pd.read_csv( "districts.csv", low_memory=False)
 tbd = [ 'Date', 'District','Confirmed']
 df = df3[tbd]
 
-dcodes = pd.read_csv( "data/district_wise.csv", low_memory=False)
+dcodes = pd.read_csv( "district_wise.csv", low_memory=False)
 dcodes  = dcodes[['District', 'District_Key']]
 
 tmp = dcodes['District'].isin(['Unassigned', 'Unknown', 'Other State'])
