@@ -55,35 +55,34 @@ my_df['dose2'] = my_df['dose2'].astype(int)
 my_df.sort_values(['State_Code','District_Key','Date'], inplace = True)
 
 
-imd = []
-districts = list(my_df['District_Key'].unique())
+
+my_df = my_df.groupby(['State_Code','District_Key'])
+
+later = pd.DataFrame()
+for district, district_df in my_df:
+
+    temp = district_df.shift(1)
+    temp.fillna(0,inplace=True)
+    district_df['dose1'] = district_df['dose1'] - temp['dose1']
+    district_df['dose2'] = district_df['dose2'] - temp['dose2']
+    district_df.set_index('Date',inplace=True)
+#     print(district_df)
+    later = later.append(district_df)
 
 
-for dist in districts:
-   # print(dist)
-    tmp = my_df[my_df['District_Key']==dist].copy()
-    
-    tmp = tmp.groupby(['Date', 'District_Key']).agg('sum')
-    tmp['Date'] = tmp.index
-    
-    tmp['District_Key'] = tmp['Date'].apply(lambda x: x[1])
-    tmp['Date'] = tmp['Date'].apply(lambda x: x[0])
-
-    tmp.reset_index(drop=True, inplace=True)
-    tmp.sort_values('Date', inplace = True)
-    tmp.reset_index(drop=True, inplace=True)
-
-    for i in range(len(tmp)-1,0,-1):
-        tmp.loc[i, 'dose1'] = tmp.loc[i, 'dose1'] - tmp.loc[i-1, 'dose1']
-        tmp.loc[i, 'dose2'] = tmp.loc[i, 'dose2'] - tmp.loc[i-1, 'dose2']
-        if (tmp.loc[i, 'dose2']<0):
-            tmp.loc[i, 'dose2'] = 0
-        if (tmp.loc[i, 'dose1']<0):
-            tmp.loc[i, 'dose1'] = 0
-    imd.append(tmp)  
 
 
-my_df = pd.concat(imd, ignore_index=True)
+my_df = later.copy()
+
+my_df['Date'] = my_df.index
+
+
+my_df['Date'] = pd.to_datetime(my_df['Date'], format='%Y-%m-%d')
+
+# =============================================================================
+# my_df['dose1'].apply(lambda x: 0 if x<0 else x)
+# my_df['dose1'].apply(lambda x: 0 if x<0 else x)
+# =============================================================================
 
 wdf = my_df.copy()
 

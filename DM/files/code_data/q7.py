@@ -41,6 +41,41 @@ for j in range(len(rd)):
 
 d = pd.DataFrame(out)
 
+d['Covaxin'].fillna(0, inplace=True)
+d['Covishield'].fillna(0, inplace=True)    
+d['Covaxin'] = d['Covaxin'].astype(int)
+d['Covishield'] = d['Covishield'].astype(int)  
+
+
+# =============================================================================
+# d.sort_values(['Date','State_Code','District_Key'], inplace = True)
+# 
+# 
+# 
+# d = d.groupby(['State_Code','District_Key'])
+# 
+# later = pd.DataFrame()
+# for district, district_df in d:
+# 
+#     temp = district_df.shift(1)
+#     temp.fillna(0,inplace=True)
+#     district_df['Covaxin'] = district_df['Covaxin'] - temp['Covaxin']
+#     district_df['Covishield'] = district_df['Covishield'] - temp['Covishield']
+#     district_df.set_index('Date',inplace=True)
+# #     print(district_df)
+#     later = later.append(district_df)
+# 
+# 
+# 
+# 
+# d = later.copy()
+# 
+# d['Date'] = d.index
+# 
+# 
+# d['Date'] = pd.to_datetime(d['Date'])
+# =============================================================================
+
 df = d.copy()
 
 df = df[['District_Key','Covaxin','Covishield']]

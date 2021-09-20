@@ -55,33 +55,15 @@ my_df['Dose1'] = my_df['Dose1'].astype('int')
 my_df['Dose2'] = my_df['Dose2'].astype('int')
 
 
+my_df.to_csv('delete.csv')
 
 
-
-my_df = my_df.groupby(['Date', 'District', 'District_Key']).agg('sum')
+my_df = my_df.groupby(['District', 'District_Key']).agg('max')
 my_df['District_Key'] = my_df.index
-my_df['District'] = my_df['District_Key'].apply(lambda x: x[1])
-my_df['District_Key'] = my_df['District_Key'].apply(lambda x: x[2])
+my_df['District'] = my_df['District_Key'].apply(lambda x: x[0])
+my_df['District_Key'] = my_df['District_Key'].apply(lambda x: x[1])
 
 my_df.reset_index(drop = True, inplace=True)
-
-my_df = my_df.groupby('District_Key').agg('max')
-my_df['District_Key'] = my_df.index
-
-
-
-
-my_df.reset_index(drop = True, inplace=True)
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -420,26 +402,26 @@ census.columns = ['District', 'Total']
 census['Total'] = census['Total'].astype('int')
 
 
-my_df = my_df.groupby(['District_Key', 'District']).agg('sum')
-
-my_df['District_Key'] = my_df.index
-my_df['District'] = my_df['District_Key'].apply(lambda x: x[1])
-my_df['District_Key'] = my_df['District_Key'].apply(lambda x: x[0])
-
-
-my_df.reset_index(drop = True, inplace=True)
 
 census.drop_duplicates(subset = 'District', keep = 'last', inplace = True)
-for i in range(len(my_df)):
-    my_df.loc[i,'Total'] = \
-        list(census[census['District'] == my_df.loc[i,'District']]['Total'])
+census.reset_index(inplace=True, drop = True)
+my_df.reset_index(inplace=True, drop = True)
 
+for i in range(len(my_df)):
+    
+    try:
+        my_df.loc[i,'Total'] = \
+        list(census[census['District'] == my_df.loc[i,'District']]['Total'])
+    except:
+        pass
+    
+
+state = my_df.copy()
 
 my_df['vaccinateddose1ratio'] = my_df['Dose1']/my_df['Total']
 my_df['vaccinateddose2ratio'] = my_df['Dose2']/my_df['Total']
 
-state = my_df.copy()
-my_df.drop(['Dose1', 'Dose2', 'Total'], axis = 1, inplace = True)
+my_df.drop(['Date', 'Dose1', 'Dose2', 'Total'], axis = 1, inplace = True)
 
 my_df.drop(['District'], axis = 1, inplace = True)
 
@@ -456,121 +438,34 @@ my_df.to_csv('output/district-vaccinated-dose-ratio.csv', index=False)
 # STATEWISE
 # =============================================================================
 
-per1 = pd.date_range(start ='16-01-2021', \
-         end ='14-08-2021', freq ='D')
-    
-rd = [d.strftime('%d/%m/%Y') for d in per1]
 
-out = []
+state['stateid'] = state['District_Key'].apply(lambda x: str(x).split('_')[0])
 
-for j in range(len(rd)):
-    for i in range(len(dfc)):
-        td = {}
-        td['State'] = dfc.loc[i, 'State']
-        td['State_Code'] = dfc.loc[i, 'State_Code']
-        td['District_Key'] = dfc.loc[i, 'District_Key']
-        td['District'] = dfc.loc[i, 'District']
-        td['Date'] = rd[j]
-        td['Dose1'] = dfc.loc[i,rd[j]+'.3']
-        td['Dose2'] = dfc.loc[i,rd[j]+'.4']
-        
-        out.append(td)
-    
+state.drop(['District', 'District_Key'], inplace = True, axis = 1)
 
-df = pd.DataFrame(out)
+state = state.groupby('stateid').agg('sum')
+
+state['stateid'] = state.index
 
 
-my_df = df.copy()
-my_df = my_df[['Date', 'State','State_Code', 'Dose1', 'Dose2' ]]
-#my_df['Date'] = pd.to_datetime(my_df['Date'], format='%d/%m/%Y')
-    
-   
-my_df.dropna(subset=['Dose1', 'Dose2'], inplace=True)
-
-my_df['Dose1'] = my_df['Dose1'].astype('int')
-my_df['Dose2'] = my_df['Dose2'].astype('int')
+overall = state.copy()
 
 
-my_df = my_df.groupby(['Date', 'State', 'State_Code']).agg('sum')
-my_df['State_Code'] = my_df.index
-my_df['State'] = my_df['State_Code'].apply(lambda x: x[1])
-my_df['State_Code'] = my_df['State_Code'].apply(lambda x: x[2])
+state['vaccinateddose1ratio'] = state['Dose1']/state['Total']
+state['vaccinateddose2ratio'] = state['Dose2']/state['Total']
 
-my_df.reset_index(drop = True, inplace=True)
 
-my_df = my_df.groupby('State_Code').agg('max')
-my_df['State_Code'] = my_df.index
+state.drop(['Dose1', 'Dose2',  'Total'], inplace = True, axis = 1)
+
+state.columns = ['stateid', 'vaccinateddose1ratio', 'vaccinateddose2ratio']
 
 
 
-census = pd.read_excel(r'DDW_PCA0000_2011_Indiastatedist.xlsx', \
-                       sheet_name='Sheet1')
-    
-    
-census = census[(census['Level']=='STATE') & ((census['TRU']=='Total') )]
+state.sort_values('vaccinateddose1ratio', inplace=True)
+state.reset_index(inplace=True, drop = True)
 
-census = census[['Name', 'TOT_P']]
+state.to_csv('output/state-vaccinated-dose-ratio.csv', index=False)
 
-census.reset_index(inplace=True, drop = True)
-census.columns = ['State', 'Total']
-#my_df.columns = ['State', 'Dose1', 'Dose2']
-
-
-my_df.reset_index(drop = True, inplace=True)
-
-df.reset_index(drop = True, inplace=True)
-
-for i in range(len(my_df)):
-    try:
-        my_df.loc[i, 'State_Code'] = df[df['State'] == my_df.loc[i, 'State']]['State_Code'].values[0]
-    except:
-        pass
-
-census['State'] = census['State'].apply(lambda x: str(x).lower().replace('&', 'and').strip())
-my_df['State'] = my_df['State'].apply(lambda x: str(x).lower().replace('delhi','	nct of delhi' ).strip())
-
-census[census['State'].isin(['daman and diu', 'dadra and nagar haveli'])].sum()
-# =============================================================================
-# State    daman and diudadra and nagar haveli
-# Total                                 586956
-# dtype: object
-# 
-# =============================================================================
-census.drop([24,25], inplace = True)
-census.reset_index(inplace=True, drop = True)
-
-l = len(census)
-census.loc[l, 'State'] = '	dadra and nagar haveli and daman and diu'.strip()
-
-census.loc[l, 'Total'] = 586956
-
-
-tmp = my_df['State'].isin(census['State'])
-
-my_df = my_df[tmp]
-
-my_df.reset_index(inplace=True, drop = True)
-
-
-
-for i in range(len(my_df)):
-    my_df.loc[i,'Total'] = \
-        list(census[census['State'] == my_df.loc[i,'State']]['Total'])
-
-overall = my_df.copy()      
-        
-my_df['vaccinateddose1ratio'] = my_df['Dose1']/my_df['Total']
-my_df['vaccinateddose2ratio'] = my_df['Dose2']/my_df['Total']
-
-
-my_df.drop(['Dose1', 'Dose2', 'State', 'Total'], inplace = True, axis = 1)
-
-my_df.columns = ['stateid', 'vaccinateddose1ratio', 'vaccinateddose2ratio']
-
-my_df.sort_values('vaccinateddose1ratio', inplace=True)
-my_df.reset_index(inplace=True, drop = True)
-
-my_df.to_csv('output/state-vaccinated-dose-ratio.csv', index=False)
 
 
 #########################################################################################################
@@ -581,11 +476,13 @@ my_df.to_csv('output/state-vaccinated-dose-ratio.csv', index=False)
 # =============================================================================
 
 
-overall.drop(['State'], inplace = True, axis = 1)
 
-overall['State_Code'] = 'a'
 
-overall = overall.groupby('State_Code').agg('sum')
+overall['stateid'] = 'a'
+overall.reset_index(inplace=True, drop = True)
+
+
+overall = overall.groupby('stateid').agg('sum')
 
 overall['vaccinateddose1ratio'] = overall['Dose1']/overall['Total']
 overall['vaccinateddose2ratio'] = overall['Dose2']/overall['Total']
