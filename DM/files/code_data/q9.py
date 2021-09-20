@@ -75,7 +75,7 @@ for i in range(len(temp)):
         state_map[temp.iloc[i, 0]] =   temp.iloc[i, 1]  
     
 
-census = pd.read_excel(r'data/DDW_PCA0000_2011_Indiastatedist.xlsx', \
+census = pd.read_excel(r'DDW_PCA0000_2011_Indiastatedist.xlsx', \
                        sheet_name='Sheet1')
     
     
