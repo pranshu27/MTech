@@ -14,7 +14,7 @@ import pandas as pd
 
 df3 = pd.read_csv( "districts.csv", low_memory=False)
 
-tbd = [ 'Date', 'District','Confirmed']
+tbd = [ 'Date','State', 'District','Confirmed']
 df = df3[tbd]
 
 dcodes = pd.read_csv( "district_wise.csv", low_memory=False)
@@ -80,26 +80,49 @@ df3.reset_index(drop=True, inplace=True)
 
 df3.sort_values(['District','Date'], inplace = True)
 
+df3 = df3.groupby(['State','District'])
 
-
-
-imd = []
-districts = list(df3['District'].unique() )
-
-
-for dist in districts:
-    tmp = df3[df3['District']==dist].copy()
-    tmp.sort_values('Date', inplace = True)
-    tmp.reset_index(drop=True, inplace=True)
-    for i in range(len(tmp)-1,0,-1):
-        tmp.loc[i, 'Confirmed'] = tmp.loc[i, 'Confirmed'] - tmp.loc[i-1, 'Confirmed']
-        if (tmp.loc[i, 'Confirmed']<0):
-            tmp.loc[i, 'Confirmed'] = 0
+later = pd.DataFrame()
+for district, district_df in df3:
+#     print(district)
     
-    imd.append(tmp)  
+    
+    temp = district_df.shift(1)
+    temp.fillna(0,inplace=True)
+    district_df['Confirmed'] = district_df['Confirmed'] - temp['Confirmed']
+    district_df.set_index('Date',inplace=True)
+#     print(district_df)
+    later = later.append(district_df)
 
 
-df3 = pd.concat(imd, ignore_index=True)
+
+df3 = later.copy()
+
+df3['Date'] = df3.index
+
+
+df3['Date'] = pd.to_datetime(df3['Date'], format='%Y-%m-%d')
+
+# =============================================================================
+# 
+# imd = []
+# districts = list(df3['District'].unique() )
+# 
+# 
+# for dist in districts:
+#     tmp = df3[df3['District']==dist].copy()
+#     tmp.sort_values('Date', inplace = True)
+#     tmp.reset_index(drop=True, inplace=True)
+#     for i in range(len(tmp)-1,0,-1):
+#         tmp.loc[i, 'Confirmed'] = tmp.loc[i, 'Confirmed'] - tmp.loc[i-1, 'Confirmed']
+#         if (tmp.loc[i, 'Confirmed']<0):
+#             tmp.loc[i, 'Confirmed'] = 0
+#     
+#     imd.append(tmp)  
+# 
+# 
+# df3 = pd.concat(imd, ignore_index=True)
+# =============================================================================
 
 
 df3 = df3.set_index(pd.to_datetime(df3['Date']))
@@ -108,6 +131,7 @@ df4 = df3.groupby('District').resample('W-Sun', on='Date').sum()
 
 
 df6 = df4.groupby(['Date', 'District']).agg(sum)
+
 
 
 
@@ -264,21 +288,28 @@ df3.reset_index(drop=True, inplace=True)
 
 df3.sort_values(['District','Date'], inplace = True)
 
-imd = []
-districts = list(df3['District'].unique() )
+df3 = df3.groupby(['State','District'])
 
-
-for dist in districts:
-    tmp = df3[df3['District']==dist].copy()
-    tmp.sort_values('Date', inplace = True)
-    tmp.reset_index(drop=True, inplace=True)
-    for i in range(len(tmp)-1,0,-1):
-        tmp.loc[i, 'Confirmed'] = tmp.loc[i, 'Confirmed'] - tmp.loc[i-1, 'Confirmed']
+later = pd.DataFrame()
+for district, district_df in df3:
+#     print(district)
     
-    imd.append(tmp)  
+    
+    temp = district_df.shift(1)
+    temp.fillna(0,inplace=True)
+    district_df['Confirmed'] = district_df['Confirmed'] - temp['Confirmed']
+    district_df.set_index('Date',inplace=True)
+#     print(district_df)
+    later = later.append(district_df)
 
 
-df3 = pd.concat(imd, ignore_index=True)
+
+df3 = later.copy()
+
+df3['Date'] = df3.index
+
+
+df3['Date'] = pd.to_datetime(df3['Date'], format='%Y-%m-%d')
 
 
 for i in range(4,9):
