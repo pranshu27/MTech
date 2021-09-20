@@ -78,7 +78,6 @@ df3.reset_index(drop=True, inplace=True)
 
 
 
-df3.sort_values(['District','Date'], inplace = True)
 
 df3 = df3.groupby(['State','District'])
 
@@ -228,7 +227,7 @@ final.to_csv('output/week-cases-time.csv', index = False)
 
 df3 = pd.read_csv( "districts.csv", low_memory=False)
 
-tbd = [ 'Date', 'District','Confirmed']
+tbd = [ 'Date','State', 'District','Confirmed']
 df = df3[tbd]
 
 dcodes = pd.read_csv( "district_wise.csv", low_memory=False)
