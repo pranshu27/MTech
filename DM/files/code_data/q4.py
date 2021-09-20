@@ -12,8 +12,18 @@ import numpy as np
 
 df3 = pd.read_csv( "districts.csv", low_memory=False)
 
-tbd = [ 'Date', 'District','Confirmed']
+tbd = [ 'Date','State' ,'District','Confirmed']
 df = df3[tbd]
+
+df = df[((df['District']!='Unknown') & (df['Date'] <= '2021-08-14'))]
+df = df.sort_values(['Date','State','District'])
+df.reset_index(drop=True, inplace=True)
+df['Confirmed'] = df['Confirmed'].astype('int64')
+# df.set_index('Date',inplace=True)
+
+
+
+
 
 dcodes = pd.read_csv( "district_wise.csv", low_memory=False)
 dcodes  = dcodes[['District', 'District_Key', 'State', 'State_Code']]
@@ -22,6 +32,31 @@ tmp = dcodes['District'].isin(['Unassigned', 'Unknown', 'Other State'])
 dcodes = dcodes[~tmp]
 
 df3 = df.copy()
+
+
+df3 = df3.groupby(['State','District'])
+
+later = pd.DataFrame()
+for district, district_df in df3:
+#     print(district)
+    
+    
+    temp = district_df.shift(1)
+    temp.fillna(0,inplace=True)
+    district_df['Confirmed'] = district_df['Confirmed'] - temp['Confirmed']
+    district_df.set_index('Date',inplace=True)
+#     print(district_df)
+    later = later.append(district_df)
+
+
+
+df3 = later.copy()
+
+
+df3['Date'] = df3.index
+
+
+
 
 
 df3['Date'] = pd.to_datetime(df3['Date'], format='%Y-%m-%d')
@@ -58,11 +93,13 @@ df3.reset_index(drop=True, inplace=True)
 
 
 
+
+
 df3.sort_values(['District','Date'], inplace = True)
 
 
 #print('removing duplicates')
-
+'''
 imd = []
 districts = list(df3['District'].unique() )
 
@@ -85,6 +122,8 @@ for dist in districts:
     
 
 df3 = pd.concat(imd, ignore_index=True)
+
+'''
 df3['Confirmed'] = df3['Confirmed'] .apply(lambda x: 0 if (x<0) else x)
 
 ##############
@@ -243,11 +282,21 @@ final.columns = ['cases', 'districtid', 'weekid_num']
 
 
 final['cases'] = final['cases'].astype(int)
-final_first = final[((final['weekid_num']>=0) & (final['weekid_num']<=25))]
-final_second = final[((final['weekid_num']>=109) & (final['weekid_num']<=133))]
+final_first = final[((final['weekid_num']>=0) & (final['weekid_num']<=40))]
+final_second = final[((final['weekid_num']>=100) & (final['weekid_num']<=133))]
 
 md_first = md[((md['monthid']>=1) & (md['monthid']<=3))]
 md_second = md[((md['monthid']>=13) & (md['monthid']<=15))]
+
+
+
+
+final.reset_index(inplace=True, drop=True)
+final_first.reset_index(inplace=True, drop=True)
+final_second.reset_index(inplace=True, drop=True)
+md_first.reset_index(inplace=True, drop=True)
+md_second.reset_index(inplace=True, drop=True)
+md.reset_index(inplace=True, drop=True)
 
 
 
@@ -320,83 +369,62 @@ ola.to_csv('output/districtid-peeks.csv', index = False)
 # =============================================================================
 import pandas as pd
 
+
 df3 = pd.read_csv( "districts.csv", low_memory=False)
 
-tbd = [ 'Date', 'State','Confirmed']
+tbd = [ 'Date','State' ,'District','Confirmed']
 df = df3[tbd]
+
+df = df[((df['District']!='Unknown') & (df['Date'] <= '2021-08-14'))]
+df = df.sort_values(['Date','State','District'])
+df.reset_index(drop=True, inplace=True)
+df['Confirmed'] = df['Confirmed'].astype('int64')
+# df.set_index('Date',inplace=True)
+
+
+
+
 
 dcodes = pd.read_csv( "district_wise.csv", low_memory=False)
 dcodes  = dcodes[['District', 'District_Key', 'State', 'State_Code']]
 
+tmp = dcodes['District'].isin(['Unassigned', 'Unknown', 'Other State'])
+dcodes = dcodes[~tmp]
 
 df3 = df.copy()
 
 
-df3['Date'] = pd.to_datetime(df3['Date'], format='%Y-%m-%d')
+df3 = df3.groupby(['State','District'])
 
-#	Date Announced
-#0	30/01/2020
-
-
-#df3.sort_values('Date Announced', inplace=True)
-df3.reset_index(inplace=True, drop=True)
-
-
-#df3 = df3.loc[102:, :]
-
-df3 = df3[~(df3['Date'] < '2020-03-15')]
-df3 = df3[~(df3['Date'] > '2021-08-14')]
-
-#df3.drop(df3[df3['Date Announced'] < '2020-15-03 00:00:00'].index, inplace=True)
-
-
-#df3['Day'] = df3['Date Announced'].dt.dayofweek
+later = pd.DataFrame()
+for district, district_df in df3:
+#     print(district)
+    
+    
+    temp = district_df.shift(1)
+    temp.fillna(0,inplace=True)
+    district_df['Confirmed'] = district_df['Confirmed'] - temp['Confirmed']
+    district_df.set_index('Date',inplace=True)
+#     print(district_df)
+    later = later.append(district_df)
 
 
 
-df3['Confirmed'].fillna(0, inplace=True)
+df3 = later.copy()
 
 
-df3.dropna(subset=['Date'], inplace=True)
-
-df3.reset_index(inplace=True, drop=True)
 
 
+
+
+df3['Date'] = df3.index
+
+
+df3['Confirmed'] = df3['Confirmed'] .apply(lambda x: 0 if (x<0) else x)
 df3.reset_index(drop=True, inplace=True)
 
 
 
-
-df3.sort_values(['State','Date'], inplace = True)
-
-
-#print('removing duplicates')
-
-imd = []
-states = list(df3['State'].unique() )
-
-
-for state in states:
-    tmp = df3[df3['State']==state].copy()
-    tmp.sort_values('Date', inplace = True)
-    tmp.reset_index(drop=True, inplace=True)
-    '''
-    temp = tmp.shift(1)
-    temp.fillna(0,inplace=True)
-    tmp['Confirmed'] = tmp['Confirmed'] - temp['Confirmed']'''
-    #tmp.set_index('Date',inplace=True)
-# =============================================================================
-    for i in range(len(tmp)-1,0,-1):
-         tmp.loc[i, 'Confirmed'] = tmp.loc[i, 'Confirmed'] - tmp.loc[i-1, 'Confirmed']
-#     
-# =============================================================================
-    imd.append(tmp)  
-    
-
-
-df3 = pd.concat(imd, ignore_index=True)
-
-df3['Confirmed'] = df3['Confirmed'] .apply(lambda x: 0 if (x<0) else x)
 
 
 ##############
@@ -443,6 +471,9 @@ md['stateid'] = md['stateid'].apply(lambda x: x[0])
 md.reset_index(drop = True, inplace=True)
 
 overall_md = md.copy()
+
+
+
 
 ####################
 
@@ -502,14 +533,36 @@ final.columns = ['cases', 'stateid', 'weekid_num']
 
 
 final['cases'] = final['cases'].astype(int)
+md['Confirmed'] = md['Confirmed'].astype(int)
 
-overall_final = final.copy()   
+
+
+final['cases'].fillna(0, inplace = True) 
+md['Confirmed'].fillna(0, inplace = True) 
+
+
+
+
+
+
+overall_final = final.copy()  
+
      
-final_first = final[((final['weekid_num']>=0) & (final['weekid_num']<=25))]
-final_second = final[((final['weekid_num']>=109) & (final['weekid_num']<=133))]
+final_first = final[((final['weekid_num']>=5) & (final['weekid_num']<=50))]
+final_second = final[((final['weekid_num']>=95) & (final['weekid_num']<=135))]
 
-md_first = md[((md['monthid']>=1) & (md['monthid']<=3))]
-md_second = md[((md['monthid']>=13) & (md['monthid']<=15))]
+md_first = md[((md['monthid']>=2) & (md['monthid']<=6))]
+md_second = md[((md['monthid']>=11) & (md['monthid']<=15))]
+
+
+
+final.reset_index(inplace=True, drop=True)
+final_first.reset_index(inplace=True, drop=True)
+final_second.reset_index(inplace=True, drop=True)
+md_first.reset_index(inplace=True, drop=True)
+md_second.reset_index(inplace=True, drop=True)
+md.reset_index(inplace=True, drop=True)
+
 
 
 
@@ -521,22 +574,30 @@ for i in range(len(all_states)):
     try: 
         tmp = {}
         tmp['stateid'] = all_states[i]
-        df_curr =  final_first[final_first['stateid']==all_states[i]]
-        maxx = df_curr['cases'].max()
-        tmp['wave1-weekid'] =str(list(set(df_curr.loc[df_curr['cases']==maxx, 'weekid_num']))[0]).replace('{', '').replace('}', '')
-        
-        df_curr =  final_second[final_second['stateid']==all_states[i]]
-        maxx = df_curr['cases'].max()
-        tmp['wave2-weekid'] =str(list(set(df_curr.loc[df_curr['cases']==maxx, 'weekid_num']))[0]).replace('{', '').replace('}', '')
- 
-        df_curr =  md_first[md_first['stateid']==all_states[i]]
-        maxx = df_curr['Confirmed'].max()
-        tmp['wave1-monthid'] =str(list(set(df_curr.loc[df_curr['Confirmed']==maxx, 'monthid']))[0]).replace('{', '').replace('}', '')
-        
-        df_curr =  md_second[md_second['stateid']==all_states[i]]
-        maxx = df_curr['Confirmed'].max()
-        tmp['wave2-monthid'] =str(list(set(df_curr.loc[df_curr['Confirmed']==maxx, 'monthid']))[0]).replace('{', '').replace('}', '')       
-        
+        try:
+            df_curr =  final_first[final_first['stateid']==all_states[i]]
+            maxx = df_curr['cases'].max()
+            tmp['wave1-weekid'] =str(list(set(df_curr.loc[df_curr['cases']==maxx, 'weekid_num']))[0]).replace('{', '').replace('}', '')
+        except:
+            pass
+        try:
+            df_curr =  final_second[final_second['stateid']==all_states[i]]
+            maxx = df_curr['cases'].max()
+            tmp['wave2-weekid'] =str(list(set(df_curr.loc[df_curr['cases']==maxx, 'weekid_num']))[0]).replace('{', '').replace('}', '')
+        except:
+            pass
+        try:
+            df_curr =  md_first[md_first['stateid']==all_states[i]]
+            maxx = df_curr['Confirmed'].max()
+            tmp['wave1-monthid'] =str(list(set(df_curr.loc[df_curr['Confirmed']==maxx, 'monthid']))[0]).replace('{', '').replace('}', '')
+        except:
+            pass  
+        try:
+            df_curr =  md_second[md_second['stateid']==all_states[i]]
+            maxx = df_curr['Confirmed'].max()
+            tmp['wave2-monthid'] =str(list(set(df_curr.loc[df_curr['Confirmed']==maxx, 'monthid']))[0]).replace('{', '').replace('}', '')       
+        except:
+            pass 
         
         
         out.append(tmp)
@@ -544,11 +605,19 @@ for i in range(len(all_states)):
         
         
     except:
-        #print(all_dists[i])
-        pass
+        print(all_states[i], tmp)
+        
+df_curr =  final_first[final_first['stateid']=='Manipur']
+maxx = df_curr['cases'].max()      
 
 
 ola = pd.DataFrame(out).replace('set()', 'NA')
+
+ola['wave1-weekid'].fillna(ola['wave1-weekid'].mode().loc[0], inplace=True)
+ola['wave1-monthid'].fillna(ola['wave1-monthid'].mode().loc[0], inplace=True)
+
+
+len(ola['stateid'].unique())
 
 dcodes = pd.read_csv( "district_wise.csv", low_memory=False)
 
@@ -573,6 +642,36 @@ ola.to_csv('output/stateid-peeks.csv', index = False)
 
 overall_final
 
+overall_md
+
 overall_final = overall_final.groupby(['weekid_num']).agg('sum')
 overall_md = overall_md.groupby(['monthid']).agg('sum')
 
+overall_final['weekid'] = overall_final.index
+overall_md['monthid'] = overall_md.index
+
+overall_final_first = overall_final[((overall_final['weekid']>=5) & (overall_final['weekid']<=50))]
+overall_final_second = overall_final[((overall_final['weekid']>=95) & (overall_final['weekid']<=135))]
+
+overall_md_first = overall_md[((overall_md['monthid']>=2) & (overall_md['monthid']<=6))]
+overall_md_second = overall_md[((overall_md['monthid']>=11) & (overall_md['monthid']<=15))]
+
+
+
+overall_final.reset_index(inplace=True, drop=True)
+overall_final_first.reset_index(inplace=True, drop=True)
+final_second.reset_index(inplace=True, drop=True)
+md_first.reset_index(inplace=True, drop=True)
+md_second.reset_index(inplace=True, drop=True)
+overall_final.reset_index(inplace=True, drop=True)
+
+
+
+tmp = {}
+tmp['overallid'] = 'IN'
+tmp['wave1-weekid'] = overall_final_first[overall_final_first['cases'] == overall_final_first['cases'].max()]['weekid'].values[0]
+tmp['wave2-weekid'] = overall_final_second[overall_final_second['cases'] == overall_final_second['cases'].max()]['weekid'].values[0]
+tmp['wave1-monthid'] = overall_md_first[overall_md_first['Confirmed'] == overall_md_first['Confirmed'].max()]['monthid'].values[0]
+tmp['wave2-monthid'] = overall_md_second[overall_md_second['Confirmed'] == overall_md_second['Confirmed'].max()]['monthid'].values[0]
+
+pd.DataFrame([tmp]).to_csv('output/overall-peeks.csv', index = False)
