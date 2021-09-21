@@ -492,7 +492,7 @@ overall.drop(['Dose1', 'Dose2', 'Total'], inplace = True, axis = 1)
 
 overall.to_csv('output/overall-vaccinated-dose-ratio.csv', index=False)
 
-print('stateid-vaccinated-dose-ratio.csv')
+print('overall-vaccinated-dose-ratio.csv')
 
 
 #############################################################################################################

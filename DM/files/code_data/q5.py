@@ -147,6 +147,7 @@ my_df.reset_index(drop=True, inplace=True)
 # 
 # my_df = pd.concat(out, ignore_index=True)
 # =============================================================================
+my_df.reset_index(drop=True, inplace=True)
 
 my_df.sort_values('districtid', inplace = True)
 
@@ -224,6 +225,9 @@ my_df1['stateid'] =my_df1['monthid'].apply(lambda x: x[0])
 my_df1['monthid'] =my_df1['monthid'].apply(lambda x: x[1])
 
 my_df1 = my_df1[['stateid', 'monthid', 'dose1', 'dose2']]
+
+my_df1.reset_index(drop=True, inplace=True)
+
 my_df1.sort_values('stateid', inplace = True)
 my_df1.to_csv('output/monthid-stateid-vaccinated-count-time.csv', index = False)
     
@@ -251,6 +255,7 @@ final1['stateid'] =final1['weekid'].apply(lambda x: x[0])
 final1['weekid'] =final1['weekid'].apply(lambda x: x[1])
 
 final1 = final1[['stateid', 'weekid', 'dose1', 'dose2']]
+final1.reset_index(drop=True, inplace=True)
 
 final1.sort_values('stateid', inplace = True)
 
@@ -278,6 +283,7 @@ final2['stateid'] = final2.index
 final2.reset_index(drop=True, inplace=True)
 
 final2 = final2[['stateid', 'dose1', 'dose2']]
+final2.reset_index(drop=True, inplace=True)
 
 final2.sort_values('stateid', inplace = True)
 
