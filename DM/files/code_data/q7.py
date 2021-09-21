@@ -101,7 +101,7 @@ df.sort_values('vaccineratio', inplace=True)
 
 df.reset_index(drop=True, inplace=True)
 
-df.to_csv('output/district-vaccine-type-ratio.csv', index=False)
+df.to_csv('output/districtid-vaccine-type-ratio.csv', index=False)
 
 
 
@@ -130,7 +130,7 @@ state.sort_values('vaccineratio', inplace=True)
 
 state.reset_index(drop=True, inplace=True)
 
-state.to_csv('output/state-vaccine-type-ratio.csv', index=False)
+state.to_csv('output/stateid-vaccine-type-ratio.csv', index=False)
 
 
 # =============================================================================
