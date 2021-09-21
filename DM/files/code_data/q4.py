@@ -635,7 +635,7 @@ for i in range(len(ola)):
          tbd.append(i)
 
 ola = ola[['stateid','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wave2-monthid']]
-ola.sort_values('state', inplace = True)  
+ola.sort_values('stateid', inplace = True)  
 ola.to_csv('output/state-peeks.csv', index = False)
 
 

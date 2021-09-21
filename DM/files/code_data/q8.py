@@ -55,7 +55,6 @@ my_df['Dose1'] = my_df['Dose1'].astype('int')
 my_df['Dose2'] = my_df['Dose2'].astype('int')
 
 
-my_df.to_csv('delete.csv')
 
 
 my_df = my_df.groupby(['District', 'District_Key']).agg('max')

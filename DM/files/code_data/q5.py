@@ -229,9 +229,9 @@ my_df1 = my_df1[['stateid', 'monthid', 'dose1', 'dose2']]
 my_df1.reset_index(drop=True, inplace=True)
 
 my_df1.sort_values('stateid', inplace = True)
-my_df1.to_csv('output/state-vaccinated-count-state.csv', index = False)
+my_df1.to_csv('output/state-vaccinated-count-month.csv', index = False)
     
-print('state-vaccinated-count-state.csv')    
+print('state-vaccinated-count-month.csv')    
   
 
 
