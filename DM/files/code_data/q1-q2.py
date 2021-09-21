@@ -328,11 +328,14 @@ for j in range(len(df1)):
     try:
         tmp = df1.loc[j, 'neighbours'].split(',')
         for i in range(len(tmp)):
-           tmp[i] = dcodes[dcodes['District']==tmp[i]]['District_Key'].values[0] 
+           try:
+               tmp[i] = dcodes[dcodes['District']==tmp[i]]['District_Key'].values[0] 
+           except:
+               pass
         df1.loc[j, 'neighbours'] = ','.join(tmp).replace('[]', '')
         ##print(tmp)
     except:
-        nahi_hua.append(j)
+        nahi_hua.append(tmp)
         
         
         
@@ -406,8 +409,6 @@ def combine(city):
     df1.reset_index(inplace=True, drop=True)
     
     
-list(df1[df1['district'].str.contains('delhi')]['district'])
-combine('delhi')
 
 #df1.drop(df1[df1['district']=='delhi'].index, inplace=True)
 
@@ -426,26 +427,6 @@ for t in tbc:
         pass
         #print("can't merge ", t)
 
-#combine('mumbai')
-
-#dfc[dfc['District']==df1.loc[721, 'district']]['District_Key'].values[0]
-df1.reset_index(inplace=True, drop=True)
-
-
-
-
-#tbd = ['district']
-# =============================================================================
-
-# =============================================================================
-
-#df1.drop(tbd, inplace=True, axis = 1)
-
-
-df1.reset_index(inplace=True, drop=True)
-
-
-
 
 
 tbd = []
@@ -456,13 +437,68 @@ for i in range(len(df1)):
      except:
          tbd.append(i)
          #print(i)
-
-
-
-        
-        
+         
     
 df1.drop('district', inplace = True, axis = 1)
+
+
+
+df1.reset_index(inplace=True, drop=True)
+
+dists = []
+
+repeated = set()
+
+for i in range(len(df1)):
+    if (df1.loc[i, 'districtid'] in dists):
+        repeated.add(df1.loc[i, 'districtid'])
+    else:
+        dists.append(df1.loc[i, 'districtid'])
+        
+
+df1.reset_index(inplace=True, drop=True)
+         
+#tbd = ['district']
+def drop_dups(city):
+
+    tmp = df1[df1['districtid']==city]
+    #print(tmp)
+    neighbours = set()
+    tmp.reset_index(inplace=True, drop=True)
+    for i in range(len(tmp)):
+        zup = set((tmp.loc[i, 'neighbours'].split(',')))
+        #print(zup)
+        neighbours = neighbours.union(neighbours,zup)
+    #print(neighbours)
+    df1.drop(df1[df1['districtid']==city].index, inplace=True)
+    l = len(df1)
+    df1.loc[l-1, 'districtid'] = city
+    df1.loc[l-1, 'neighbours'] = str(neighbours).replace("{", '').replace("}", '').replace(" ", '').replace("'", '')
+    df1.reset_index(inplace=True, drop=True)
+    
+    
+for city in repeated:
+    drop_dups(city)
+
+# =============================================================================
+
+# =============================================================================
+
+#df1.drop(tbd, inplace=True, axis = 1)
+
+
+df1.reset_index(inplace=True, drop=True) 
+
+
+for i in range(len(df1)):
+    zup = set((df1.loc[i, 'neighbours'].split(',')))
+   
+    df1.loc[i, 'neighbours'] = str(zup).replace("{", '').replace("}", '').replace(" ", '').replace("'", '')
+
+
+        
+        
+
 
 df1 = df1[['stateid', 'districtid', 'neighbours']]
 
