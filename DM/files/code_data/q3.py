@@ -186,7 +186,7 @@ final = final[ [ 'District_Key','weekid','cases' ]]
 final.columns = [ 'districtid','weekid','cases']
 
 
-final.sort_values(['districtid', 'weekid'], inplace = True)
+final.sort_values(['districtid'], inplace = True)
 
 
 # =============================================================================
@@ -359,7 +359,7 @@ df3 = df3[ [ 'District_Key','monthid','cases' ]]
 
 df3.columns = [ 'districtid','monthid','cases']
 
-df3.sort_values(['districtid', 'monthid'], inplace = True)
+df3.sort_values(['districtid'], inplace = True)
 
 
 

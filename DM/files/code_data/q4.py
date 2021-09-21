@@ -350,6 +350,9 @@ ola.drop('districtid', inplace = True, axis = 1)
 
 ola = ola[['District_Key','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wave2-monthid']]
 ola.columns = ['districtid','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wave2-monthid']
+
+ola.sort_values('districtid', inplace = True)
+
     
 ola.to_csv('output/districtid-peeks.csv', index = False)
 
@@ -634,6 +637,8 @@ for i in range(len(ola)):
 ola = ola[['stateid','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wave2-monthid']]
     
 ola.to_csv('output/stateid-peeks.csv', index = False)
+
+ola.sort_values('stateid', inplace = True)
 
 print('stateid-peeks.csv')
 

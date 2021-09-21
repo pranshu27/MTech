@@ -502,7 +502,7 @@ for i in range(len(df1)):
 
 df1 = df1[['stateid', 'districtid', 'neighbours']]
 
-df1.sort_values(['stateid', 'districtid'], inplace=True)
+df1.sort_values(['stateid'], inplace=True)
 
 #dfc[dfc['District']==df1.loc[0, 'district']]['District_Key'].values[0]
 df1.to_json('output/neighbor-districts-modified.json', orient='records', lines=True)
@@ -558,6 +558,7 @@ for i in range(len(df1)):
         
 df2 = pd.DataFrame(out) 
 
+df2.sort_values('districtid', inplace = True)
 df2.to_csv('output/edge_list.csv', index=False)
 print('edge_list.csv')
 
