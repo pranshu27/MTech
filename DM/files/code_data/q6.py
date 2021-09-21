@@ -410,8 +410,8 @@ my_df.columns = ['districtid', 'vaccinationratio', 'populationratio', 'ratioofra
 
 my_df.sort_values('ratioofratios', inplace=True)
 
-my_df.to_csv('output/districtid-vaccination-population-ratio.csv', index=False)
-print('districtid-vaccination-population-ratio.csv')
+my_df.to_csv('output/district-vaccination-population-ratio.csv', index=False)
+print('district-vaccination-population-ratio.csv')
 
 
 # =============================================================================
@@ -523,8 +523,8 @@ my_df.columns = ['stateid', 'vaccinationratio', 'populationratio', 'ratioofratio
 
 my_df.sort_values('ratioofratios', inplace=True)
 
-my_df.to_csv('output/stateid-vaccination-population-ratio.csv', index=False)
-print('stateid-vaccination-population-ratio.csv')
+my_df.to_csv('output/state-vaccination-population-ratio.csv', index=False)
+print('state-vaccination-population-ratio.csv')
 
 # =============================================================================
 # OVERALL

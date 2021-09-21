@@ -151,9 +151,9 @@ my_df.reset_index(drop=True, inplace=True)
 
 my_df.sort_values('districtid', inplace = True)
 
-my_df.to_csv('output/monthid-districtid-vaccinated-count-time.csv', index = False)
+my_df.to_csv('output/district-vaccinated-count-month.csv', index = False)
 
-print('monthid-districtid-vaccinated-count-time.csv')
+print('district-vaccinated-count-month.csv')
 
 
 # =============================================================================
@@ -202,9 +202,9 @@ final = final[['districtid', 'weekid', 'dose1', 'dose2']]
 final.reset_index(drop=True, inplace=True)
 final.sort_values('districtid', inplace = True)
 
-final.to_csv('output/weekid-districtid-vaccinated-count-time.csv', index = False)
+final.to_csv('output/district-vaccinated-count-week.csv', index = False)
     
-print('weekid-districtid-vaccinated-count-time.csv')    
+print('district-vaccinated-count-week.csv')    
 
 
 # =============================================================================
@@ -229,9 +229,9 @@ my_df1 = my_df1[['stateid', 'monthid', 'dose1', 'dose2']]
 my_df1.reset_index(drop=True, inplace=True)
 
 my_df1.sort_values('stateid', inplace = True)
-my_df1.to_csv('output/monthid-stateid-vaccinated-count-time.csv', index = False)
+my_df1.to_csv('output/state-vaccinated-count-state.csv', index = False)
     
-print('monthid-stateid-vaccinated-count-time.csv')    
+print('state-vaccinated-count-state.csv')    
   
 
 
@@ -259,9 +259,9 @@ final1.reset_index(drop=True, inplace=True)
 
 final1.sort_values('stateid', inplace = True)
 
-final1.to_csv('output/weekid-stateid-vaccinated-count-time.csv', index = False)
+final1.to_csv('output/state-vaccinated-count-week.csv', index = False)
 
-print('weekid-stateid-vaccinated-count-time.csv')
+print('state-vaccinated-count-week.csv')
 
 
 # =============================================================================
@@ -287,9 +287,9 @@ final2.reset_index(drop=True, inplace=True)
 
 final2.sort_values('stateid', inplace = True)
 
-final2.to_csv('output/overall-stateid-vaccinated-count-time.csv', index = False)
+final2.to_csv('output/state-vaccinated-count-overall.csv', index = False)
 
-print('overall-stateid-vaccinated-count-time.csv')
+print('state-vaccinated-count-overall.csv')
 
 
 
@@ -315,9 +315,9 @@ my_df2.reset_index(drop=True, inplace=True)
 my_df2 = my_df2[['districtid', 'dose1', 'dose2']]
 
 my_df2.sort_values('districtid', inplace = True)
-my_df2.to_csv('output/overall-districtid-vaccinated-count-time.csv', index = False)
+my_df2.to_csv('output/district-vaccinated-count-overall.csv', index = False)
 
-print('overall-districtid-vaccinated-count-time.csv')
+print('district-vaccinated-count-overall.csv')
 
 
 

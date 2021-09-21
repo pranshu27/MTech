@@ -354,9 +354,9 @@ ola.columns = ['districtid','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wa
 ola.sort_values('districtid', inplace = True)
 
     
-ola.to_csv('output/districtid-peeks.csv', index = False)
+ola.to_csv('output/district-peeks.csv', index = False)
 
-print('districtid-peeks.csv')
+print('district-peeks.csv')
 
 
 # =============================================================================
@@ -635,12 +635,12 @@ for i in range(len(ola)):
          tbd.append(i)
 
 ola = ola[['stateid','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wave2-monthid']]
-    
-ola.to_csv('output/stateid-peeks.csv', index = False)
+ola.sort_values('state', inplace = True)  
+ola.to_csv('output/state-peeks.csv', index = False)
 
-ola.sort_values('stateid', inplace = True)
 
-print('stateid-peeks.csv')
+
+print('state-peeks.csv')
 
 # =============================================================================
 # OVERALL

@@ -48,4 +48,4 @@ Question specific analysis:
 9.Input datasets: (http://data.covid19india.org/csv/latest/cowin_vaccine_data_districtwise.csv) for vaccination related information. The rate of vaccination for every state has been calculated based on the total doses administered in the last week, that is August 8, 2021 to August 14, 2021. Files creaated: complete-vaccination.csv
 
 
-
+NOTE: The execution time is ~2 mins. Please be patient. 

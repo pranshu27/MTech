@@ -214,9 +214,9 @@ final.sort_values(['districtid'], inplace = True)
 # 
 # final = pd.concat(out, ignore_index=True)
 # =============================================================================
-final.to_csv('output/week-cases-time.csv', index = False)
+final.to_csv('output/cases-week.csv', index = False)
 
-print('week-cases-time.csv')
+print('cases-week.csv')
 
 
 
@@ -363,9 +363,9 @@ df3.sort_values(['districtid'], inplace = True)
 
 
 
-df3.to_csv('output/month-cases-time.csv', index = False)
+df3.to_csv('output/cases-month.csv', index = False)
 
-print('month-cases-time.csv')
+print('cases-month.csv')
 
 # =============================================================================
 # 
@@ -460,6 +460,6 @@ tmp = df3['districtid'].isin(tbd)
 df3 = df3[~tmp]
 
 
-df3.to_csv('output/overall-cases-time.csv', index = False)
+df3.to_csv('output/cases-overall.csv', index = False)
 
-print('overall-cases-time.csv')
+print('cases-overall.csv')

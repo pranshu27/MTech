@@ -559,7 +559,7 @@ for i in range(len(df1)):
 df2 = pd.DataFrame(out) 
 
 df2.sort_values('districtid', inplace = True)
-df2.to_csv('output/edge_list.csv', index=False)
-print('edge_list.csv')
+df2.to_csv('output/edge-graph.csv', index=False)
+print('edge-graph.csv')
 
 
