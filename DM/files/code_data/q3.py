@@ -216,6 +216,8 @@ final.sort_values(['districtid', 'weekid'], inplace = True)
 # =============================================================================
 final.to_csv('output/week-cases-time.csv', index = False)
 
+print('week-cases-time.csv')
+
 
 
 
@@ -363,6 +365,8 @@ df3.sort_values(['districtid', 'monthid'], inplace = True)
 
 df3.to_csv('output/month-cases-time.csv', index = False)
 
+print('month-cases-time.csv')
+
 # =============================================================================
 # 
 # all_cities = df3.District.unique()
@@ -457,3 +461,5 @@ df3 = df3[~tmp]
 
 
 df3.to_csv('output/overall-cases-time.csv', index = False)
+
+print('overall-cases-time.csv')

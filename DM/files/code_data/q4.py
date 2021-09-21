@@ -353,6 +353,8 @@ ola.columns = ['districtid','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wa
     
 ola.to_csv('output/districtid-peeks.csv', index = False)
 
+print('districtid-peeks.csv')
+
 
 # =============================================================================
 # =============================================================================
@@ -633,7 +635,7 @@ ola = ola[['stateid','wave1-weekid', 'wave2-weekid', 'wave1-monthid', 'wave2-mon
     
 ola.to_csv('output/stateid-peeks.csv', index = False)
 
-
+print('stateid-peeks.csv')
 
 # =============================================================================
 # OVERALL
@@ -675,3 +677,5 @@ tmp['wave1-monthid'] = overall_md_first[overall_md_first['Confirmed'] == overall
 tmp['wave2-monthid'] = overall_md_second[overall_md_second['Confirmed'] == overall_md_second['Confirmed'].max()]['monthid'].values[0]
 
 pd.DataFrame([tmp]).to_csv('output/overall-peeks.csv', index = False)
+
+print('overall-peeks.csv')

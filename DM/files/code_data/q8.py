@@ -431,7 +431,7 @@ my_df.columns = ['districtid', 'vaccinateddose1ratio', 'vaccinateddose2ratio']
 my_df.sort_values('vaccinateddose1ratio', inplace=True)
 
 my_df.to_csv('output/districtid-vaccinated-dose-ratio.csv', index=False)
-
+print('districtid-vaccinated-dose-ratio.csv')
 
 
 # =============================================================================
@@ -465,7 +465,7 @@ state.sort_values('vaccinateddose1ratio', inplace=True)
 state.reset_index(inplace=True, drop = True)
 
 state.to_csv('output/stateid-vaccinated-dose-ratio.csv', index=False)
-
+print('stateid-vaccinated-dose-ratio.csv')
 
 
 #########################################################################################################
@@ -492,7 +492,7 @@ overall.drop(['Dose1', 'Dose2', 'Total'], inplace = True, axis = 1)
 
 overall.to_csv('output/overall-vaccinated-dose-ratio.csv', index=False)
 
-
+print('stateid-vaccinated-dose-ratio.csv')
 
 
 #############################################################################################################

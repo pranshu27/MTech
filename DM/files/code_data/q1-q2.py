@@ -506,6 +506,7 @@ df1.sort_values(['stateid', 'districtid'], inplace=True)
 
 #dfc[dfc['District']==df1.loc[0, 'district']]['District_Key'].values[0]
 df1.to_json('output/neighbor-districts-modified.json', orient='records', lines=True)
+print('neighbor-districts-modified.json')
 
 '''
 
@@ -558,5 +559,6 @@ for i in range(len(df1)):
 df2 = pd.DataFrame(out) 
 
 df2.to_csv('output/edge_list.csv', index=False)
+print('edge_list.csv')
 
 

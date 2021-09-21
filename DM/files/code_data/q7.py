@@ -103,7 +103,7 @@ df.reset_index(drop=True, inplace=True)
 
 df.to_csv('output/districtid-vaccine-type-ratio.csv', index=False)
 
-
+print('districtid-vaccine-type-ratio.csv')
 
 # =============================================================================
 # STATEWISE
@@ -132,7 +132,7 @@ state.reset_index(drop=True, inplace=True)
 
 state.to_csv('output/stateid-vaccine-type-ratio.csv', index=False)
 
-
+print('stateid-vaccine-type-ratio.csv')
 # =============================================================================
 # OVERALL
 # =============================================================================
@@ -146,5 +146,5 @@ ratio = tmp/tmp1
 
 pd.DataFrame([{'overallid':1, 'vaccineratio': ratio}]).to_csv('output/overall-vaccine-type-ratio.csv', index=False)
 
-
+print('overall-vaccine-type-ratio.csv')
 ####################################################################################

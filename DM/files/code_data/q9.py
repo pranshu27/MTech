@@ -175,4 +175,5 @@ for state in all_states:
 out_df = pd.DataFrame(out)
 
 out_df.to_csv('output/complete-vaccination.csv', index = False)
+print('complete-vaccination.csv')
 

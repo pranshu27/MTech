@@ -149,7 +149,7 @@ my_df.reset_index(drop=True, inplace=True)
 # =============================================================================
 my_df.to_csv('output/monthid-districtid-vaccinated-count-time.csv', index = False)
 
-
+print('monthid-districtid-vaccinated-count-time.csv')
 
 
 # =============================================================================
@@ -199,7 +199,7 @@ final.reset_index(drop=True, inplace=True)
 
 final.to_csv('output/weekid-districtid-vaccinated-count-time.csv', index = False)
     
-    
+print('weekid-districtid-vaccinated-count-time.csv')    
 
 
 # =============================================================================
@@ -223,7 +223,8 @@ my_df1 = my_df1[['stateid', 'monthid', 'dose1', 'dose2']]
 
 my_df1.to_csv('output/monthid-stateid-vaccinated-count-time.csv', index = False)
     
-    
+print('monthid-stateid-vaccinated-count-time.csv')    
+  
 
 
 # =============================================================================
@@ -250,6 +251,8 @@ final1 = final1[['stateid', 'weekid', 'dose1', 'dose2']]
 
 final1.to_csv('output/weekid-stateid-vaccinated-count-time.csv', index = False)
 
+print('weekid-stateid-vaccinated-count-time.csv')
+
 
 # =============================================================================
 # =============================================================================
@@ -273,6 +276,8 @@ final2 = final2[['stateid', 'dose1', 'dose2']]
 
 
 final2.to_csv('output/overall-stateid-vaccinated-count-time.csv', index = False)
+
+print('overall-stateid-vaccinated-count-time.csv')
 
 
 
@@ -299,6 +304,8 @@ my_df2 = my_df2[['districtid', 'dose1', 'dose2']]
 
 
 my_df2.to_csv('output/overall-districtid-vaccinated-count-time.csv', index = False)
+
+print('overall-districtid-vaccinated-count-time.csv')
 
 
 
